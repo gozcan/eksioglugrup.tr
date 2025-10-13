@@ -73,9 +73,18 @@
           "2": "Infrastructure Projects"
         },
         "stats": {
-          "0": { "label": "Experience", "value": "88 Years" },
-          "1": { "label": "Projects", "value": "800+" },
-          "2": { "label": "m² Construction", "value": "2M+" }
+          "0": {
+            "label": "Experience",
+            "value": "88 Years"
+          },
+          "1": {
+            "label": "Projects",
+            "value": "800+"
+          },
+          "2": {
+            "label": "m² Construction",
+            "value": "2M+"
+          }
         }
       },
       "1": {
@@ -88,9 +97,18 @@
           "2": "Electricity Generation"
         },
         "stats": {
-          "0": { "label": "Experience", "value": "25 Years" },
-          "1": { "label": "Capacity", "value": "150MW" },
-          "2": { "label": "Facilities", "value": "25+" }
+          "0": {
+            "label": "Experience",
+            "value": "25 Years"
+          },
+          "1": {
+            "label": "Capacity",
+            "value": "150MW"
+          },
+          "2": {
+            "label": "Facilities",
+            "value": "25+"
+          }
         }
       },
       "2": {
@@ -103,9 +121,18 @@
           "2": "IT Solutions"
         },
         "stats": {
-          "0": { "label": "Experience", "value": "33 Years" },
-          "1": { "label": "Campaigns", "value": "500+" },
-          "2": { "label": "Brands", "value": "200+" }
+          "0": {
+            "label": "Experience",
+            "value": "33 Years"
+          },
+          "1": {
+            "label": "Campaigns",
+            "value": "500+"
+          },
+          "2": {
+            "label": "Brands",
+            "value": "200+"
+          }
         }
       },
       "3": {
@@ -118,9 +145,18 @@
           "2": "Portfolio Management"
         },
         "stats": {
-          "0": { "label": "Experience", "value": "37 Years" },
-          "1": { "label": "Consultancy", "value": "1000+" },
-          "2": { "label": "Portfolio", "value": "500M₺" }
+          "0": {
+            "label": "Experience",
+            "value": "37 Years"
+          },
+          "1": {
+            "label": "Consultancy",
+            "value": "1000+"
+          },
+          "2": {
+            "label": "Portfolio",
+            "value": "500M₺"
+          }
         }
       },
       "4": {
@@ -133,9 +169,18 @@
           "2": "Service & Maintenance"
         },
         "stats": {
-          "0": { "label": "Experience", "value": "40 Years" },
-          "1": { "label": "Machinery", "value": "1000+" },
-          "2": { "label": "Brands", "value": "15+" }
+          "0": {
+            "label": "Experience",
+            "value": "40 Years"
+          },
+          "1": {
+            "label": "Machinery",
+            "value": "1000+"
+          },
+          "2": {
+            "label": "Brands",
+            "value": "15+"
+          }
         }
       },
       "5": {
@@ -148,9 +193,18 @@
           "2": "Restoration"
         },
         "stats": {
-          "0": { "label": "Experience", "value": "35 Years" },
-          "1": { "label": "Locations", "value": "500+" },
-          "2": { "label": "Cities", "value": "25+" }
+          "0": {
+            "label": "Experience",
+            "value": "35 Years"
+          },
+          "1": {
+            "label": "Locations",
+            "value": "500+"
+          },
+          "2": {
+            "label": "Cities",
+            "value": "25+"
+          }
         }
       }
     }
@@ -275,7 +329,12 @@
       "established": "1937",
       "employees": "1200+",
       "projects": "500+ Projects",
-      "services": ["Residential Projects", "Commercial Buildings", "Infrastructure Construction", "Industrial Facilities"]
+      "services": [
+        "Residential Projects",
+        "Commercial Buildings",
+        "Infrastructure Construction",
+        "Industrial Facilities"
+      ]
     },
     "energy": {
       "name": "Ekşioğlu Energy",
@@ -283,7 +342,12 @@
       "established": "1985",
       "employees": "800+",
       "projects": "200 MW Installed Power",
-      "services": ["Solar Energy", "Electricity Generation", "Energy Storage", "Grid Management"]
+      "services": [
+        "Solar Energy",
+        "Electricity Generation",
+        "Energy Storage",
+        "Grid Management"
+      ]
     },
     "technology": {
       "name": "Ekşioğlu Technology",
@@ -291,7 +355,12 @@
       "established": "2005",
       "employees": "400+",
       "projects": "100+ Software Solutions",
-      "services": ["ERP Systems", "Mobile Applications", "Web Platforms", "Data Analytics"]
+      "services": [
+        "ERP Systems",
+        "Mobile Applications",
+        "Web Platforms",
+        "Data Analytics"
+      ]
     },
     "realEstate": {
       "name": "Ekşioğlu Real Estate",
@@ -299,7 +368,12 @@
       "established": "1992",
       "employees": "300+",
       "projects": "50+ Projects",
-      "services": ["Residential Development", "Commercial Real Estate", "Property Management", "Investment Consulting"]
+      "services": [
+        "Residential Development",
+        "Commercial Real Estate",
+        "Property Management",
+        "Investment Consulting"
+      ]
     },
     "industry": {
       "name": "Ekşioğlu Industry",
@@ -307,7 +381,12 @@
       "established": "1978",
       "employees": "600+",
       "projects": "10 Production Facilities",
-      "services": ["Metal Processing", "Machine Manufacturing", "Automotive Subsidiary Industry", "Industrial Solutions"]
+      "services": [
+        "Metal Processing",
+        "Machine Manufacturing",
+        "Automotive Subsidiary Industry",
+        "Industrial Solutions"
+      ]
     },
     "media": {
       "name": "Ekşioğlu Media",
@@ -315,7 +394,12 @@
       "established": "1992",
       "employees": "350+",
       "projects": "500+ Campaigns",
-      "services": ["Digital Marketing", "Creative Design", "Media Planning", "Content Production"]
+      "services": [
+        "Digital Marketing",
+        "Creative Design",
+        "Media Planning",
+        "Content Production"
+      ]
     }
   },
   "footer": {
@@ -329,12 +413,12 @@
     "contact": "Contact",
     "contactInfo": "Contact",
     "address": {
-      "line1": "Maslak Mahallesi",
-      "line2": "Büyükdere Caddesi No: 255",
-      "line3": "Sarıyer/Istanbul"
+      "line1": "Küçük Çamlıca Mahallesi",
+      "line2": "Libadiye Caddesi No: 52",
+      "line3": "Üsküdar/Istanbul"
     },
-    "phone": "Tel: +90 212 456 78 90",
-    "email": "info@eksioglugrup.com.tr",
+    "phone": "Tel: +90 850 346 46 52",
+    "email": "info@eksioglugrup.tr",
     "rights": "© 2025 Ekşioğlu Group. All rights reserved.",
     "links": {
       "privacy": "Privacy Policy",
@@ -377,6 +461,10 @@
         "vision": "Discover Our Vision",
         "sustainability": "Sustainability"
       }
+    },
+    "partners": {
+      "title": "Our Group Companies",
+      "subtitle": "Serving in different sectors with our strong companies"
     }
   },
   "common": {
@@ -1848,6 +1936,242 @@
         "integration": "Map Integration",
         "note": "Google Maps or similar service will be integrated"
       }
+    }
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Privacy Policy",
+      "description": "The security of your personal data is our priority. We explain in detail your rights under the KVKK and our data processing policy.",
+      "lastUpdated": "Last Updated: October 13, 2025"
+    },
+    "introduction": {
+      "title": "Introduction",
+      "text1": "As Ekşioğlu Group, we are committed to protecting the security and confidentiality of your personal data at the highest level. This Privacy Policy explains how your personal data is collected, processed, stored and protected under the Personal Data Protection Law No. 6698 (KVKK) and related legislation.",
+      "text2": "By visiting our website or using our services, you are deemed to have accepted this Privacy Policy. We recommend that you review our policy regularly."
+    },
+    "dataCollection": {
+      "title": "Data We Collect",
+      "personal": {
+        "title": "Personal Information",
+        "items": [
+          "Name, surname and contact information (phone, email, address)",
+          "Identity verification information",
+          "Business/occupation information",
+          "Financial and transaction information"
+        ]
+      },
+      "technical": {
+        "title": "Technical Information",
+        "items": [
+          "IP address and browser information",
+          "Cookie data and session information",
+          "Browsing history on our site",
+          "Device and operating system information"
+        ]
+      }
+    },
+    "dataUsage": {
+      "title": "How We Use Your Data",
+      "purposes": [
+        "To provide and improve our services",
+        "To respond to customer requests and provide support",
+        "To fulfill our legal obligations",
+        "Security and fraud prevention",
+        "To conduct statistical analysis and market research"
+      ]
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "text1": "We implement industry-standard technical and administrative security measures to protect your personal data against unauthorized access, loss, misuse and disclosure.",
+      "text2": "Your data is transmitted over encrypted connections and stored on secure servers. Our employees and business partners are bound by confidentiality agreements."
+    },
+    "yourRights": {
+      "title": "Your Rights Under KVKK",
+      "rights": [
+        "To learn whether your personal data is processed",
+        "To request information about your processed data",
+        "To learn the purpose of data processing and whether they are used in accordance with the purpose",
+        "To know the third parties to whom data is transferred domestically or abroad",
+        "To request correction of data if processed incompletely or incorrectly"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "To exercise your rights under KVKK or for questions about our privacy policy, you can contact us:",
+      "email": {
+        "label": "Email"
+      },
+      "phone": {
+        "label": "Phone"
+      }
+    }
+  },
+  "termsOfUse": {
+    "hero": {
+      "title": "Terms of Use",
+      "description": "By using our website, you are deemed to have accepted the following terms and conditions. Please read our usage rules carefully.",
+      "lastUpdated": "Last Updated: October 13, 2025"
+    },
+    "introduction": {
+      "title": "General Provisions",
+      "text1": "This website is operated by Ekşioğlu Group. By using our site, you accept and undertake to comply with these Terms of Use.",
+      "text2": "If you do not accept these terms, please do not use our site. We reserve the right to change our terms of use without prior notice."
+    },
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "text1": "By accessing or using this website, you agree to be bound by these Terms of Use, our Privacy Policy and Cookie Policy.",
+      "text2": "If you are under 18 years of age, you must use this site under parental or guardian supervision."
+    },
+    "useOfWebsite": {
+      "title": "Use of Website",
+      "permitted": {
+        "title": "Permitted Use",
+        "items": [
+          "Viewing and downloading informational content",
+          "Learning about our products and services",
+          "Contacting us through contact forms"
+        ]
+      }
+    },
+    "prohibited": {
+      "title": "Prohibited Activities",
+      "items": [
+        "Unauthorized copying, reproduction or distribution of site content",
+        "Uploading or distributing malware, viruses or similar technologies",
+        "Attempting unauthorized access to the site or bypassing security measures",
+        "Impersonating or stealing the identity of other users' accounts",
+        "Publishing illegal, harmful, threatening, harassing content",
+        "Unauthorized data collection or scraping for commercial purposes"
+      ]
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property Rights",
+      "text1": "All content, designs, logos, graphics, text, software and other materials on this website are the property of Ekşioğlu Group or its licensors and are protected by copyright, trademark and other intellectual property laws.",
+      "text2": "Unauthorized use of content is prohibited and may result in legal action."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "text1": "Information on our website is for general informational purposes. We do not guarantee the accuracy, completeness or timeliness of the information.",
+      "text2": "There is no commitment that the site will operate without interruption or error. We are not responsible for damages that may arise from the use of the site."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "text": "We reserve the right to change these Terms of Use at any time. Changes become effective after publication. By continuing to use our site, you are deemed to have accepted the current terms."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "If you have questions about our terms of use, please contact us:",
+      "email": {
+        "label": "Email"
+      },
+      "address": {
+        "label": "Address",
+        "value": "Küçük Çamlıca Mahallesi, Libadiye Caddesi No: 52, Üsküdar/Istanbul, 34398 Turkey"
+      }
+    }
+  },
+  "cookiePolicy": {
+    "hero": {
+      "title": "Cookie Policy",
+      "description": "Learn detailed information about cookies used on our website. Discover how cookies are used and how to manage them.",
+      "lastUpdated": "Last Updated: October 13, 2025"
+    },
+    "whatAreCookies": {
+      "title": "What Are Cookies?",
+      "text1": "Cookies are small text files that are saved to your device (computer, tablet, smartphone) when you visit a website. Cookies are commonly used to ensure the proper functioning of the website and to improve user experience.",
+      "text2": "Cookies help us remember your preferences, analyze site traffic, and provide you with a better experience."
+    },
+    "typesOfCookies": {
+      "title": "Types of Cookies We Use",
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "These cookies are necessary for the website to perform basic functions and cannot be disabled.",
+        "examples": [
+          "Session cookies (allow you to navigate between pages)",
+          "Security cookies (ensure site security)"
+        ]
+      },
+      "performance": {
+        "title": "Performance Cookies",
+        "description": "These cookies help us measure the performance of the website and improve user experience.",
+        "examples": [
+          "Number of visitors and page views",
+          "Time users spend on the site"
+        ]
+      },
+      "functional": {
+        "title": "Functional Cookies",
+        "description": "These cookies allow us to remember your preferences and provide you with personalized content.",
+        "examples": [
+          "Language preference",
+          "Region/location preferences"
+        ]
+      },
+      "targeting": {
+        "title": "Targeting/Advertising Cookies",
+        "description": "These cookies are used to show you more relevant ads and measure the effectiveness of marketing campaigns.",
+        "examples": [
+          "Social media cookies",
+          "Advertising network cookies"
+        ]
+      }
+    },
+    "managingCookies": {
+      "title": "How Can You Manage Cookies?",
+      "text1": "Most web browsers automatically accept cookies, but you can refuse or delete cookies from your browser settings. However, if you disable some cookies, some features of the website may not work properly.",
+      "browsers": {
+        "title": "Cookie Management in Popular Browsers:",
+        "items": [
+          "Google Chrome: Settings > Privacy and security > Cookies",
+          "Mozilla Firefox: Settings > Privacy and Security > Cookies and Site Data",
+          "Safari: Preferences > Privacy > Cookies",
+          "Microsoft Edge: Settings > Cookies and site permissions"
+        ]
+      }
+    },
+    "thirdParty": {
+      "title": "Third Party Cookies",
+      "text1": "Third party cookies from companies providing analysis and advertising services may also be used on our website. These cookies are subject to the privacy policies of those companies.",
+      "text2": "We recommend that you review the privacy policies of the relevant companies for more information about third party cookies."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "If you have questions about our cookie policy, you can contact us:",
+      "email": {
+        "label": "Email"
+      }
+    }
+  },
+  "contactInfo": {
+    "company": {
+      "name": "EKŞİOĞLU GROUP",
+      "tagline": "The Power Building the Future"
+    },
+    "address": {
+      "title": "Head Office",
+      "street": "Küçük Çamlıca Mahallesi",
+      "street2": "Libadiye Caddesi No: 52",
+      "district": "Üsküdar/Istanbul",
+      "postalCode": "34398",
+      "country": "Turkey",
+      "full": "Küçük Çamlıca Mahallesi, Libadiye Caddesi No: 52, Üsküdar/Istanbul, 34398 Turkey"
+    },
+    "phone": {
+      "main": "+90 850 346 46 52",
+      "display": "Tel: +90 850 346 46 52",
+      "fax": "+90 850 346 46 52"
+    },
+    "email": {
+      "info": "info@eksioglugrup.tr",
+      "contact": "iletisim@eksioglugrup.tr",
+      "investor": "yatirimci@eksioglugrup.tr",
+      "kvkk": "kvkk@eksioglu.com.tr",
+      "career": "kariyer@eksioglugrup.tr"
+    },
+    "hours": {
+      "weekday": "Monday - Friday: 09:00 - 18:00",
+      "saturday": "Saturday: Closed",
+      "sunday": "Sunday: Closed"
     }
   }
 }

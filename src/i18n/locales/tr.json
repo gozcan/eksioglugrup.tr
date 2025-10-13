@@ -73,9 +73,18 @@
           "2": "Altyapı Projeleri"
         },
         "stats": {
-          "0": { "label": "Deneyim", "value": "88 Yıl" },
-          "1": { "label": "Proje", "value": "800+" },
-          "2": { "label": "m² İnşaat", "value": "2M+" }
+          "0": {
+            "label": "Deneyim",
+            "value": "88 Yıl"
+          },
+          "1": {
+            "label": "Proje",
+            "value": "800+"
+          },
+          "2": {
+            "label": "m² İnşaat",
+            "value": "2M+"
+          }
         }
       },
       "1": {
@@ -88,9 +97,18 @@
           "2": "Elektrik Üretimi"
         },
         "stats": {
-          "0": { "label": "Deneyim", "value": "25 Yıl" },
-          "1": { "label": "Kapasite", "value": "150MW" },
-          "2": { "label": "Tesis", "value": "25+" }
+          "0": {
+            "label": "Deneyim",
+            "value": "25 Yıl"
+          },
+          "1": {
+            "label": "Kapasite",
+            "value": "150MW"
+          },
+          "2": {
+            "label": "Tesis",
+            "value": "25+"
+          }
         }
       },
       "2": {
@@ -103,9 +121,18 @@
           "2": "Bilişim Çözümleri"
         },
         "stats": {
-          "0": { "label": "Deneyim", "value": "33 Yıl" },
-          "1": { "label": "Kampanya", "value": "500+" },
-          "2": { "label": "Marka", "value": "200+" }
+          "0": {
+            "label": "Deneyim",
+            "value": "33 Yıl"
+          },
+          "1": {
+            "label": "Kampanya",
+            "value": "500+"
+          },
+          "2": {
+            "label": "Marka",
+            "value": "200+"
+          }
         }
       },
       "3": {
@@ -118,9 +145,18 @@
           "2": "Portföy Yönetimi"
         },
         "stats": {
-          "0": { "label": "Deneyim", "value": "37 Yıl" },
-          "1": { "label": "Danışmanlık", "value": "1000+" },
-          "2": { "label": "Portföy", "value": "500M₺" }
+          "0": {
+            "label": "Deneyim",
+            "value": "37 Yıl"
+          },
+          "1": {
+            "label": "Danışmanlık",
+            "value": "1000+"
+          },
+          "2": {
+            "label": "Portföy",
+            "value": "500M₺"
+          }
         }
       },
       "4": {
@@ -133,9 +169,18 @@
           "2": "Servis & Bakım"
         },
         "stats": {
-          "0": { "label": "Deneyim", "value": "40 Yıl" },
-          "1": { "label": "Makina", "value": "1000+" },
-          "2": { "label": "Marka", "value": "15+" }
+          "0": {
+            "label": "Deneyim",
+            "value": "40 Yıl"
+          },
+          "1": {
+            "label": "Makina",
+            "value": "1000+"
+          },
+          "2": {
+            "label": "Marka",
+            "value": "15+"
+          }
         }
       },
       "5": {
@@ -148,9 +193,18 @@
           "2": "Restorasyon"
         },
         "stats": {
-          "0": { "label": "Deneyim", "value": "35 Yıl" },
-          "1": { "label": "Lokasyon", "value": "500+" },
-          "2": { "label": "Şehir", "value": "25+" }
+          "0": {
+            "label": "Deneyim",
+            "value": "35 Yıl"
+          },
+          "1": {
+            "label": "Lokasyon",
+            "value": "500+"
+          },
+          "2": {
+            "label": "Şehir",
+            "value": "25+"
+          }
         }
       }
     }
@@ -275,7 +329,12 @@
       "established": "1937",
       "employees": "1200+",
       "projects": "500+ Proje",
-      "services": ["Konut Projeleri", "Ticari Yapılar", "Altyapı İnşaatı", "Endüstriyel Tesisler"]
+      "services": [
+        "Konut Projeleri",
+        "Ticari Yapılar",
+        "Altyapı İnşaatı",
+        "Endüstriyel Tesisler"
+      ]
     },
     "energy": {
       "name": "Ekşioğlu Enerji",
@@ -283,7 +342,12 @@
       "established": "1985",
       "employees": "800+",
       "projects": "200 MW Kurulu Güç",
-      "services": ["Güneş Enerjisi", "Elektrik Üretimi", "Enerji Depolama", "Şebeke Yönetimi"]
+      "services": [
+        "Güneş Enerjisi",
+        "Elektrik Üretimi",
+        "Enerji Depolama",
+        "Şebeke Yönetimi"
+      ]
     },
     "technology": {
       "name": "Ekşioğlu Teknoloji",
@@ -291,7 +355,12 @@
       "established": "2005",
       "employees": "400+",
       "projects": "100+ Yazılım Çözümü",
-      "services": ["ERP Sistemleri", "Mobil Uygulamalar", "Web Platformları", "Veri Analitik"]
+      "services": [
+        "ERP Sistemleri",
+        "Mobil Uygulamalar",
+        "Web Platformları",
+        "Veri Analitik"
+      ]
     },
     "realEstate": {
       "name": "Ekşioğlu Gayrimenkul",
@@ -299,7 +368,12 @@
       "established": "1992",
       "employees": "300+",
       "projects": "50+ Proje",
-      "services": ["Konut Geliştirme", "Ticari Gayrimenkul", "Gayrimenkul Yönetimi", "Yatırım Danışmanlığı"]
+      "services": [
+        "Konut Geliştirme",
+        "Ticari Gayrimenkul",
+        "Gayrimenkul Yönetimi",
+        "Yatırım Danışmanlığı"
+      ]
     },
     "industry": {
       "name": "Ekşioğlu Sanayi",
@@ -307,7 +381,12 @@
       "established": "1978",
       "employees": "600+",
       "projects": "10 Üretim Tesisi",
-      "services": ["Metal İşleme", "Makine Üretimi", "Otomotiv Yan Sanayi", "Endüstriyel Çözümler"]
+      "services": [
+        "Metal İşleme",
+        "Makine Üretimi",
+        "Otomotiv Yan Sanayi",
+        "Endüstriyel Çözümler"
+      ]
     },
     "media": {
       "name": "Ekşioğlu Medya",
@@ -315,7 +394,12 @@
       "established": "1992",
       "employees": "350+",
       "projects": "500+ Kampanya",
-      "services": ["Dijital Pazarlama", "Kreatif Tasarım", "Medya Planlama", "İçerik Üretimi"]
+      "services": [
+        "Dijital Pazarlama",
+        "Kreatif Tasarım",
+        "Medya Planlama",
+        "İçerik Üretimi"
+      ]
     }
   },
   "footer": {
@@ -329,12 +413,12 @@
     "contact": "İletişim",
     "contactInfo": "İletişim",
     "address": {
-      "line1": "Maslak Mahallesi",
-      "line2": "Büyükdere Caddesi No: 255",
-      "line3": "Sarıyer/İstanbul"
+      "line1": "Küçük Çamlıca Mahallesi",
+      "line2": "Libadiye Caddesi No: 52",
+      "line3": "Üsküdar/İstanbul"
     },
-    "phone": "Tel: +90 212 456 78 90",
-    "email": "info@eksioglugrup.com.tr",
+    "phone": "Tel: +90 850 346 46 52",
+    "email": "info@eksioglugrup.tr",
     "rights": "© 2025 Ekşioğlu Grup. Tüm hakları saklıdır.",
     "links": {
       "privacy": "Gizlilik Politikası",
@@ -377,6 +461,10 @@
         "vision": "Vizyonumuzu Keşfedin",
         "sustainability": "Sürdürülebilirlik"
       }
+    },
+    "partners": {
+      "title": "Grup Şirketlerimiz",
+      "subtitle": "Güçlü şirketlerimizle farklı sektörlerde hizmet veriyoruz"
     }
   },
   "common": {
@@ -1777,11 +1865,11 @@
         "description": "Sorularınız ve önerileriniz için yatırımcı ilişkileri ekibimizle iletişime geçin.",
         "email": {
           "label": "Email",
-          "value": "yatirimci@eksioglugrup.com"
+          "value": "yatirimci@eksioglugrup.tr"
         },
         "phone": {
           "label": "Telefon",
-          "value": "+90 212 555 0123"
+          "value": "+90 850 346 46 52"
         },
         "button": "İletişim Formu"
       }
@@ -1793,19 +1881,19 @@
         "heading": "İletişim Bilgileri",
         "address": {
           "title": "Merkez Ofis",
-          "line1": "Maslak Mahallesi, Büyükdere Caddesi",
-          "line2": "No: 255, Sarıyer/İstanbul",
+          "line1": "Küçük Çamlıca Mahallesi, Libadiye Caddesi",
+          "line2": "No: 52, Üsküdar/İstanbul",
           "line3": "34398 Türkiye"
         },
         "phone": {
           "title": "Telefon",
-          "main": "+90 212 456 78 90",
-          "fax": "+90 212 456 78 91 (Fax)"
+          "main": "+90 850 346 46 52",
+          "fax": "+90 850 346 46 52 (Fax)"
         },
         "email": {
           "title": "E-posta",
-          "info": "info@eksioglugrup.com.tr",
-          "contact": "iletisim@eksioglugrup.com.tr"
+          "info": "info@eksioglugrup.tr",
+          "contact": "iletisim@eksioglugrup.tr"
         },
         "hours": {
           "title": "Çalışma Saatleri",
@@ -1848,6 +1936,242 @@
         "integration": "Harita Entegrasyonu",
         "note": "Google Maps veya benzer servis entegre edilecek"
       }
+    }
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Gizlilik Politikası",
+      "description": "Kişisel verilerinizin güvenliği bizim için önceliklidir. KVKK kapsamındaki haklarınızı ve veri işleme politikamızı detaylı olarak açıklıyoruz.",
+      "lastUpdated": "Son Güncelleme: 13 Ekim 2025"
+    },
+    "introduction": {
+      "title": "Giriş",
+      "text1": "Ekşioğlu Grup olarak, kişisel verilerinizin güvenliğini ve gizliliğini en üst düzeyde korumayı taahhüt ediyoruz. Bu Gizlilik Politikası, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat kapsamında kişisel verilerinizin nasıl toplandığını, işlendiğini, saklandığını ve korunduğunu açıklamaktadır.",
+      "text2": "Web sitemizi ziyaret ettiğinizde veya hizmetlerimizden yararlandığınızda, bu Gizlilik Politikası'nı kabul etmiş sayılırsınız. Politikamızı düzenli olarak gözden geçirmenizi öneririz."
+    },
+    "dataCollection": {
+      "title": "Topladığımız Veriler",
+      "personal": {
+        "title": "Kişisel Bilgiler",
+        "items": [
+          "Ad, soyad ve iletişim bilgileri (telefon, e-posta, adres)",
+          "Kimlik doğrulama bilgileri",
+          "İş/meslek bilgileri",
+          "Finansal ve işlem bilgileri"
+        ]
+      },
+      "technical": {
+        "title": "Teknik Bilgiler",
+        "items": [
+          "IP adresi ve tarayıcı bilgileri",
+          "Çerez verileri ve oturum bilgileri",
+          "Sitemizde gezinme geçmişi",
+          "Cihaz ve işletim sistemi bilgileri"
+        ]
+      }
+    },
+    "dataUsage": {
+      "title": "Verilerinizi Nasıl Kullanıyoruz",
+      "purposes": [
+        "Hizmetlerimizi sunmak ve geliştirmek",
+        "Müşteri taleplerini yanıtlamak ve destek sağlamak",
+        "Yasal yükümlülüklerimizi yerine getirmek",
+        "Güvenlik ve dolandırıcılık önleme",
+        "İstatistiksel analizler ve pazar araştırmaları yapmak"
+      ]
+    },
+    "dataSecurity": {
+      "title": "Veri Güvenliği",
+      "text1": "Kişisel verilerinizi yetkisiz erişim, kayıp, kötüye kullanım ve ifşaya karşı korumak için endüstri standartlarında teknik ve idari güvenlik önlemleri uyguluyoruz.",
+      "text2": "Verileriniz şifreli bağlantılar üzerinden iletilir ve güvenli sunucularda saklanır. Çalışanlarımız ve iş ortaklarımız gizlilik sözleşmeleriyle bağlıdır."
+    },
+    "yourRights": {
+      "title": "KVKK Kapsamındaki Haklarınız",
+      "rights": [
+        "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+        "İşlenen verileriniz hakkında bilgi talep etme",
+        "Verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme",
+        "Yurt içinde veya yurt dışında verilerin aktarıldığı üçüncü kişileri bilme",
+        "Verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme"
+      ]
+    },
+    "contact": {
+      "title": "İletişim",
+      "text": "KVKK kapsamındaki haklarınızı kullanmak veya gizlilik politikamız hakkında sorularınız için bizimle iletişime geçebilirsiniz:",
+      "email": {
+        "label": "E-posta"
+      },
+      "phone": {
+        "label": "Telefon"
+      }
+    }
+  },
+  "termsOfUse": {
+    "hero": {
+      "title": "Kullanım Koşulları",
+      "description": "Web sitemizi kullanarak aşağıdaki şartları ve koşulları kabul etmiş sayılırsınız. Lütfen kullanım kurallarımızı dikkatlice okuyunuz.",
+      "lastUpdated": "Son Güncelleme: 13 Ekim 2025"
+    },
+    "introduction": {
+      "title": "Genel Hükümler",
+      "text1": "Bu web sitesi Ekşioğlu Grup tarafından işletilmektedir. Sitemizi kullanarak, bu Kullanım Koşulları'nı kabul etmiş ve bunlara uymayı taahhüt etmiş olursunuz.",
+      "text2": "Bu koşulları kabul etmiyorsanız, lütfen sitemizi kullanmayınız. Kullanım koşullarımızı önceden bildirimde bulunmaksızın değiştirme hakkını saklı tutarız."
+    },
+    "acceptance": {
+      "title": "Koşulların Kabulü",
+      "text1": "Bu web sitesine erişerek veya siteyi kullanarak, bu Kullanım Koşulları'na, Gizlilik Politikamıza ve Çerez Politikamıza bağlı kalmayı kabul edersiniz.",
+      "text2": "18 yaşından küçükseniz, bu siteyi ebeveyn veya vasi gözetimi altında kullanmalısınız."
+    },
+    "useOfWebsite": {
+      "title": "Web Sitesinin Kullanımı",
+      "permitted": {
+        "title": "İzin Verilen Kullanım",
+        "items": [
+          "Bilgilendirme amaçlı içerikleri görüntüleme ve indirme",
+          "Ürün ve hizmetlerimiz hakkında bilgi edinme",
+          "İletişim formları aracılığıyla bizimle iletişime geçme"
+        ]
+      }
+    },
+    "prohibited": {
+      "title": "Yasak Faaliyetler",
+      "items": [
+        "Sitede bulunan içerikleri izinsiz kopyalama, çoğaltma veya dağıtma",
+        "Zararlı yazılım, virüs veya benzeri teknolojileri yükleme veya dağıtma",
+        "Siteye yetkisiz erişim sağlamaya çalışma veya güvenlik önlemlerini aşma",
+        "Başka kullanıcıların hesaplarını taklit etme veya kimliğini çalma",
+        "Yasadışı, zararlı, tehdit edici, taciz edici içerik yayınlama",
+        "Ticari amaçlarla izinsiz veri toplama veya kazıma (scraping)"
+      ]
+    },
+    "intellectualProperty": {
+      "title": "Fikri Mülkiyet Hakları",
+      "text1": "Bu web sitesinde yer alan tüm içerik, tasarım, logo, grafik, metin, yazılım ve diğer materyaller Ekşioğlu Grup'un veya lisans verenlerinin mülkiyetindedir ve telif hakkı, marka ve diğer fikri mülkiyet yasalarıyla korunmaktadır.",
+      "text2": "İçeriklerin izinsiz kullanımı yasaktır ve yasal işlem başlatılmasına neden olabilir."
+    },
+    "disclaimer": {
+      "title": "Sorumluluk Reddi",
+      "text1": "Web sitemizde yer alan bilgiler genel bilgilendirme amaçlıdır. Bilgilerin doğruluğu, tamlığı veya güncelliği konusunda garanti vermemekteyiz.",
+      "text2": "Sitemizin kesintisiz veya hatasız çalışacağına dair bir taahhüt bulunmamaktadır. Sitemizin kullanımından doğabilecek zararlardan sorumlu değiliz."
+    },
+    "changes": {
+      "title": "Koşullarda Değişiklikler",
+      "text": "Bu Kullanım Koşulları'nı herhangi bir zamanda değiştirme hakkını saklı tutarız. Değişiklikler yayınlandıktan sonra geçerlilik kazanır. Sitemizi kullanmaya devam ederek, güncel koşulları kabul etmiş sayılırsınız."
+    },
+    "contact": {
+      "title": "İletişim",
+      "text": "Kullanım koşullarımız hakkında sorularınız varsa, lütfen bizimle iletişime geçin:",
+      "email": {
+        "label": "E-posta"
+      },
+      "address": {
+        "label": "Adres",
+        "value": "Küçük Çamlıca Mahallesi, Libadiye Caddesi No: 52, Üsküdar/İstanbul, 34398 Türkiye"
+      }
+    }
+  },
+  "cookiePolicy": {
+    "hero": {
+      "title": "Çerez Politikası",
+      "description": "Web sitemizde kullanılan çerezler hakkında detaylı bilgi edinin. Çerezlerin nasıl kullanıldığını ve yönetimini öğrenin.",
+      "lastUpdated": "Son Güncelleme: 13 Ekim 2025"
+    },
+    "whatAreCookies": {
+      "title": "Çerezler Nedir?",
+      "text1": "Çerezler, web sitesini ziyaret ettiğinizde cihazınıza (bilgisayar, tablet, akıllı telefon) kaydedilen küçük metin dosyalarıdır. Çerezler, web sitesinin düzgün çalışmasını sağlamak ve kullanıcı deneyimini geliştirmek için yaygın olarak kullanılır.",
+      "text2": "Çerezler, tercihlerinizi hatırlamamıza, site trafiğini analiz etmemize ve size daha iyi bir deneyim sunmamıza yardımcı olur."
+    },
+    "typesOfCookies": {
+      "title": "Kullandığımız Çerez Türleri",
+      "essential": {
+        "title": "Zorunlu Çerezler",
+        "description": "Bu çerezler, web sitesinin temel işlevlerini yerine getirmesi için gereklidir ve devre dışı bırakılamazlar.",
+        "examples": [
+          "Oturum çerezleri (sayfalar arasında gezinmenizi sağlar)",
+          "Güvenlik çerezleri (sitenin güvenliğini sağlar)"
+        ]
+      },
+      "performance": {
+        "title": "Performans Çerezleri",
+        "description": "Bu çerezler, web sitesinin performansını ölçmemize ve kullanıcı deneyimini geliştirmemize yardımcı olur.",
+        "examples": [
+          "Ziyaretçi sayısı ve sayfa görüntülemeleri",
+          "Kullanıcıların sitede geçirdiği süre"
+        ]
+      },
+      "functional": {
+        "title": "İşlevsel Çerezler",
+        "description": "Bu çerezler, tercihlerinizi hatırlamamıza ve size kişiselleştirilmiş içerik sunmamıza olanak tanır.",
+        "examples": [
+          "Dil tercihi",
+          "Bölge/konum tercihleri"
+        ]
+      },
+      "targeting": {
+        "title": "Hedefleme/Reklam Çerezleri",
+        "description": "Bu çerezler, size daha alakalı reklamlar göstermek ve pazarlama kampanyalarının etkinliğini ölçmek için kullanılır.",
+        "examples": [
+          "Sosyal medya çerezleri",
+          "Reklam ağı çerezleri"
+        ]
+      }
+    },
+    "managingCookies": {
+      "title": "Çerezleri Nasıl Yönetebilirsiniz?",
+      "text1": "Çoğu web tarayıcısı çerezleri otomatik olarak kabul eder, ancak tarayıcı ayarlarınızdan çerezleri reddedebilir veya silebilirsiniz. Ancak, bazı çerezleri devre dışı bırakmanız durumunda web sitesinin bazı özellikleri düzgün çalışmayabilir.",
+      "browsers": {
+        "title": "Popüler Tarayıcılarda Çerez Yönetimi:",
+        "items": [
+          "Google Chrome: Ayarlar > Gizlilik ve güvenlik > Çerezler",
+          "Mozilla Firefox: Ayarlar > Gizlilik ve Güvenlik > Çerezler ve Site Verileri",
+          "Safari: Tercihler > Gizlilik > Çerezler",
+          "Microsoft Edge: Ayarlar > Çerezler ve site izinleri"
+        ]
+      }
+    },
+    "thirdParty": {
+      "title": "Üçüncü Taraf Çerezleri",
+      "text1": "Web sitemizde, analiz ve reklam hizmetleri sunan üçüncü taraf şirketlerin çerezleri de kullanılabilir. Bu çerezler, söz konusu şirketlerin gizlilik politikalarına tabidir.",
+      "text2": "Üçüncü taraf çerezleri hakkında daha fazla bilgi için ilgili şirketlerin gizlilik politikalarını incelemenizi öneririz."
+    },
+    "contact": {
+      "title": "İletişim",
+      "text": "Çerez politikamız hakkında sorularınız varsa, bizimle iletişime geçebilirsiniz:",
+      "email": {
+        "label": "E-posta"
+      }
+    }
+  },
+  "contactInfo": {
+    "company": {
+      "name": "EKŞİOĞLU GRUP",
+      "tagline": "Geleceği İnşa Eden Güç"
+    },
+    "address": {
+      "title": "Merkez Ofis",
+      "street": "Küçük Çamlıca Mahallesi",
+      "street2": "Libadiye Caddesi No: 52",
+      "district": "Üsküdar/İstanbul",
+      "postalCode": "34398",
+      "country": "Türkiye",
+      "full": "Küçük Çamlıca Mahallesi, Libadiye Caddesi No: 52, Üsküdar/İstanbul, 34398 Türkiye"
+    },
+    "phone": {
+      "main": "+90 850 346 46 52",
+      "display": "Tel: +90 850 346 46 52",
+      "fax": "+90 850 346 46 52"
+    },
+    "email": {
+      "info": "info@eksioglugrup.tr",
+      "contact": "iletisim@eksioglugrup.tr",
+      "investor": "yatirimci@eksioglugrup.tr",
+      "kvkk": "kvkk@eksioglu.com.tr",
+      "career": "kariyer@eksioglugrup.tr"
+    },
+    "hours": {
+      "weekday": "Pazartesi - Cuma: 09:00 - 18:00",
+      "saturday": "Cumartesi: Kapalı",
+      "sunday": "Pazar: Kapalı"
     }
   }
 }

@@ -28,18 +28,25 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="mb-6">
-              <h3 className="text-2xl font-heading font-bold text-secondary-400 mb-2">
-                {t('footer.companyName')}
-              </h3>
-              <p className="text-gray-300 mb-4">{t('footer.tagline')}</p>
+            <div className="flex items-center">
+              <img
+                src="/images/logos/EksiogluLogo.svg"
+                alt="Ekşioğlu Holding"
+                className="w-48 h-auto mr-4"
+              />
+              <div>
+                <p className="text-gray-300">{t('footer.tagline')}</p>
+              </div>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               {t('footer.description')}
             </p>
+            {/* Social media links - commented out for now, might add later
             <div className="flex space-x-3">
               <a
-                href="#"
+                href={t('contactInfo.social.linkedin')}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="LinkedIn"
                 className="group w-12 h-12 bg-gradient-to-br from-primary-800 to-primary-700 hover:from-secondary-500 hover:to-secondary-600 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-6 shadow-lg hover:shadow-secondary-500/25"
               >
@@ -48,7 +55,9 @@ const Footer = () => {
                 </div>
               </a>
               <a
-                href="#"
+                href={t('contactInfo.social.twitter')}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Twitter"
                 className="group w-12 h-12 bg-gradient-to-br from-primary-800 to-primary-700 hover:from-secondary-500 hover:to-secondary-600 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-6 shadow-lg hover:shadow-secondary-500/25"
               >
@@ -57,16 +66,9 @@ const Footer = () => {
                 </div>
               </a>
               <a
-                href="#"
-                aria-label="Facebook"
-                className="group w-12 h-12 bg-gradient-to-br from-primary-800 to-primary-700 hover:from-secondary-500 hover:to-secondary-600 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-6 shadow-lg hover:shadow-secondary-500/25"
-              >
-                <div className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center group-hover:bg-white/20 transition-colors">
-                  <span className="text-xs font-bold">f</span>
-                </div>
-              </a>
-              <a
-                href="#"
+                href={t('contactInfo.social.instagram')}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="group w-12 h-12 bg-gradient-to-br from-primary-800 to-primary-700 hover:from-secondary-500 hover:to-secondary-600 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-6 shadow-lg hover:shadow-secondary-500/25"
               >
@@ -74,7 +76,19 @@ const Footer = () => {
                   <div className="w-4 h-4 bg-white/80 rounded-sm"></div>
                 </div>
               </a>
+              <a
+                href={t('contactInfo.social.youtube')}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="group w-12 h-12 bg-gradient-to-br from-primary-800 to-primary-700 hover:from-secondary-500 hover:to-secondary-600 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-6 shadow-lg hover:shadow-secondary-500/25"
+              >
+                <div className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center group-hover:bg-white/20 transition-colors">
+                  <span className="text-xs font-bold">▶</span>
+                </div>
+              </a>
             </div>
+            */}
           </div>
 
           {/* Quick Links */}
@@ -150,26 +164,26 @@ const Footer = () => {
               {t('footer.rights')}
             </div>
             <div className="flex flex-wrap items-center gap-4 text-sm">
-              <a
-                href="#"
+              <Link
+                to="/gizlilik-politikasi"
                 className="text-gray-400 hover:text-secondary-400 transition-colors duration-200"
               >
                 {t('footer.links.privacy')}
-              </a>
+              </Link>
               <span className="text-gray-600">|</span>
-              <a
-                href="#"
+              <Link
+                to="/kullanim-kosullari"
                 className="text-gray-400 hover:text-secondary-400 transition-colors duration-200"
               >
                 {t('footer.links.terms')}
-              </a>
+              </Link>
               <span className="text-gray-600">|</span>
-              <a
-                href="#"
+              <Link
+                to="/cerez-politikasi"
                 className="text-gray-400 hover:text-secondary-400 transition-colors duration-200"
               >
                 {t('footer.links.cookie')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

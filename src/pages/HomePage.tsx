@@ -10,6 +10,39 @@ const HomePage = () => {
       <Hero />
       <BusinessAreas />
 
+      {/* Company Logos Section */}
+      <section className="py-16 bg-white border-y border-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-heading font-bold text-primary-900 mb-3">
+              {t('homePage.partners.title')}
+            </h2>
+            <p className="text-gray-600">{t('homePage.partners.subtitle')}</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+            {[
+              { name: 'Ekgüntaş', logo: '/images/logos/ekutas.svg' },
+              { name: 'Ekutaş', logo: '/images/logos/ekutas.svg' },
+              { name: 'Tevor Enerji', logo: '/images/logos/tevor.jpg' },
+              { name: 'Ponton Medya', logo: '/images/logos/ponton.jpg' },
+              { name: 'Piran Gayrimenkul', logo: '/images/logos/piran.jpg' },
+              { name: 'İlka Güvenlik', logo: '/images/logos/ilka.svg' },
+            ].map((company, index) => (
+              <div
+                key={index}
+                className="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all duration-300"
+              >
+                <img
+                  src={company.logo}
+                  alt={company.name}
+                  className="max-h-16 w-auto object-contain grayscale group-hover:grayscale-0 opacity-70 group-hover:opacity-100 transition-all duration-300"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Excellence Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto px-4">

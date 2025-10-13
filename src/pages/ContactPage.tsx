@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import ContactInfoDisplay from '../components/ContactInfoDisplay';
 
 const ContactPage = () => {
   const { t } = useTranslation();
@@ -28,91 +29,15 @@ const ContactPage = () => {
                 {t('pages.contact.info.heading')}
               </h2>
 
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <div className="mr-4 mt-1">
-                    <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center relative overflow-hidden">
-                      <div className="absolute inset-1 bg-gradient-to-br from-white/20 to-white/10 rounded-lg"></div>
-                      <div className="relative w-6 h-6 bg-white/80 rounded-sm"></div>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-primary-900 mb-2">
-                      {t('pages.contact.info.address.title')}
-                    </h3>
-                    <p className="text-gray-700">
-                      {t('pages.contact.info.address.line1')}
-                      <br />
-                      {t('pages.contact.info.address.line2')}
-                      <br />
-                      {t('pages.contact.info.address.line3')}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="mr-4 mt-1">
-                    <div className="w-12 h-12 bg-gradient-to-br from-secondary-500 to-secondary-700 rounded-xl flex items-center justify-center relative overflow-hidden">
-                      <div className="absolute inset-1 bg-gradient-to-br from-white/20 to-white/10 rounded-lg"></div>
-                      <div className="relative flex flex-col space-y-1">
-                        <div className="w-4 h-1 bg-white/80 rounded-full"></div>
-                        <div className="w-4 h-1 bg-white/80 rounded-full"></div>
-                        <div className="w-4 h-1 bg-white/80 rounded-full"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-primary-900 mb-2">
-                      {t('pages.contact.info.phone.title')}
-                    </h3>
-                    <p className="text-gray-700">
-                      {t('pages.contact.info.phone.main')}
-                      <br />
-                      {t('pages.contact.info.phone.fax')}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="mr-4 mt-1">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center relative overflow-hidden">
-                      <div className="absolute inset-1 bg-gradient-to-br from-white/20 to-white/10 rounded-lg"></div>
-                      <div className="relative w-6 h-4 bg-white/80 rounded-sm"></div>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-primary-900 mb-2">
-                      {t('pages.contact.info.email.title')}
-                    </h3>
-                    <p className="text-gray-700">
-                      {t('pages.contact.info.email.info')}
-                      <br />
-                      {t('pages.contact.info.email.contact')}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="mr-4 mt-1">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-700 rounded-xl flex items-center justify-center relative overflow-hidden">
-                      <div className="absolute inset-1 bg-gradient-to-br from-white/20 to-white/10 rounded-lg"></div>
-                      <div className="relative w-6 h-6 bg-white/80 rounded-full border-2 border-white/40"></div>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-primary-900 mb-2">
-                      {t('pages.contact.info.hours.title')}
-                    </h3>
-                    <p className="text-gray-700">
-                      {t('pages.contact.info.hours.weekday')}
-                      <br />
-                      {t('pages.contact.info.hours.saturday')}
-                      <br />
-                      {t('pages.contact.info.hours.sunday')}
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <ContactInfoDisplay
+                showAddress={true}
+                showPhone={true}
+                showEmail={true}
+                showHours={true}
+                emailType="contact"
+                layout="vertical"
+                variant="detailed"
+              />
 
               {/* Social Media */}
               <div className="mt-8">

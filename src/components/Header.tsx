@@ -265,11 +265,12 @@ const Header = () => {
             to="/"
             className="flex items-center group"
           >
-            <div className="relative">
-              <h1 className="text-2xl font-heading font-bold text-primary-900 group-hover:text-primary-700 transition-colors duration-300">
-                EKŞİOĞLU GRUP
-              </h1>
-              <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-secondary-500 group-hover:w-full transition-all duration-500"></div>
+            <div className="relative flex items-center gap-3">
+              <img
+                src="/images/logos/EksiogluLogo.svg"
+                alt="Ekşioğlu Grup Logo"
+                className="h-16 w-auto group-hover:scale-105 transition-transform duration-300"
+              />
             </div>
           </Link>
 

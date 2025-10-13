@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import ContactInfoDisplay from '../components/ContactInfoDisplay';
 
 const InvestorRelationsPage = () => {
   const { t } = useTranslation();
@@ -294,23 +295,16 @@ const InvestorRelationsPage = () => {
             {t('pages.investor.contact.description')}
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto mb-8">
-            <div>
-              <h3 className="font-semibold mb-2">
-                {t('pages.investor.contact.email.label')}
-              </h3>
-              <p className="opacity-90">
-                {t('pages.investor.contact.email.value')}
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-2">
-                {t('pages.investor.contact.phone.label')}
-              </h3>
-              <p className="opacity-90">
-                {t('pages.investor.contact.phone.value')}
-              </p>
-            </div>
+          <div className="max-w-2xl mx-auto mb-8">
+            <ContactInfoDisplay
+              showAddress={false}
+              showPhone={true}
+              showEmail={true}
+              showHours={false}
+              emailType="investor"
+              layout="horizontal"
+              variant="compact"
+            />
           </div>
 
           <Link

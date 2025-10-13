@@ -17,6 +17,9 @@ import CareerPage from './pages/CareerPage';
 import InvestorRelationsPage from './pages/InvestorRelationsPage';
 import MediaPage from './pages/MediaPage';
 import TechnologyPage from './pages/TechnologyPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsOfUsePage from './pages/TermsOfUsePage';
+import CookiePolicyPage from './pages/CookiePolicyPage';
 import './App.css';
 
 function App() {
@@ -85,6 +88,18 @@ function App() {
             <Route
               path="/iletisim"
               element={<ContactPage />}
+            />
+            <Route
+              path="/gizlilik-politikasi"
+              element={<PrivacyPolicyPage />}
+            />
+            <Route
+              path="/kullanim-kosullari"
+              element={<TermsOfUsePage />}
+            />
+            <Route
+              path="/cerez-politikasi"
+              element={<CookiePolicyPage />}
             />
           </Routes>
         </main>
