@@ -1,6 +1,4 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const BoardPage = () => {
