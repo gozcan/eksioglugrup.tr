@@ -1,0 +1,1853 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "businessAreas": "Business Areas",
+    "sustainability": "Sustainability",
+    "career": "Corporate",
+    "media": "Media",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Building the Future",
+      "subtitle": "Trusted Brand",
+      "description": "With our 85+ years of experience, we live our values of trust, quality and innovation in every project, and continue to be a leading brand in our industry.",
+      "cta": "Discover Our Story"
+    },
+    "slide2": {
+      "title": "Sustainable",
+      "subtitle": "Future We're Building",
+      "description": "With environmentally friendly technologies and green energy solutions, we fulfill our responsibility to leave a livable world for future generations.",
+      "cta": "Sustainability"
+    },
+    "slide3": {
+      "title": "Technology and",
+      "subtitle": "Innovation Focused",
+      "description": "We aim for technological leadership in our industry with our R&D investments and digital transformation projects.",
+      "cta": "Technology Center"
+    },
+    "stats": {
+      "experience": "Years of Experience",
+      "sectors": "Business Areas",
+      "projects": "Successful Projects",
+      "customers": "Happy Customers"
+    },
+    "buttons": {
+      "companies": "Our Group Companies"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Founded in 1937, Ekşioğlu Group is a well-established family company operating in construction, energy, technology, real estate, industry and advertising-publishing sectors. With our 85+ years of experience, we continue our trust and quality-focused service approach and develop projects that will add value to future generations.",
+    "stats": {
+      "years": "Years of Experience",
+      "projects": "Completed Projects",
+      "employees": "Employees",
+      "companies": "Group Companies"
+    },
+    "values": {
+      "quality": "Quality",
+      "qualityDesc": "We provide services at the highest standards",
+      "innovation": "Innovation",
+      "innovationDesc": "We lead technology in our industry",
+      "sustainability": "Sustainability",
+      "sustainabilityDesc": "We develop environmentally friendly solutions"
+    }
+  },
+  "businessAreas": {
+    "title": "Our Business Areas",
+    "subtitle": "With our deep knowledge and experience gained in various sectors, we offer quality and reliable solutions in every field.",
+    "cta": {
+      "question": "Would you like to learn more about our companies?",
+      "button": "Explore All Our Companies"
+    },
+    "areas": {
+      "0": {
+        "title": "Construction & Engineering",
+        "company": "Ekgüntaş & Ekutaş Construction",
+        "description": "We are the leader in the sector with 88 years of experience in large-scale infrastructure, residential and commercial building projects.",
+        "features": {
+          "0": "Residential Projects",
+          "1": "Commercial Buildings",
+          "2": "Infrastructure Projects"
+        },
+        "stats": {
+          "0": { "label": "Experience", "value": "88 Years" },
+          "1": { "label": "Projects", "value": "800+" },
+          "2": { "label": "m² Construction", "value": "2M+" }
+        }
+      },
+      "1": {
+        "title": "Energy & Electricity",
+        "company": "Tevor Energy",
+        "description": "We offer sustainable solutions in the energy sector from renewable energy sources to electricity generation.",
+        "features": {
+          "0": "Wind Energy",
+          "1": "Solar Energy",
+          "2": "Electricity Generation"
+        },
+        "stats": {
+          "0": { "label": "Experience", "value": "25 Years" },
+          "1": { "label": "Capacity", "value": "150MW" },
+          "2": { "label": "Facilities", "value": "25+" }
+        }
+      },
+      "2": {
+        "title": "Media & IT",
+        "company": "Ponton Media",
+        "description": "We produce digital solutions and creative campaigns in advertising, publishing and information technology.",
+        "features": {
+          "0": "Digital Advertising",
+          "1": "Publishing",
+          "2": "IT Solutions"
+        },
+        "stats": {
+          "0": { "label": "Experience", "value": "33 Years" },
+          "1": { "label": "Campaigns", "value": "500+" },
+          "2": { "label": "Brands", "value": "200+" }
+        }
+      },
+      "3": {
+        "title": "Real Estate",
+        "company": "Piran Real Estate",
+        "description": "We add value to our customers with real estate consultancy and investment management services.",
+        "features": {
+          "0": "Consultancy",
+          "1": "Investment Management",
+          "2": "Portfolio Management"
+        },
+        "stats": {
+          "0": { "label": "Experience", "value": "37 Years" },
+          "1": { "label": "Consultancy", "value": "1000+" },
+          "2": { "label": "Portfolio", "value": "500M₺" }
+        }
+      },
+      "4": {
+        "title": "Construction Machinery",
+        "company": "Ekşizade Machinery",
+        "description": "We offer construction machinery sales, rental and service services for the construction and industrial sectors.",
+        "features": {
+          "0": "Sales",
+          "1": "Rental",
+          "2": "Service & Maintenance"
+        },
+        "stats": {
+          "0": { "label": "Experience", "value": "40 Years" },
+          "1": { "label": "Machinery", "value": "1000+" },
+          "2": { "label": "Brands", "value": "15+" }
+        }
+      },
+      "5": {
+        "title": "Service Sector",
+        "company": "İlka Security & Leyan Restoration",
+        "description": "We offer solutions in a wide range with security, cleaning, restoration and renovation services.",
+        "features": {
+          "0": "Security",
+          "1": "Cleaning",
+          "2": "Restoration"
+        },
+        "stats": {
+          "0": { "label": "Experience", "value": "35 Years" },
+          "1": { "label": "Locations", "value": "500+" },
+          "2": { "label": "Cities", "value": "25+" }
+        }
+      }
+    }
+  },
+  "megaMenu": {
+    "about": {
+      "title": "Our Organization",
+      "description": "A leading organization in the industry with 88 years of experience",
+      "corporateIdentity": "Corporate Identity",
+      "managementSection": "Management",
+      "story": "Our Story",
+      "storyDesc": "From our foundation to today",
+      "vision": "Our Vision",
+      "visionDesc": "Our view of the future",
+      "mission": "Our Mission",
+      "missionDesc": "Our main purpose",
+      "values": "Our Values",
+      "valuesDesc": "Our principles",
+      "board": "Board of Directors",
+      "boardDesc": "Corporate leadership",
+      "management": "Senior Management",
+      "managementDesc": "Our experienced team"
+    },
+    "business": {
+      "title": "Business Areas",
+      "description": "We serve with our group companies operating in 6 different sectors",
+      "mainSectors": "Main Sectors",
+      "otherAreas": "Other Areas",
+      "construction": "Construction & Engineering",
+      "constructionDesc": "500+ successful projects",
+      "energy": "Energy & Electricity",
+      "energyDesc": "Renewable energy",
+      "technology": "Technology & Software",
+      "technologyDesc": "Digital solutions",
+      "realEstate": "Real Estate",
+      "realEstateDesc": "Modern living spaces",
+      "industry": "Industry & Manufacturing",
+      "industryDesc": "Production facilities",
+      "media": "Advertising & Publishing",
+      "mediaDesc": "Media services"
+    },
+    "sustainability": {
+      "title": "Sustainable Future",
+      "description": "Our approach focused on environmental, social and economic sustainability",
+      "approachSection": "Our Approach",
+      "reportingSection": "Reporting",
+      "strategy": "Our Sustainability Strategy",
+      "strategyDesc": "Our comprehensive approach",
+      "environmental": "Environmental Responsibility",
+      "environmentalDesc": "Nature-friendly solutions",
+      "socialImpact": "Social Impact",
+      "socialImpactDesc": "Our social contributions",
+      "reports": "Sustainability Reports",
+      "reportsDesc": "Transparent reporting",
+      "certificates": "Environmental Certificates",
+      "certificatesDesc": "International standards"
+    },
+    "corporate": {
+      "title": "Corporate Center",
+      "description": "Investor relations, technology, career and media center",
+      "investorMedia": "Investor & Media",
+      "techPeople": "Technology & People",
+      "investor": "Investor Relations",
+      "investorDesc": "Financial statements and reports",
+      "media": "Media & Press",
+      "mediaDesc": "Press releases and news",
+      "technology": "Technology & Innovation",
+      "technologyDesc": "R&D and digital transformation",
+      "career": "Career",
+      "careerDesc": "Job opportunities and applications"
+    }
+  },
+  "story": {
+    "title": "Our Story",
+    "subtitle": "Success Story From 1937 to Today",
+    "description": "We grew up preserving our values of quality and trust with our 88 years of deep-rooted history.",
+    "beginning": {
+      "title": "A Vision, A Beginning",
+      "paragraph1": "Founded in 1937 with the vision of contributing to Turkey's rapidly growing economy, Ekşioğlu Group has become one of Turkey's leading holding companies, starting its journey as a small construction firm.",
+      "paragraph2": "This journey, which began with our founder's philosophy of \"creating value for Turkey\", has transformed into a powerful family of group companies operating in six different sectors with half a century of experience.",
+      "foundingYear": "1937 - Our Foundation Year"
+    },
+    "timeline": {
+      "title": "Timeline",
+      "subtitle": "Important steps we took and achievements we made in our 88-year journey"
+    },
+    "milestones": {
+      "founding": "Foundation Years",
+      "foundingDesc": "Our company was founded in 1937 and took its first steps in the construction sector.",
+      "foundingAchievement": "First projects completed",
+      "expansion": "Growth and Development",
+      "expansionDesc": "In the 1960s, we expanded our fields of activity and entered the energy and technology sectors.",
+      "expansionAchievement": "First energy project",
+      "diversification": "Diversification",
+      "diversificationDesc": "In the 1980s, we made significant investments in real estate and industrial sectors.",
+      "diversificationAchievement": "First technology company established",
+      "modernization": "Modernization",
+      "modernizationDesc": "In the 2000s, we started our digital transformation process and developed technology-focused solutions.",
+      "modernizationAchievement": "First international project",
+      "sustainability": "Sustainability",
+      "sustainabilityDesc": "In the 2010s, we focused on environmentally friendly projects and green energy investments.",
+      "sustainabilityAchievement": "Green certificates obtained",
+      "future": "Vision for the Future",
+      "futureDesc": "Today, we continue to build the world of the future with technology and innovation.",
+      "futureAchievement": "AI and blockchain integration"
+    },
+    "today": {
+      "title": "Where We Are Today",
+      "subtitle": "With our 88 years of experience, we continue to be a strong part of the Turkish economy",
+      "sectors": "Different Sectors",
+      "employees": "Employees",
+      "projects": "Completed Projects"
+    }
+  },
+  "companies": {
+    "title": "Our Group Companies",
+    "subtitle": "Leading in 6 Different Sectors",
+    "description": "We offer a wide range of services with our group companies, each specialized in their own field.",
+    "construction": {
+      "name": "Ekşioğlu Construction",
+      "sector": "Construction & Engineering",
+      "established": "1937",
+      "employees": "1200+",
+      "projects": "500+ Projects",
+      "services": ["Residential Projects", "Commercial Buildings", "Infrastructure Construction", "Industrial Facilities"]
+    },
+    "energy": {
+      "name": "Ekşioğlu Energy",
+      "sector": "Energy & Electricity",
+      "established": "1985",
+      "employees": "800+",
+      "projects": "200 MW Installed Power",
+      "services": ["Solar Energy", "Electricity Generation", "Energy Storage", "Grid Management"]
+    },
+    "technology": {
+      "name": "Ekşioğlu Technology",
+      "sector": "Technology & Software",
+      "established": "2005",
+      "employees": "400+",
+      "projects": "100+ Software Solutions",
+      "services": ["ERP Systems", "Mobile Applications", "Web Platforms", "Data Analytics"]
+    },
+    "realEstate": {
+      "name": "Ekşioğlu Real Estate",
+      "sector": "Real Estate",
+      "established": "1992",
+      "employees": "300+",
+      "projects": "50+ Projects",
+      "services": ["Residential Development", "Commercial Real Estate", "Property Management", "Investment Consulting"]
+    },
+    "industry": {
+      "name": "Ekşioğlu Industry",
+      "sector": "Industry & Manufacturing",
+      "established": "1978",
+      "employees": "600+",
+      "projects": "10 Production Facilities",
+      "services": ["Metal Processing", "Machine Manufacturing", "Automotive Subsidiary Industry", "Industrial Solutions"]
+    },
+    "media": {
+      "name": "Ekşioğlu Media",
+      "sector": "Advertising & Publishing",
+      "established": "1992",
+      "employees": "350+",
+      "projects": "500+ Campaigns",
+      "services": ["Digital Marketing", "Creative Design", "Media Planning", "Content Production"]
+    }
+  },
+  "footer": {
+    "companyName": "EKŞİOĞLU GROUP",
+    "tagline": "The Power Building the Future",
+    "description": "We are a well-established Turkish holding company operating in different sectors with 88 years of experience. We continue to prove our brand value and quality in every project.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About Us",
+    "companies": "Group Companies",
+    "contact": "Contact",
+    "contactInfo": "Contact",
+    "address": {
+      "line1": "Maslak Mahallesi",
+      "line2": "Büyükdere Caddesi No: 255",
+      "line3": "Sarıyer/Istanbul"
+    },
+    "phone": "Tel: +90 212 456 78 90",
+    "email": "info@eksioglugrup.com.tr",
+    "rights": "© 2025 Ekşioğlu Group. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "cookie": "Cookie Policy"
+    }
+  },
+  "language": "Language",
+  "homePage": {
+    "excellence": {
+      "title": "The Address of Excellence",
+      "subtitle": "With our 88 years of experience, we continue to be a leader in our industry",
+      "stats": {
+        "0": {
+          "value": "88",
+          "title": "Years of Experience",
+          "description": "Half a century of reliable service"
+        },
+        "1": {
+          "value": "6",
+          "title": "Business Areas",
+          "description": "Expertise in various sectors"
+        },
+        "2": {
+          "value": "1K+",
+          "title": "Successful Projects",
+          "description": "Completed quality projects"
+        },
+        "3": {
+          "value": "10K+",
+          "title": "Happy Customers",
+          "description": "Satisfied customer network"
+        }
+      }
+    },
+    "vision": {
+      "title": "Building the Future Together",
+      "description": "With our sustainable growth approach, we develop environmentally sensitive projects, implement technological innovations and fulfill our social responsibilities.",
+      "cta": {
+        "vision": "Discover Our Vision",
+        "sustainability": "Sustainability"
+      }
+    }
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "close": "Close",
+    "loading": "Loading..."
+  },
+  "pages": {
+    "companies": {
+      "title": "Our Group Companies",
+      "description": "With our strong companies operating in different sectors, we add value to the Turkish economy.",
+      "list": {
+        "ekguntas": {
+          "name": "Ekgüntaş",
+          "sector": "Main Construction Company",
+          "description": "Since 1937, Ekgüntaş has been one of Turkey's leading construction companies, serving with an expert team in residential and commercial projects.",
+          "services": {
+            "0": "Large-Scale Projects",
+            "1": "Custom Architectural Solutions",
+            "2": "Villas and Residences",
+            "3": "Commercial Complexes"
+          },
+          "metricLabel": "m² Construction",
+          "metricValue": "2M+",
+          "projects": "500+ Projects"
+        },
+        "ekutas": {
+          "name": "Ekutaş",
+          "sector": "Main Construction Company",
+          "description": "Sister company of Ekgüntaş, Ekutaş specializes in large-scale projects and custom architectural solutions.",
+          "services": {
+            "0": "Residential Projects",
+            "1": "Commercial Buildings",
+            "2": "Industrial Facilities",
+            "3": "Infrastructure Projects"
+          },
+          "metricLabel": "Cities",
+          "metricValue": "25+",
+          "projects": "300+ Projects"
+        },
+        "eksizade": {
+          "name": "Ekşizade",
+          "sector": "Construction Machinery",
+          "description": "Operating in the construction machinery sector, Ekşizade provides machinery solutions for the construction and industrial sectors.",
+          "services": {
+            "0": "Machinery Sales",
+            "1": "Rental Services",
+            "2": "Maintenance and Repair",
+            "3": "Spare Parts Service"
+          },
+          "metricLabel": "Brands",
+          "metricValue": "15+",
+          "projects": "1000+ Machines"
+        },
+        "leyan": {
+          "name": "Leyan Construction",
+          "sector": "Restoration & Renovation",
+          "description": "Expert in restoration of historical buildings and renovation works, Leyan contributes to the preservation of cultural heritage.",
+          "services": {
+            "0": "Historical Restoration",
+            "1": "Renovation Works",
+            "2": "Cultural Heritage Preservation",
+            "3": "Custom Architectural Solutions"
+          },
+          "metricLabel": "Expert Team",
+          "metricValue": "150+",
+          "projects": "200+ Restorations"
+        },
+        "tevor": {
+          "name": "Tevor Energy",
+          "sector": "Energy",
+          "description": "Operating in the renewable energy and electricity sector, Tevor provides sustainable solutions to Turkey's energy needs.",
+          "services": {
+            "0": "Solar Energy",
+            "1": "Wind Energy",
+            "2": "Energy Storage",
+            "3": "Electricity Generation"
+          },
+          "metricLabel": "Capacity",
+          "metricValue": "150MW",
+          "projects": "100 MW Installed Power"
+        },
+        "ilka": {
+          "name": "İlka Security",
+          "sector": "Security & Cleaning",
+          "description": "Providing professional security and cleaning services, İlka offers quality service to corporate and individual clients.",
+          "services": {
+            "0": "Security Services",
+            "1": "Cleaning Services",
+            "2": "Technical Maintenance",
+            "3": "Facility Management"
+          },
+          "metricLabel": "Cities",
+          "metricValue": "30+",
+          "projects": "300+ Locations"
+        },
+        "ponton": {
+          "name": "Ponton Media",
+          "sector": "Advertising, Publishing & IT",
+          "description": "Providing integrated solutions in advertising, publishing, and IT, Ponton meets the requirements of the digital age.",
+          "services": {
+            "0": "Advertising Campaigns",
+            "1": "Digital Publishing",
+            "2": "Software Development",
+            "3": "IT Consulting"
+          },
+          "metricLabel": "Brands",
+          "metricValue": "200+",
+          "projects": "500+ Campaigns"
+        },
+        "piran": {
+          "name": "Piran Real Estate",
+          "sector": "Real Estate Consulting",
+          "description": "Expert in real estate consulting, Piran provides professional support in investment and sales processes.",
+          "services": {
+            "0": "Real Estate Consulting",
+            "1": "Investment Consulting",
+            "2": "Valuation Services",
+            "3": "Portfolio Management"
+          },
+          "metricLabel": "Portfolio",
+          "metricValue": "500M₺",
+          "projects": "1000+ Consultations"
+        }
+      },
+      "cta": {
+        "title": "Collaboration Opportunities",
+        "description": "Contact us to collaborate with our group companies, get support for your projects, or obtain detailed information about our services.",
+        "button": "Get in Touch"
+      }
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "With the vision of leaving a livable world for future generations, we aim for sustainable growth.",
+      "statement": {
+        "heading": "Our Outlook on the Future",
+        "content": "As Ekşioğlu Group, our vision is to be a global force that leads Turkey's and the world's sustainable development, implements technological innovations, and creates social value.",
+        "quote": "To become a globally respected holding company in 2035 that blends technology and sustainability",
+        "attribution": "— Ekşioğlu Group Vision Statement"
+      },
+      "pillars": {
+        "heading": "Our Vision Pillars",
+        "subheading": "Core principles and focus areas that support our vision",
+        "list": {
+          "technology": {
+            "title": "Technological Leadership",
+            "description": "To be a pioneer in our industry using the latest technologies and leading digital transformation."
+          },
+          "sustainability": {
+            "title": "Sustainable Growth",
+            "description": "A sustainable growth model that is environmentally friendly and prioritizes social responsibility."
+          },
+          "people": {
+            "title": "People-Centricity",
+            "description": "Creating value by prioritizing the welfare of our employees and society."
+          },
+          "global": {
+            "title": "Global Competition",
+            "description": "Representing Turkey as a strong player in international markets."
+          }
+        }
+      },
+      "goals": {
+        "heading": "Our Goals",
+        "subheading": "Strategic goals we have set to realize our vision",
+        "progressLabel": "Progress",
+        "list": {
+          "carbon": {
+            "year": "2030",
+            "title": "Carbon Neutral Operations",
+            "description": "Achieving carbon neutrality in all our operations"
+          },
+          "digital": {
+            "year": "2032",
+            "title": "Digital Transformation Leader",
+            "description": "Being a pioneer in the use of artificial intelligence and automation in our industry"
+          },
+          "expansion": {
+            "year": "2035",
+            "title": "Global Expansion",
+            "description": "Operating actively in 15 countries across 3 continents"
+          }
+        }
+      },
+      "cta": {
+        "title": "Let's Shape the Future Together",
+        "description": "We work with our valued business partners and employees to realize our vision.",
+        "buttonCareer": "Join Our Team",
+        "buttonContact": "Get in Touch"
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To be a pioneer in our industry with projects that add value to people, the environment, and society.",
+      "statement": {
+        "heading": "Our Core Purpose",
+        "content": "As Ekşioğlu Group, our mission is to contribute to Turkey's economic development by operating in six different sectors, providing the highest quality service to our customers, and working for a sustainable future.",
+        "quote": "Creating value through technology-empowered solutions by placing people and the environment at the center",
+        "attribution": "— Ekşioğlu Group Mission Statement"
+      },
+      "pillars": {
+        "heading": "Our Mission Pillars",
+        "subheading": "Core principles and focus areas that support our mission",
+        "list": {
+          "quality": {
+            "title": "Quality Service",
+            "description": "Exceeding expectations by providing the highest standards of service to our customers."
+          },
+          "sustainability": {
+            "title": "Sustainable Value",
+            "description": "Creating sustainable value in economic, environmental, and social terms."
+          },
+          "innovation": {
+            "title": "Innovation",
+            "description": "Leading our industry with R&D and technological innovations."
+          },
+          "responsibility": {
+            "title": "Social Responsibility",
+            "description": "Fulfilling our responsibility to society and the environment at the highest level."
+          }
+        }
+      },
+      "approach": {
+        "heading": "Our Approach",
+        "subheading": "Fundamental approaches we adopt to fulfill our mission",
+        "areasLabel": "Key Application Areas:",
+        "list": {
+          "customer": {
+            "title": "Customer Centricity",
+            "description": "Producing customized solutions by always prioritizing customer satisfaction.",
+            "points": {
+              "0": "24/7 customer service",
+              "1": "Personalized solutions",
+              "2": "Continuous feedback collection",
+              "3": "Proactive support services"
+            }
+          },
+          "quality": {
+            "title": "Quality and Excellence",
+            "description": "We adopt the highest quality standards in all our processes and make continuous improvements.",
+            "points": {
+              "0": "ISO quality certifications",
+              "1": "Continuous improvement programs",
+              "2": "Performance measurement systems",
+              "3": "Quality assurance protocols"
+            }
+          },
+          "technology": {
+            "title": "Technological Leadership",
+            "description": "We adopt the latest technologies and play a leading role in digital transformation.",
+            "points": {
+              "0": "R&D investments",
+              "1": "Digital platform development",
+              "2": "Artificial intelligence integration",
+              "3": "Automation solutions"
+            }
+          }
+        }
+      },
+      "impact": {
+        "heading": "Impact of Our Mission",
+        "metrics": {
+          "satisfaction": {
+            "value": "98%",
+            "label": "Customer Satisfaction"
+          },
+          "employees": {
+            "value": "5000+",
+            "label": "Employees"
+          },
+          "revenue": {
+            "value": "₺2.5B",
+            "label": "Annual Revenue"
+          },
+          "experience": {
+            "value": "88",
+            "label": "Years of Experience"
+          }
+        }
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Honesty, quality, innovation, and sustainability are our core values.",
+      "intro": {
+        "heading": "Our Core Principles",
+        "content": "As Ekşioğlu Group, our values form the foundation of our corporate culture. These values are our guide in our relationships with all our stakeholders, from our employees to our customers, from our business partners to society.",
+        "quote": "Our values define who we are and how we act",
+        "attribution": "— Ekşioğlu Group Values Manifesto"
+      },
+      "core": {
+        "heading": "Our Six Core Values",
+        "subheading": "The core values we live every day and use as a guide in our decisions",
+        "areasLabel": "Application Areas:",
+        "list": {
+          "honesty": {
+            "title": "Honesty",
+            "description": "We prioritize transparency and honesty in all our activities and adhere to ethical values.",
+            "examples": {
+              "0": "Transparent financial reporting",
+              "1": "Ethical business practices",
+              "2": "Open communication culture",
+              "3": "Accountability"
+            }
+          },
+          "excellence": {
+            "title": "Excellence",
+            "description": "We pursue excellence in every field through continuous learning and development, never compromising on quality.",
+            "examples": {
+              "0": "Continuous training programs",
+              "1": "Quality management systems",
+              "2": "Innovation culture",
+              "3": "Performance orientation"
+            }
+          },
+          "respect": {
+            "title": "Respect",
+            "description": "We respect human rights, the environment and nature, and differences, adopting an inclusive approach.",
+            "examples": {
+              "0": "Diversity and inclusion",
+              "1": "Environmental responsibility",
+              "2": "Human rights protection",
+              "3": "Cultural sensitivity"
+            }
+          },
+          "collaboration": {
+            "title": "Collaboration",
+            "description": "We act with team spirit, establish strong partnerships with our stakeholders, and grow together.",
+            "examples": {
+              "0": "Teamwork culture",
+              "1": "Stakeholder engagement",
+              "2": "Strategic partnerships",
+              "3": "Knowledge sharing"
+            }
+          },
+          "responsibility": {
+            "title": "Responsibility",
+            "description": "We are aware of our responsibility to society, the environment, and future generations and act accordingly.",
+            "examples": {
+              "0": "Social responsibility projects",
+              "1": "Environmental sustainability",
+              "2": "Community contribution",
+              "3": "Future generation focus"
+            }
+          },
+          "innovation": {
+            "title": "Innovation",
+            "description": "We are open to change and develop pioneering solutions in our industry with creative thinking.",
+            "examples": {
+              "0": "R&D investments",
+              "1": "Digital transformation",
+              "2": "Creative solutions",
+              "3": "Technological leadership"
+            }
+          }
+        }
+      },
+      "culture": {
+        "heading": "Our Company Culture",
+        "subheading": "How our values are lived in our daily work life",
+        "impactLabel": "Impact:",
+        "list": {
+          "learning": {
+            "title": "Learning Culture",
+            "description": "We create an environment that encourages continuous learning, learns from mistakes, and is open to development.",
+            "impact": "Employee development and innovation"
+          },
+          "communication": {
+            "title": "Open Communication",
+            "description": "We create an environment of trust by supporting open, transparent, and constructive communication at all levels.",
+            "impact": "Team harmony and productivity"
+          },
+          "results": {
+            "title": "Results Orientation",
+            "description": "We show determination to achieve our goals and adopt a results-oriented work approach.",
+            "impact": "Success and sustainability"
+          },
+          "satisfaction": {
+            "title": "Customer Satisfaction",
+            "description": "We aim to exceed customer expectations and adopt a satisfaction-oriented service approach.",
+            "impact": "Customer loyalty and growth"
+          }
+        }
+      },
+      "action": {
+        "heading": "Living Our Values",
+        "subheading": "These values are not just on paper, but come to life in the steps we take every day, the decisions we make, and the relationships we build.",
+        "metrics": {
+          "satisfaction": {
+            "value": "95%",
+            "label": "Employee Satisfaction"
+          },
+          "ethics": {
+            "value": "Zero",
+            "label": "Ethics Violations"
+          },
+          "projects": {
+            "value": "100+",
+            "label": "Social Projects"
+          }
+        }
+      }
+    },
+    "board": {
+      "title": "Board of Directors",
+      "description": "With our experienced and visionary board of directors, we carry our companies into the future.",
+      "intro": {
+        "heading": "Our Corporate Leadership",
+        "content": "The Ekşioğlu Group Board of Directors ensures the strategic direction of our company with its rich experience and expertise. Our board, strengthened by the contribution of our independent members, adopts a transparent and accountable management approach.",
+        "stats": {
+          "members": {
+            "value": "5",
+            "label": "Board Members"
+          },
+          "independent": {
+            "value": "3",
+            "label": "Independent Members"
+          },
+          "experience": {
+            "value": "150+",
+            "label": "Total Years of Experience"
+          }
+        }
+      },
+      "members": {
+        "heading": "Our Board Members",
+        "subheading": "Experienced leaders from different areas of expertise",
+        "experienceLabel": "experience",
+        "educationLabel": "Education:",
+        "specializationLabel": "Specialization:",
+        "achievementsLabel": "Key Achievements:",
+        "list": {
+          "ahmet": {
+            "name": "Ahmet Ekşioğlu",
+            "position": "Chairman of the Board",
+            "experience": "45 years",
+            "education": "Civil Engineering, ITU",
+            "specialization": "Strategic Management, Construction Industry",
+            "achievements": {
+              "0": "Founder of Ekşioğlu Group",
+              "1": "TMB Honorary Member",
+              "2": "IMO Veteran Member",
+              "3": "Founding Member of Turkish Contractors Association"
+            }
+          },
+          "mehmet": {
+            "name": "Mehmet Ekşioğlu",
+            "position": "Executive Member / CEO",
+            "experience": "25 years",
+            "education": "Business Administration, Boğaziçi University / MBA, Harvard",
+            "specialization": "Corporate Governance, Finance",
+            "achievements": {
+              "0": "Digital transformation leader",
+              "1": "Sustainability champion",
+              "2": "Strategic partnerships architect",
+              "3": "Innovation catalyst"
+            }
+          },
+          "ayse": {
+            "name": "Dr. Ayşe Demir",
+            "position": "Independent Member",
+            "experience": "30 years",
+            "education": "Doctor of Law, Ankara University",
+            "specialization": "Corporate Law, Risk Management",
+            "achievements": {
+              "0": "Commercial Law specialist",
+              "1": "Risk Management Institute certificate",
+              "2": "Corporate Governance Association member",
+              "3": "Board Advisory work"
+            }
+          },
+          "kemal": {
+            "name": "Prof. Dr. Kemal Özkan",
+            "position": "Independent Member",
+            "experience": "35 years",
+            "education": "PhD in Mechanical Engineering, METU",
+            "specialization": "Technology, R&D, Innovation",
+            "achievements": {
+              "0": "Former member of TUBITAK Science Board",
+              "1": "100+ scientific publications",
+              "2": "Technology transfer specialist",
+              "3": "Patent and innovation consultant"
+            }
+          },
+          "fatma": {
+            "name": "Fatma Yılmaz",
+            "position": "Independent Member",
+            "experience": "28 years",
+            "education": "Economics, LSE / MBA, Wharton",
+            "specialization": "Finance, Investor Relations",
+            "achievements": {
+              "0": "Ex-CFO global financial institution",
+              "1": "ESG reporting specialist",
+              "2": "International finance expert",
+              "3": "Sustainability metrics developer"
+            }
+          }
+        }
+      },
+      "committees": {
+        "heading": "Board Committees",
+        "subheading": "Effective corporate governance with our specialized committees",
+        "membersLabel": "Members:",
+        "frequencyLabel": "Meeting Frequency:",
+        "responsibilitiesLabel": "Key Responsibilities:",
+        "list": {
+          "audit": {
+            "name": "Audit Committee",
+            "purpose": "Supervision of financial reporting processes and effectiveness of internal control systems",
+            "members": {
+              "0": "Dr. Ayşe Demir (Chair)",
+              "1": "Fatma Yılmaz",
+              "2": "Prof. Dr. Kemal Özkan"
+            },
+            "meetings": "Quarterly",
+            "responsibilities": {
+              "0": "Audit of financial statements",
+              "1": "Evaluation of internal control systems",
+              "2": "Selection and supervision of independent auditors",
+              "3": "Review of risk management processes"
+            }
+          },
+          "governance": {
+            "name": "Corporate Governance Committee",
+            "purpose": "Implementation and continuous improvement of corporate governance principles",
+            "members": {
+              "0": "Prof. Dr. Kemal Özkan (Chair)",
+              "1": "Dr. Ayşe Demir",
+              "2": "Mehmet Ekşioğlu"
+            },
+            "meetings": "Semi-annually",
+            "responsibilities": {
+              "0": "Development of corporate governance policies",
+              "1": "Determination of ethical rules",
+              "2": "Management of stakeholder relations",
+              "3": "Transparency and accountability"
+            }
+          },
+          "risk": {
+            "name": "Early Detection of Risk Committee",
+            "purpose": "Early detection of risks that may endanger the company's existence, development and continuity",
+            "members": {
+              "0": "Fatma Yılmaz (Chair)",
+              "1": "Dr. Ayşe Demir",
+              "2": "Mehmet Ekşioğlu"
+            },
+            "meetings": "Semi-annually",
+            "responsibilities": {
+              "0": "Creation of risk map",
+              "1": "Establishment of early warning systems",
+              "2": "Development of risk management strategies",
+              "3": "Crisis management planning"
+            }
+          }
+        }
+      },
+      "principles": {
+        "heading": "Our Corporate Governance Principles",
+        "list": {
+          "transparency": {
+            "title": "Transparency",
+            "description": "Open and clear information sharing"
+          },
+          "accountability": {
+            "title": "Accountability",
+            "description": "Being held responsible for all decisions"
+          },
+          "fairness": {
+            "title": "Fairness",
+            "description": "Equal distance to all stakeholders"
+          },
+          "responsibility": {
+            "title": "Responsibility",
+            "description": "Responsibility to society and the environment"
+          }
+        }
+      }
+    },
+    "management": {
+      "title": "Executive Management",
+      "description": "With our expert managers, we aim for operational excellence.",
+      "intro": {
+        "heading": "Our Leadership Team",
+        "content": "Our experienced executives from different disciplines form a strong team to achieve Ekşioğlu Group's strategic goals. Each leader, an expert in their field, ensures our company's sustainable growth.",
+        "stats": {
+          "clevel": {
+            "value": "6",
+            "label": "C-Level Executives"
+          },
+          "experience": {
+            "value": "116",
+            "label": "Total Years Experience"
+          },
+          "phd": {
+            "value": "4",
+            "label": "PhD Degrees"
+          },
+          "mba": {
+            "value": "8",
+            "label": "MBA Degrees"
+          }
+        }
+      },
+      "team": {
+        "heading": "C-Level Management Team",
+        "subheading": "Our senior executives responsible for the strategic direction of our company",
+        "experienceLabel": "experience",
+        "departmentLabel": "Department:",
+        "educationLabel": "Education:",
+        "expertiseLabel": "Expertise:",
+        "achievementsLabel": "Achievements:",
+        "list": {
+          "mehmet": {
+            "name": "Mehmet Ekşioğlu",
+            "position": "Chief Executive Officer",
+            "department": "General Management",
+            "experience": "25 years",
+            "education": "Business Administration, Boğaziçi University / MBA, Harvard",
+            "expertise": "Strategic Management, Digital Transformation, Corporate Development",
+            "achievements": {
+              "0": "Increased company revenue by 200% in 5 years",
+              "1": "Successfully managed digital transformation program",
+              "2": "Led international expansion projects",
+              "3": "Architect of ESG strategy"
+            }
+          },
+          "selma": {
+            "name": "Dr. Selma Koç",
+            "position": "Chief Financial Officer (CFO)",
+            "department": "Finance",
+            "experience": "20 years",
+            "education": "PhD Economics, LSE / CPA",
+            "expertise": "Financial Planning, Risk Management, Investor Relations",
+            "achievements": {
+              "0": "Optimized company valuation",
+              "1": "Modernized risk management systems",
+              "2": "Pioneer in sustainability financing",
+              "3": "Won international finance awards"
+            }
+          },
+          "murat": {
+            "name": "Murat Demir",
+            "position": "Chief Operating Officer (COO)",
+            "department": "Operations",
+            "experience": "22 years",
+            "education": "Industrial Engineering, METU / MBA, Koç University",
+            "expertise": "Operational Excellence, Supply Chain, Process Optimization",
+            "achievements": {
+              "0": "Increased operational efficiency by 40%",
+              "1": "Implemented lean management systems",
+              "2": "Digital operations transformation",
+              "3": "Quality excellence programs"
+            }
+          },
+          "ayhan": {
+            "name": "Ayhan Yılmaz",
+            "position": "Chief Human Resources Officer (CHRO)",
+            "department": "Human Resources",
+            "experience": "18 years",
+            "education": "Psychology, Istanbul University / MBA, Sabancı",
+            "expertise": "Talent Management, Organizational Development, Change Management",
+            "achievements": {
+              "0": "Raised employee engagement to 90%",
+              "1": "Created talent development programs",
+              "2": "Diversity & inclusion champion",
+              "3": "Future of work strategist"
+            }
+          },
+          "kerem": {
+            "name": "Prof. Dr. Kerem Özkan",
+            "position": "Chief Technology Officer (CTO)",
+            "department": "Technology",
+            "experience": "15 years",
+            "education": "PhD Computer Engineering, Stanford",
+            "expertise": "AI/ML, Cloud Architecture, Digital Innovation",
+            "achievements": {
+              "0": "AI-first technology strategy",
+              "1": "Cloud transformation leadership",
+              "2": "Innovation lab founder",
+              "3": "Tech patent portfolio developer"
+            }
+          },
+          "zeynep": {
+            "name": "Zeynep Arslan",
+            "position": "Chief Marketing Officer (CMO)",
+            "department": "Marketing",
+            "experience": "16 years",
+            "education": "Communication, Galatasaray University / MBA, INSEAD",
+            "expertise": "Brand Management, Digital Marketing, Customer Experience",
+            "achievements": {
+              "0": "Increased brand value by 150%",
+              "1": "Omnichannel experience designer",
+              "2": "Customer-centric transformation",
+              "3": "Sustainability storytelling expert"
+            }
+          }
+        }
+      },
+      "structure": {
+        "heading": "Organizational Structure",
+        "subheading": "Our hierarchical structure and management levels",
+        "list": {
+          "clevel": {
+            "level": "C-Level",
+            "description": "Executive management team, strategic decisions and general management",
+            "positions": {
+              "0": "CEO",
+              "1": "CFO",
+              "2": "COO",
+              "3": "CTO",
+              "4": "CHRO",
+              "5": "CMO"
+            }
+          },
+          "director": {
+            "level": "Director Level",
+            "description": "Functional area directors, department management",
+            "positions": {
+              "0": "Business Development",
+              "1": "Legal",
+              "2": "Corporate Communications",
+              "3": "Sustainability",
+              "4": "Internal Audit"
+            }
+          },
+          "manager": {
+            "level": "Manager Level",
+            "description": "Operational management, project and process management",
+            "positions": {
+              "0": "Project Managers",
+              "1": "Regional Managers",
+              "2": "Product Managers",
+              "3": "Operations Managers"
+            }
+          }
+        }
+      },
+      "committees": {
+        "heading": "Management Committees",
+        "subheading": "Our coordination and decision-making processes",
+        "frequencyLabel": "Frequency:",
+        "membersLabel": "Members:",
+        "purposeLabel": "Purpose:",
+        "list": {
+          "executive": {
+            "name": "Executive Committee",
+            "frequency": "Weekly",
+            "members": "C-Level Executives",
+            "purpose": "Strategic decisions and evaluation of current operational issues"
+          },
+          "technology": {
+            "name": "Technology Committee",
+            "frequency": "Monthly",
+            "members": "CTO, CIO, Innovation Leads",
+            "purpose": "Technology strategy, digital transformation and innovation project management"
+          },
+          "risk": {
+            "name": "Risk Committee",
+            "frequency": "Quarterly",
+            "members": "CFO, COO, Risk Managers",
+            "purpose": "Risk analysis, crisis management and business continuity planning"
+          }
+        }
+      },
+      "philosophy": {
+        "heading": "Our Leadership Philosophy",
+        "list": {
+          "transformational": {
+            "title": "Transformational Leadership",
+            "description": "Leadership that drives change and shapes the future with a visionary approach"
+          },
+          "inclusive": {
+            "title": "Inclusive Management",
+            "description": "Management approach that supports diversity and encompasses all stakeholders"
+          },
+          "sustainable": {
+            "title": "Sustainable Growth",
+            "description": "Growth strategy that thinks long-term and centers sustainability"
+          }
+        }
+      }
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "By balancing economic growth, environmental protection, and social development, we create value for future generations.",
+      "vision": {
+        "heading": "Our Sustainability Vision",
+        "content": "As Ekşioğlu Group, we aim to create long-term value for all our stakeholders by balancing economic growth, environmental protection, and social development. By playing a leading role in our industry with sustainable business models, we fulfill our responsibility to leave a better world for future generations."
+      },
+      "areas": {
+        "heading": "Our Sustainability Areas",
+        "initiativesLabel": "Key Initiatives:",
+        "list": {
+          "0": {
+            "title": "Environmental Responsibility",
+            "description": "We develop eco-friendly production and operational processes while protecting natural resources.",
+            "initiatives": {
+              "0": "ISO 14001 Environmental Management System",
+              "1": "Carbon Footprint Reduction",
+              "2": "Waste Minimization",
+              "3": "Water Conservation Projects"
+            }
+          },
+          "1": {
+            "title": "Social Responsibility",
+            "description": "We develop educational, health, and social projects to add value to society.",
+            "initiatives": {
+              "0": "Education Scholarships",
+              "1": "Health Projects",
+              "2": "Rural Development",
+              "3": "Women's Employment Support"
+            }
+          },
+          "2": {
+            "title": "Economic Sustainability",
+            "description": "We achieve our long-term growth goals through sustainable business models.",
+            "initiatives": {
+              "0": "Renewable Energy Investments",
+              "1": "R&D Activities",
+              "2": "Innovation Projects",
+              "3": "Local Supplier Support"
+            }
+          },
+          "3": {
+            "title": "Ethics and Compliance",
+            "description": "We adopt a transparent and accountable management approach in line with business ethics and corporate governance principles.",
+            "initiatives": {
+              "0": "Code of Ethics",
+              "1": "Anti-Bribery Policies",
+              "2": "Transparency Principles",
+              "3": "Stakeholder Engagement"
+            }
+          }
+        }
+      },
+      "reports": {
+        "heading": "Our Sustainability Reports",
+        "description": "We transparently report our sustainability performance",
+        "download": "Download",
+        "list": {
+          "0": {
+            "title": "Sustainability Report 2024",
+            "status": "Published"
+          },
+          "1": {
+            "title": "Sustainability Report 2023",
+            "status": "Published"
+          },
+          "2": {
+            "title": "Sustainability Report 2022",
+            "status": "Published"
+          }
+        }
+      },
+      "certifications": {
+        "heading": "Our Certifications and Memberships",
+        "list": {
+          "0": "ISO 14001 Environmental Management System",
+          "1": "ISO 45001 Occupational Health and Safety",
+          "2": "SA 8000 Social Accountability Standard",
+          "3": "UN Global Compact Membership"
+        }
+      },
+      "cta": {
+        "heading": "More Information About Sustainability",
+        "description": "Contact us for detailed information about our sustainability initiatives and projects.",
+        "button": "Get in Touch"
+      }
+    },
+    "career": {
+      "title": "Career Opportunities",
+      "description": "We would be delighted to have talented and passionate individuals among us.",
+      "whyUs": {
+        "heading": "Why Ekşioğlu Group?",
+        "content": "As part of a strong institution with 88 years of experience, we offer all the opportunities you need to develop your career.",
+        "values": {
+          "list": {
+            "innovation": {
+              "title": "Innovation",
+              "description": "We value innovative thinking and developing creative solutions."
+            },
+            "teamwork": {
+              "title": "Teamwork",
+              "description": "We aim to achieve common goals by working collaboratively."
+            },
+            "learning": {
+              "title": "Continuous Learning",
+              "description": "We support professional development and encourage learning."
+            },
+            "diversity": {
+              "title": "Diversity",
+              "description": "We value different perspectives and create an inclusive environment."
+            }
+          }
+        }
+      },
+      "benefits": {
+        "heading": "Our Employee Benefits",
+        "subheading": "By prioritizing our employees' well-being, we support them in succeeding in both work and personal life.",
+        "list": {
+          "salary": {
+            "title": "Competitive Salary",
+            "description": "Above industry standards salary and performance bonus"
+          },
+          "health": {
+            "title": "Health Insurance",
+            "description": "Comprehensive health insurance and private health services"
+          },
+          "education": {
+            "title": "Education Support",
+            "description": "Professional development trainings and certification programs"
+          },
+          "flexible": {
+            "title": "Flexible Working",
+            "description": "Hybrid work model and flexible working hours"
+          },
+          "social": {
+            "title": "Social Activities",
+            "description": "Employee events, sports club, and social facilities"
+          },
+          "career": {
+            "title": "Career Opportunities",
+            "description": "Internal promotion priority and career planning support"
+          }
+        }
+      },
+      "positions": {
+        "heading": "Open Positions",
+        "subheading": "Discover career opportunities suitable for you in various departments",
+        "openLabel": "open positions",
+        "viewButton": "View Positions",
+        "categories": {
+          "list": {
+            "engineering": {
+              "title": "Engineering",
+              "openPositions": "12",
+              "description": "Civil, electrical, mechanical, and industrial engineering positions"
+            },
+            "hr": {
+              "title": "Human Resources",
+              "openPositions": "3",
+              "description": "HR specialist, recruitment, and talent development positions"
+            },
+            "finance": {
+              "title": "Finance",
+              "openPositions": "5",
+              "description": "Financial affairs, accounting, and financial analysis positions"
+            },
+            "technology": {
+              "title": "Technology",
+              "openPositions": "8",
+              "description": "Software development, system administration, and IT positions"
+            },
+            "marketing": {
+              "title": "Marketing",
+              "openPositions": "4",
+              "description": "Digital marketing, sales, and customer relations positions"
+            },
+            "operations": {
+              "title": "Operations",
+              "openPositions": "7",
+              "description": "Production, quality control, and operations management positions"
+            }
+          }
+        }
+      },
+      "process": {
+        "heading": "Application Process",
+        "steps": {
+          "0": {
+            "title": "Application",
+            "description": "Submit your CV and cover letter"
+          },
+          "1": {
+            "title": "Evaluation",
+            "description": "Our HR team evaluates your application"
+          },
+          "2": {
+            "title": "Interview",
+            "description": "Technical and competency-focused interviews"
+          },
+          "3": {
+            "title": "Onboarding",
+            "description": "Join the team with onboarding process"
+          }
+        }
+      },
+      "cta": {
+        "heading": "The Next Step for Your Career",
+        "content": "Apply now to join the Ekşioğlu Group family and advance your career.",
+        "applyButton": "Submit CV",
+        "contactButton": "Get in Touch"
+      }
+    },
+    "technology": {
+      "title": "Technology & Innovation",
+      "description": "With our R&D and digital transformation projects, we aim for technological leadership in our industry.",
+      "stats": {
+        "heading": "R&D and Innovation Metrics",
+        "list": {
+          "investment": {
+            "title": "R&D Investment",
+            "value": "₺120M",
+            "subtitle": "in 2024"
+          },
+          "projects": {
+            "title": "Active Projects",
+            "value": "28",
+            "subtitle": "In different technology areas"
+          },
+          "patents": {
+            "title": "Patent Applications",
+            "value": "15",
+            "subtitle": "In the last 2 years"
+          },
+          "personnel": {
+            "title": "R&D Personnel",
+            "value": "85",
+            "subtitle": "Expert engineers"
+          }
+        }
+      },
+      "areas": {
+        "heading": "Our Technology Areas",
+        "list": {
+          "digital": {
+            "title": "Digital Transformation",
+            "description": "We increase efficiency and improve customer experience by digitalizing our business processes.",
+            "technologies": {
+              "0": "Cloud Computing",
+              "1": "Artificial Intelligence",
+              "2": "IoT",
+              "3": "Blockchain"
+            },
+            "projects": {
+              "0": "ERP Integration",
+              "1": "Customer Portal",
+              "2": "Mobile Applications"
+            }
+          },
+          "rnd": {
+            "title": "R&D Activities",
+            "description": "We provide technological leadership in our sector by developing innovative solutions.",
+            "technologies": {
+              "0": "Materials Science",
+              "1": "Energy Technologies",
+              "2": "Building Technologies",
+              "3": "Environmental Technologies"
+            },
+            "projects": {
+              "0": "Smart Materials",
+              "1": "Energy Storage",
+              "2": "Green Building Technologies"
+            }
+          },
+          "smart": {
+            "title": "Smart Systems",
+            "description": "We aim for operational excellence with automation and smart systems.",
+            "technologies": {
+              "0": "Automation",
+              "1": "Sensor Technologies",
+              "2": "Data Analytics",
+              "3": "Machine Learning"
+            },
+            "projects": {
+              "0": "Smart Factory",
+              "1": "Predictive Maintenance",
+              "2": "Energy Management"
+            }
+          },
+          "sustainable": {
+            "title": "Sustainable Technologies",
+            "description": "We build a sustainable future with environmentally friendly technologies.",
+            "technologies": {
+              "0": "Renewable Energy",
+              "1": "Carbon Capture",
+              "2": "Recycling",
+              "3": "Green Hydrogen"
+            },
+            "projects": {
+              "0": "Solar Park",
+              "1": "Waste Management System",
+              "2": "Carbon Neutral Campus"
+            }
+          }
+        },
+        "technologiesLabel": "Technologies Used:",
+        "projectsLabel": "Projects:"
+      },
+      "innovations": {
+        "heading": "Our Innovation Projects",
+        "subheading": "Innovative technology projects we have developed in recent years",
+        "impactLabel": "Impact:",
+        "list": {
+          "0": {
+            "year": "2024",
+            "title": "AI-Powered Project Management System",
+            "description": "Using AI for risk analysis and resource optimization in large-scale projects",
+            "status": "Pilot Phase",
+            "impact": "25% efficiency increase"
+          },
+          "1": {
+            "year": "2024",
+            "title": "Smart Building Management Platform",
+            "description": "Energy optimization and security management with IoT sensors",
+            "status": "In Implementation",
+            "impact": "30% energy savings"
+          },
+          "2": {
+            "year": "2023",
+            "title": "Blockchain-Based Supply Chain",
+            "description": "Blockchain technology for transparent and secure supply chain management",
+            "status": "Completed",
+            "impact": "40% traceability increase"
+          },
+          "3": {
+            "year": "2023",
+            "title": "Drone-Assisted Construction Monitoring",
+            "description": "Drone technology for monitoring construction processes and quality control",
+            "status": "Completed",
+            "impact": "50% faster inspection"
+          }
+        }
+      },
+      "partnerships": {
+        "heading": "Our Technology Partnerships",
+        "subheading": "We develop strategic collaborations with global technology leaders and research institutions.",
+        "typeLabel": "Partnership Type:",
+        "focusLabel": "Focus Area:",
+        "list": {
+          "tubitak": {
+            "name": "TUBITAK",
+            "type": "Research Collaboration",
+            "focus": "Materials science and energy storage projects"
+          },
+          "itu": {
+            "name": "ITU",
+            "type": "Academic Partnership",
+            "focus": "Machine learning and artificial intelligence applications"
+          },
+          "microsoft": {
+            "name": "Microsoft",
+            "type": "Technology Partnership",
+            "focus": "Cloud computing and digital transformation solutions"
+          },
+          "sap": {
+            "name": "SAP",
+            "type": "Solution Partnership",
+            "focus": "Enterprise resource planning and business intelligence"
+          }
+        }
+      },
+      "culture": {
+        "heading": "Our Innovation Culture",
+        "content": "As Ekşioğlu Group, we do not see innovation as just a technology matter. We support the creative ideas of all our employees and encourage teams from different disciplines to come together to produce innovative solutions.",
+        "values": {
+          "0": {
+            "title": "Idea Development",
+            "description": "We provide the necessary support to bring our employees' innovative ideas to life."
+          },
+          "1": {
+            "title": "Interdisciplinary Collaboration",
+            "description": "We support teams from different areas of expertise to produce joint projects."
+          },
+          "2": {
+            "title": "Rapid Prototyping",
+            "description": "We quickly turn ideas into testable prototypes and meet market requirements."
+          }
+        }
+      },
+      "cta": {
+        "heading": "Would You Like to Establish a Technology Partnership?",
+        "content": "If you want to collaborate with us to develop innovative solutions, contact our technology team.",
+        "contactButton": "Get in Touch",
+        "presentationButton": "Request Technology Presentation"
+      }
+    },
+    "media": {
+      "title": "Media & Press Center",
+      "description": "Visit our media center for our news, announcements, and press releases.",
+      "news": {
+        "heading": "Latest News",
+        "readMore": "Read More",
+        "loadMore": "Load More News",
+        "list": {
+          "0": {
+            "title": "Ekşioğlu Group Signs New Collaboration Agreement in Renewable Energy Investments",
+            "summary": "A strategic partnership has been established in line with sustainable energy goals.",
+            "category": "Corporate"
+          },
+          "1": {
+            "title": "Q3 2024 Financial Results: Exceeded Targets with 18% Growth",
+            "summary": "Growth continues with strong operational performance and strategic investments.",
+            "category": "Financial"
+          },
+          "2": {
+            "title": "Ekşioğlu Group Opens Digital Transformation Center",
+            "summary": "Next-generation solutions are being developed as part of technology investments.",
+            "category": "Technology"
+          },
+          "3": {
+            "title": "Sustainability Report 2024: 25% Progress in Environmental Goals",
+            "summary": "Significant steps in carbon footprint reduction and eco-friendly production processes.",
+            "category": "Sustainability"
+          },
+          "4": {
+            "title": "Ekşioğlu Construction Wins New Project Tender in Europe",
+            "summary": "An important development that strengthens our strong position in the international market.",
+            "category": "Operational"
+          },
+          "5": {
+            "title": "Young Talents Program 2024 Applications Started",
+            "summary": "We support young people with career opportunities and professional development programs.",
+            "category": "Human Resources"
+          }
+        }
+      },
+      "categories": {
+        "all": "All",
+        "corporate": "Corporate",
+        "financial": "Financial",
+        "technology": "Technology",
+        "sustainability": "Sustainability",
+        "operational": "Operational",
+        "hr": "Human Resources"
+      },
+      "mediaKit": {
+        "heading": "Media Kit",
+        "description": "Logos, photos, and corporate materials that you can use for news about Ekşioğlu Group.",
+        "download": "Download",
+        "list": {
+          "0": {
+            "title": "Logo and Brand Identity",
+            "description": "High-resolution logos and brand guide"
+          },
+          "1": {
+            "title": "Executive Photos",
+            "description": "Photos of board members and senior executives"
+          },
+          "2": {
+            "title": "Company Presentation",
+            "description": "Current corporate presentation and factsheet"
+          },
+          "3": {
+            "title": "Facility and Project Visuals",
+            "description": "High-quality project and facility photos"
+          }
+        }
+      },
+      "events": {
+        "heading": "Upcoming Events",
+        "details": "Details",
+        "list": {
+          "0": {
+            "title": "Year-End Evaluation Meeting",
+            "type": "Corporate Event",
+            "location": "Istanbul"
+          },
+          "1": {
+            "title": "Sustainability Summit 2024",
+            "type": "Conference",
+            "location": "Ankara"
+          },
+          "2": {
+            "title": "Technology and Innovation Fair",
+            "type": "Fair",
+            "location": "Izmir"
+          }
+        }
+      },
+      "contacts": {
+        "heading": "Media Contact",
+        "description": "Our contact information for press releases and interview requests",
+        "list": {
+          "0": {
+            "name": "Ayşe Demir",
+            "title": "Corporate Communications Manager"
+          },
+          "1": {
+            "name": "Mehmet Kaya",
+            "title": "Press Relations Specialist"
+          }
+        }
+      },
+      "newsletter": {
+        "heading": "Follow Our Press Bulletins",
+        "description": "Subscribe to our newsletter to stay informed about Ekşioğlu Group's current developments.",
+        "placeholder": "Your email address",
+        "subscribe": "Subscribe"
+      }
+    },
+    "investor": {
+      "title": "Investor Relations",
+      "description": "In line with the principle of transparency, we provide detailed information to our investors.",
+      "highlights": {
+        "heading": "Financial Highlights (2024)",
+        "list": {
+          "0": {
+            "title": "Total Assets",
+            "value": "₺18.2 Billion",
+            "change": "+12%"
+          },
+          "1": {
+            "title": "Net Revenue",
+            "value": "₺15.8 Billion",
+            "change": "+18%"
+          },
+          "2": {
+            "title": "EBITDA",
+            "value": "₺2.4 Billion",
+            "change": "+22%"
+          },
+          "3": {
+            "title": "Net Profit",
+            "value": "₺1.1 Billion",
+            "change": "+15%"
+          }
+        }
+      },
+      "reports": {
+        "heading": "Reports and Presentations",
+        "download": "Download",
+        "view": "View",
+        "list": {
+          "0": {
+            "title": "Q3 2024 Financial Statements"
+          },
+          "1": {
+            "title": "Q2 2024 Financial Statements"
+          },
+          "2": {
+            "title": "2023 Annual Activity Report"
+          },
+          "3": {
+            "title": "2023 Sustainability Report"
+          }
+        }
+      },
+      "announcements": {
+        "heading": "Announcements",
+        "viewAll": "View All Announcements",
+        "list": {
+          "0": {
+            "title": "New Collaboration in Energy Sector Investment",
+            "category": "Corporate"
+          },
+          "1": {
+            "title": "Q3 Financial Results Announced",
+            "category": "Financial"
+          },
+          "2": {
+            "title": "Board of Directors Decisions",
+            "category": "Corporate Governance"
+          },
+          "3": {
+            "title": "Technology Investments Expanding",
+            "category": "Operational"
+          }
+        }
+      },
+      "governance": {
+        "heading": "Corporate Governance",
+        "description": "We implement our corporate governance principles in line with transparency, accountability, and ethical values.",
+        "board": {
+          "title": "Board of Directors",
+          "items": {
+            "0": "7-member Board of Directors",
+            "1": "3 independent members",
+            "2": "Diversity and experience-focused structure",
+            "3": "Regular performance evaluation"
+          }
+        },
+        "committees": {
+          "title": "Committees",
+          "items": {
+            "0": "Audit Committee",
+            "1": "Risk Management Committee",
+            "2": "Corporate Governance Committee",
+            "3": "Sustainability Committee"
+          }
+        },
+        "documents": {
+          "heading": "Corporate Governance Documents",
+          "list": {
+            "0": "Articles of Association",
+            "1": "Internal Audit Charter",
+            "2": "Code of Ethics",
+            "3": "Risk Management Policy",
+            "4": "Disclosure Policy",
+            "5": "Dividend Distribution Policy"
+          }
+        }
+      },
+      "contact": {
+        "heading": "Investor Relations Contact",
+        "description": "Contact our investor relations team for your questions and suggestions.",
+        "email": {
+          "label": "Email",
+          "value": "yatirimci@eksioglugrup.com"
+        },
+        "phone": {
+          "label": "Phone",
+          "value": "+90 212 555 0123"
+        },
+        "button": "Contact Form"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "You can use the form below to contact us or reach us through our contact information.",
+      "info": {
+        "heading": "Contact Information",
+        "address": {
+          "title": "Head Office",
+          "line1": "Maslak Mahallesi, Büyükdere Caddesi",
+          "line2": "No: 255, Sarıyer/Istanbul",
+          "line3": "34398 Turkey"
+        },
+        "phone": {
+          "title": "Phone",
+          "main": "+90 212 456 78 90",
+          "fax": "+90 212 456 78 91 (Fax)"
+        },
+        "email": {
+          "title": "Email",
+          "info": "info@eksioglugrup.com.tr",
+          "contact": "iletisim@eksioglugrup.com.tr"
+        },
+        "hours": {
+          "title": "Working Hours",
+          "weekday": "Monday - Friday: 09:00 - 18:00",
+          "saturday": "Saturday: 09:00 - 13:00",
+          "sunday": "Sunday: Closed"
+        },
+        "social": {
+          "title": "Social Media"
+        }
+      },
+      "form": {
+        "heading": "Get in Touch",
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone",
+        "company": "Company",
+        "subject": {
+          "label": "Subject",
+          "placeholder": "Select a subject",
+          "general": "General Information",
+          "partnership": "Partnership",
+          "career": "Career",
+          "press": "Press",
+          "other": "Other"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Write your message here..."
+        },
+        "privacy": {
+          "text": "I accept the processing of my personal data under the scope of",
+          "link": "Personal Data Protection Law"
+        },
+        "submit": "Send Message",
+        "required": "*"
+      },
+      "map": {
+        "heading": "Our Location",
+        "integration": "Map Integration",
+        "note": "Google Maps or similar service will be integrated"
+      }
+    }
+  }
+}

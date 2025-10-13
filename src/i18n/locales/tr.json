@@ -1,0 +1,1853 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "businessAreas": "İş Alanlarımız",
+    "sustainability": "Sürdürülebilirlik",
+    "career": "Kurumsal",
+    "media": "Medya",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Geleceği İnşa Eden",
+      "subtitle": "Güvenilir Marka",
+      "description": "85+ yıllık deneyimimizle, güven, kalite ve inovasyon değerlerimizi her projede yaşatıyor, sektörümüzde öncü bir marka olmayı sürdürüyoruz.",
+      "cta": "Hikayemizi Keşfedin"
+    },
+    "slide2": {
+      "title": "Sürdürülebilir",
+      "subtitle": "Gelecek İnşa Ediyoruz",
+      "description": "Çevre dostu teknolojiler ve yeşil enerji çözümleriyle, gelecek nesillere yaşanabilir bir dünya bırakma sorumluluğumuzu yerine getiriyoruz.",
+      "cta": "Sürdürülebilirlik"
+    },
+    "slide3": {
+      "title": "Teknoloji ve",
+      "subtitle": "İnovasyon Odaklıyız",
+      "description": "Ar-Ge yatırımlarımız ve dijital dönüşüm projelerimizle sektörümüzde teknolojik öncülüğü hedefliyoruz.",
+      "cta": "Teknoloji Merkezi"
+    },
+    "stats": {
+      "experience": "Yıllık Deneyim",
+      "sectors": "Faaliyet Alanı",
+      "projects": "Başarılı Proje",
+      "customers": "Mutlu Müşteri"
+    },
+    "buttons": {
+      "companies": "Grup Şirketlerimiz"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "1937 yılında kurulan Ekşioğlu Grup, bugün inşaat, enerji, teknoloji, gayrimenkul, sanayi ve reklam-yayıncılık sektörlerinde faaliyet gösteren köklü bir aile şirketidir. 85+ yıllık deneyimimizle, güven ve kalite odaklı hizmet anlayışımızı sürdürüyor, gelecek nesillere değer katacak projeler geliştiriyoruz.",
+    "stats": {
+      "years": "Yıllık Deneyim",
+      "projects": "Tamamlanan Proje",
+      "employees": "Çalışan",
+      "companies": "Grup Şirketi"
+    },
+    "values": {
+      "quality": "Kalite",
+      "qualityDesc": "En yüksek standartlarda hizmet sunuyoruz",
+      "innovation": "İnovasyon",
+      "innovationDesc": "Sektörümüzde teknolojik öncülük yapıyoruz",
+      "sustainability": "Sürdürülebilirlik",
+      "sustainabilityDesc": "Çevre dostu çözümler geliştiriyoruz"
+    }
+  },
+  "businessAreas": {
+    "title": "Faaliyet Alanlarımız",
+    "subtitle": "Çeşitli sektörlerde edindiğimiz derin bilgi ve deneyimimizle, her alanda kaliteli ve güvenilir çözümler sunuyoruz.",
+    "cta": {
+      "question": "Şirketlerimiz hakkında daha fazla bilgi almak ister misiniz?",
+      "button": "Tüm Şirketlerimizi Keşfedin"
+    },
+    "areas": {
+      "0": {
+        "title": "İnşaat & Mühendislik",
+        "company": "Ekgüntaş & Ekutaş İnşaat",
+        "description": "Büyük ölçekli altyapı, konut ve ticari yapı projelerinde 88 yıllık deneyimimizle sektörün öncüsüyüz.",
+        "features": {
+          "0": "Konut Projeleri",
+          "1": "Ticari Yapılar",
+          "2": "Altyapı Projeleri"
+        },
+        "stats": {
+          "0": { "label": "Deneyim", "value": "88 Yıl" },
+          "1": { "label": "Proje", "value": "800+" },
+          "2": { "label": "m² İnşaat", "value": "2M+" }
+        }
+      },
+      "1": {
+        "title": "Enerji & Elektrik",
+        "company": "Tevor Enerji",
+        "description": "Yenilenebilir enerji kaynaklarından elektrik üretimine kadar enerji sektöründe sürdürülebilir çözümler sunuyoruz.",
+        "features": {
+          "0": "Rüzgar Enerjisi",
+          "1": "Solar Enerji",
+          "2": "Elektrik Üretimi"
+        },
+        "stats": {
+          "0": { "label": "Deneyim", "value": "25 Yıl" },
+          "1": { "label": "Kapasite", "value": "150MW" },
+          "2": { "label": "Tesis", "value": "25+" }
+        }
+      },
+      "2": {
+        "title": "Medya & Bilişim",
+        "company": "Ponton Medya",
+        "description": "Reklam, yayıncılık ve bilişim alanında dijital çözümler ve yaratıcı kampanyalar üretiyoruz.",
+        "features": {
+          "0": "Dijital Reklam",
+          "1": "Yayıncılık",
+          "2": "Bilişim Çözümleri"
+        },
+        "stats": {
+          "0": { "label": "Deneyim", "value": "33 Yıl" },
+          "1": { "label": "Kampanya", "value": "500+" },
+          "2": { "label": "Marka", "value": "200+" }
+        }
+      },
+      "3": {
+        "title": "Gayrimenkul",
+        "company": "Piran Gayrimenkul",
+        "description": "Gayrimenkul danışmanlığı ve yatırım yönetimi hizmetleri ile müşterilerimize değer katıyoruz.",
+        "features": {
+          "0": "Danışmanlık",
+          "1": "Yatırım Yönetimi",
+          "2": "Portföy Yönetimi"
+        },
+        "stats": {
+          "0": { "label": "Deneyim", "value": "37 Yıl" },
+          "1": { "label": "Danışmanlık", "value": "1000+" },
+          "2": { "label": "Portföy", "value": "500M₺" }
+        }
+      },
+      "4": {
+        "title": "İş Makinaları",
+        "company": "Ekşizade Makina",
+        "description": "İnşaat ve sanayi sektörüne yönelik iş makinaları satış, kiralama ve servis hizmetleri sunuyoruz.",
+        "features": {
+          "0": "Satış",
+          "1": "Kiralama",
+          "2": "Servis & Bakım"
+        },
+        "stats": {
+          "0": { "label": "Deneyim", "value": "40 Yıl" },
+          "1": { "label": "Makina", "value": "1000+" },
+          "2": { "label": "Marka", "value": "15+" }
+        }
+      },
+      "5": {
+        "title": "Hizmet Sektörü",
+        "company": "İlka Güvenlik & Leyan Restorasyon",
+        "description": "Güvenlik, temizlik, restorasyon ve tadilat hizmetleri ile geniş bir yelpazede çözümler sunuyoruz.",
+        "features": {
+          "0": "Güvenlik",
+          "1": "Temizlik",
+          "2": "Restorasyon"
+        },
+        "stats": {
+          "0": { "label": "Deneyim", "value": "35 Yıl" },
+          "1": { "label": "Lokasyon", "value": "500+" },
+          "2": { "label": "Şehir", "value": "25+" }
+        }
+      }
+    }
+  },
+  "megaMenu": {
+    "about": {
+      "title": "Kurumumuz",
+      "description": "85+ yılı aşkın deneyimimizle sektörde öncü bir kuruluşuz",
+      "corporateIdentity": "Kurumsal Kimlik",
+      "managementSection": "Yönetim",
+      "story": "Hikayemiz",
+      "storyDesc": "Kuruluşumuzdan bugüne",
+      "vision": "Vizyonumuz",
+      "visionDesc": "Geleceğe bakışımız",
+      "mission": "Misyonumuz",
+      "missionDesc": "Temel amacımız",
+      "values": "Değerlerimiz",
+      "valuesDesc": "İlkelerimiz",
+      "board": "Yönetim Kurulu",
+      "boardDesc": "Kurumsal liderlik",
+      "management": "Üst Düzey Yönetim",
+      "managementDesc": "Deneyimli kadromuz"
+    },
+    "business": {
+      "title": "Faaliyet Alanları",
+      "description": "6 farklı sektörde faaliyet gösteren grup şirketlerimiz ile hizmet veriyoruz",
+      "mainSectors": "Ana Sektörler",
+      "otherAreas": "Diğer Alanlar",
+      "construction": "İnşaat & Mühendislik",
+      "constructionDesc": "500+ başarılı proje",
+      "energy": "Enerji & Elektrik",
+      "energyDesc": "Yenilenebilir enerji",
+      "technology": "Teknoloji & Yazılım",
+      "technologyDesc": "Dijital çözümler",
+      "realEstate": "Gayrimenkul",
+      "realEstateDesc": "Modern yaşam alanları",
+      "industry": "Sanayi & Üretim",
+      "industryDesc": "Üretim tesisleri",
+      "media": "Reklam & Yayıncılık",
+      "mediaDesc": "Medya hizmetleri"
+    },
+    "sustainability": {
+      "title": "Sürdürülebilir Gelecek",
+      "description": "Çevre, sosyal ve ekonomik sürdürülebilirlik odaklı yaklaşımımız",
+      "approachSection": "Yaklaşımımız",
+      "reportingSection": "Raporlama",
+      "strategy": "Sürdürülebilirlik Stratejimiz",
+      "strategyDesc": "Kapsamlı yaklaşımımız",
+      "environmental": "Çevresel Sorumluluk",
+      "environmentalDesc": "Doğa dostu çözümler",
+      "socialImpact": "Sosyal Etki",
+      "socialImpactDesc": "Toplumsal katkılarımız",
+      "reports": "Sürdürülebilirlik Raporları",
+      "reportsDesc": "Şeffaf raporlama",
+      "certificates": "Çevre Sertifikaları",
+      "certificatesDesc": "Uluslararası standartlar"
+    },
+    "corporate": {
+      "title": "Kurumsal Merkez",
+      "description": "Yatırımcı ilişkileri, teknoloji, kariyer ve medya merkezi",
+      "investorMedia": "Yatırımcı & Medya",
+      "techPeople": "Teknoloji & İnsan",
+      "investor": "Yatırımcı İlişkileri",
+      "investorDesc": "Mali tablolar ve raporlar",
+      "media": "Medya & Basın",
+      "mediaDesc": "Basın bültenleri ve haberler",
+      "technology": "Teknoloji & İnovasyon",
+      "technologyDesc": "Ar-Ge ve dijital dönüşüm",
+      "career": "Kariyer",
+      "careerDesc": "İş fırsatları ve başvurular"
+    }
+  },
+  "story": {
+    "title": "Hikayemiz",
+    "subtitle": "1937'den Bugüne Uzanan Başarı Hikayesi",
+    "description": "88 yıllık köklü geçmişimizle, kalite ve güven değerlerimizi koruyarak büyüdük.",
+    "beginning": {
+      "title": "Bir Vizyon, Bir Başlangıç",
+      "paragraph1": "1937 yılında, Türkiye'nin hızla büyüyen ekonomisine katkı sağlama vizyonuyla kurulan Ekşioğlu Grup, küçük bir inşaat firması olarak başladığı yolculuğunda bugün Türkiye'nin önde gelen holding şirketlerinden biri konumuna gelmiştir.",
+      "paragraph2": "Kurucumuzun \"Türkiye için değer üretmek\" felsefesiyle başlayan bu yolculuk, yarım asırlık deneyimimizle bugün altı farklı sektörde faaliyet gösteren güçlü bir grup şirketleri ailesine dönüşmüştür.",
+      "foundingYear": "1937 - Kuruluş Yılımız"
+    },
+    "timeline": {
+      "title": "Zaman Çizelgesi",
+      "subtitle": "88 yıllık yolculuğumuzda attığımız önemli adımlar ve elde ettiğimiz başarılar"
+    },
+    "milestones": {
+      "founding": "Kuruluş Yılları",
+      "foundingDesc": "Şirketimiz 1937 yılında kurulmuş ve inşaat sektöründe ilk adımlarını atmıştır.",
+      "foundingAchievement": "İlk projeler tamamlandı",
+      "expansion": "Büyüme ve Gelişim",
+      "expansionDesc": "1960'larda faaliyet alanlarımızı genişleterek enerji ve teknoloji sektörlerine girdik.",
+      "expansionAchievement": "İlk enerji projesi",
+      "diversification": "Çeşitlendirme",
+      "diversificationDesc": "1980'lerde gayrimenkul ve sanayi sektörlerinde önemli yatırımlar gerçekleştirdik.",
+      "diversificationAchievement": "İlk teknoloji şirketi kuruldu",
+      "modernization": "Modernizasyon",
+      "modernizationDesc": "2000'lerde dijital dönüşüm sürecimizi başlatarak teknoloji odaklı çözümler geliştirdik.",
+      "modernizationAchievement": "İlk uluslararası proje",
+      "sustainability": "Sürdürülebilirlik",
+      "sustainabilityDesc": "2010'larda çevre dostu projeler ve yeşil enerji yatırımlarına odaklandık.",
+      "sustainabilityAchievement": "Yeşil sertifikalar alındı",
+      "future": "Geleceğe Bakış",
+      "futureDesc": "Bugün teknoloji ve inovasyonla geleceğin dünyasını inşa etmeye devam ediyoruz.",
+      "futureAchievement": "AI ve blockchain entegrasyonu"
+    },
+    "today": {
+      "title": "Bugün Geldiğimiz Nokta",
+      "subtitle": "88 yıllık deneyimimizle, Türkiye ekonomisinin güçlü bir parçası olmaya devam ediyoruz",
+      "sectors": "Farklı Sektör",
+      "employees": "Çalışan",
+      "projects": "Tamamlanan Proje"
+    }
+  },
+  "companies": {
+    "title": "Grup Şirketlerimiz",
+    "subtitle": "6 Farklı Sektörde Öncülük Yapıyoruz",
+    "description": "Her biri kendi alanında uzman olan grup şirketlerimizle geniş bir hizmet yelpazesi sunuyoruz.",
+    "construction": {
+      "name": "Ekşioğlu İnşaat",
+      "sector": "İnşaat & Mühendislik",
+      "established": "1937",
+      "employees": "1200+",
+      "projects": "500+ Proje",
+      "services": ["Konut Projeleri", "Ticari Yapılar", "Altyapı İnşaatı", "Endüstriyel Tesisler"]
+    },
+    "energy": {
+      "name": "Ekşioğlu Enerji",
+      "sector": "Enerji & Elektrik",
+      "established": "1985",
+      "employees": "800+",
+      "projects": "200 MW Kurulu Güç",
+      "services": ["Güneş Enerjisi", "Elektrik Üretimi", "Enerji Depolama", "Şebeke Yönetimi"]
+    },
+    "technology": {
+      "name": "Ekşioğlu Teknoloji",
+      "sector": "Teknoloji & Yazılım",
+      "established": "2005",
+      "employees": "400+",
+      "projects": "100+ Yazılım Çözümü",
+      "services": ["ERP Sistemleri", "Mobil Uygulamalar", "Web Platformları", "Veri Analitik"]
+    },
+    "realEstate": {
+      "name": "Ekşioğlu Gayrimenkul",
+      "sector": "Gayrimenkul",
+      "established": "1992",
+      "employees": "300+",
+      "projects": "50+ Proje",
+      "services": ["Konut Geliştirme", "Ticari Gayrimenkul", "Gayrimenkul Yönetimi", "Yatırım Danışmanlığı"]
+    },
+    "industry": {
+      "name": "Ekşioğlu Sanayi",
+      "sector": "Sanayi & Üretim",
+      "established": "1978",
+      "employees": "600+",
+      "projects": "10 Üretim Tesisi",
+      "services": ["Metal İşleme", "Makine Üretimi", "Otomotiv Yan Sanayi", "Endüstriyel Çözümler"]
+    },
+    "media": {
+      "name": "Ekşioğlu Medya",
+      "sector": "Reklam & Yayıncılık",
+      "established": "1992",
+      "employees": "350+",
+      "projects": "500+ Kampanya",
+      "services": ["Dijital Pazarlama", "Kreatif Tasarım", "Medya Planlama", "İçerik Üretimi"]
+    }
+  },
+  "footer": {
+    "companyName": "EKŞİOĞLU GRUP",
+    "tagline": "Geleceği İnşa Eden Güç",
+    "description": "88 yıllık deneyimimizle farklı sektörlerde faaliyet gösteren köklü bir Türk holding şirketiyiz. Marka değerimizi ve kalitemizi her projede ispatlamaya devam ediyoruz.",
+    "quickLinks": "Hızlı Erişim",
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "companies": "Grup Şirketleri",
+    "contact": "İletişim",
+    "contactInfo": "İletişim",
+    "address": {
+      "line1": "Maslak Mahallesi",
+      "line2": "Büyükdere Caddesi No: 255",
+      "line3": "Sarıyer/İstanbul"
+    },
+    "phone": "Tel: +90 212 456 78 90",
+    "email": "info@eksioglugrup.com.tr",
+    "rights": "© 2025 Ekşioğlu Grup. Tüm hakları saklıdır.",
+    "links": {
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları",
+      "cookie": "Çerez Politikası"
+    }
+  },
+  "language": "Dil",
+  "homePage": {
+    "excellence": {
+      "title": "Mükemmelliğin Adresi",
+      "subtitle": "88 yıllık deneyimimizle, sektorümüzde öncü konumda olmaya devam ediyoruz",
+      "stats": {
+        "0": {
+          "value": "88",
+          "title": "Yıllık Deneyim",
+          "description": "Yarım asırlık güvenilir hizmet"
+        },
+        "1": {
+          "value": "6",
+          "title": "Faaliyet Alanı",
+          "description": "Çeşitli sektörlerde uzmanlık"
+        },
+        "2": {
+          "value": "1K+",
+          "title": "Başarılı Proje",
+          "description": "Tamamlanan kaliteli projeler"
+        },
+        "3": {
+          "value": "10K+",
+          "title": "Mutlu Müşteri",
+          "description": "Memnun müşteri ağımız"
+        }
+      }
+    },
+    "vision": {
+      "title": "Geleceği Birlikte İnşa Ediyoruz",
+      "description": "Sürdürülebilir büyüme anlayışımızla, çevreye duyarlı projeler geliştiriyor, teknolojik yenilikleri hayata geçiriyor ve toplumsal sorumluluğumuzu yerine getiriyoruz.",
+      "cta": {
+        "vision": "Vizyonumuzu Keşfedin",
+        "sustainability": "Sürdürülebilirlik"
+      }
+    }
+  },
+  "common": {
+    "readMore": "Devamını Oku",
+    "learnMore": "Daha Fazla Bilgi",
+    "viewAll": "Tümünü Görüntüle",
+    "close": "Kapat",
+    "loading": "Yükleniyor..."
+  },
+  "pages": {
+    "companies": {
+      "title": "Grup Şirketlerimiz",
+      "description": "Farklı sektörlerde faaliyet gösteren güçlü şirketlerimizle, Türkiye ekonomisine değer katıyoruz.",
+      "list": {
+        "ekguntas": {
+          "name": "Ekgüntaş",
+          "sector": "Ana İnşaat Şirketi",
+          "description": "1937 yılından bu yana Türkiye'nin öncü inşaat şirketlerinden biri olan Ekgüntaş, konut ve ticari projelerde uzman kadrosuyla hizmet vermektedir.",
+          "services": {
+            "0": "Büyük Projeler",
+            "1": "Özel Mimari Çözümler",
+            "2": "Villa ve Rezidans",
+            "3": "Ticari Kompleksler"
+          },
+          "metricLabel": "m² İnşaat",
+          "metricValue": "2M+",
+          "projects": "500+ Proje"
+        },
+        "ekutas": {
+          "name": "Ekutaş",
+          "sector": "Ana İnşaat Şirketi",
+          "description": "Ekgüntaş'ın kardeş şirketi olan Ekutaş, büyük ölçekli projeler ve özel mimari çözümler konusunda uzmanlaşmıştır.",
+          "services": {
+            "0": "Konut Projeleri",
+            "1": "Ticari Yapılar",
+            "2": "Endüstriyel Tesisler",
+            "3": "Altyapı Projeleri"
+          },
+          "metricLabel": "Şehir",
+          "metricValue": "25+",
+          "projects": "300+ Proje"
+        },
+        "eksizade": {
+          "name": "Ekşizade",
+          "sector": "İş Makinaları",
+          "description": "İş makinaları sektöründe faaliyet gösteren Ekşizade, inşaat ve sanayi sektörüne yönelik makina çözümleri sunmaktadır.",
+          "services": {
+            "0": "İş Makinaları Satışı",
+            "1": "Kiralama Hizmetleri",
+            "2": "Bakım ve Onarım",
+            "3": "Yedek Parça Servisi"
+          },
+          "metricLabel": "Marka",
+          "metricValue": "15+",
+          "projects": "1000+ Makina"
+        },
+        "leyan": {
+          "name": "Leyan İnşaat",
+          "sector": "Restorasyon & Tadilat",
+          "description": "Tarihi yapıların restorasyonu ve tadilat işlerinde uzman olan Leyan, kültürel mirasın korunmasına katkı sağlamaktadır.",
+          "services": {
+            "0": "Tarihi Restorasyon",
+            "1": "Tadilat İşleri",
+            "2": "Kültürel Miras Koruma",
+            "3": "Özel Mimari Çözümler"
+          },
+          "metricLabel": "Uzman Ekip",
+          "metricValue": "150+",
+          "projects": "200+ Restorasyon"
+        },
+        "tevor": {
+          "name": "Tevor Enerji",
+          "sector": "Enerji",
+          "description": "Yenilenebilir enerji ve elektrik sektöründe faaliyet gösteren Tevor, Türkiye'nin enerji ihtiyacına sürdürülebilir çözümler sunmaktadır.",
+          "services": {
+            "0": "Güneş Enerjisi",
+            "1": "Rüzgar Enerjisi",
+            "2": "Enerji Depolama",
+            "3": "Elektrik Üretimi"
+          },
+          "metricLabel": "Kapasite",
+          "metricValue": "150MW",
+          "projects": "100 MW Kurulu Güç"
+        },
+        "ilka": {
+          "name": "İlka Güvenlik",
+          "sector": "Güvenlik & Temizlik",
+          "description": "Profesyonel güvenlik ve temizlik hizmetleri sunan İlka, kurumsal ve bireysel müşterilere kaliteli hizmet vermektedir.",
+          "services": {
+            "0": "Güvenlik Hizmetleri",
+            "1": "Temizlik Hizmetleri",
+            "2": "Teknik Bakım",
+            "3": "Tesis Yönetimi"
+          },
+          "metricLabel": "Şehir",
+          "metricValue": "30+",
+          "projects": "300+ Lokasyon"
+        },
+        "ponton": {
+          "name": "Ponton Medya",
+          "sector": "Reklam, Yayıncılık & Bilişim",
+          "description": "Reklam, yayıncılık ve bilişim alanlarında entegre çözümler sunan Ponton, dijital çağın gereksinimlerini karşılamaktadır.",
+          "services": {
+            "0": "Reklam Kampanyaları",
+            "1": "Dijital Yayıncılık",
+            "2": "Yazılım Geliştirme",
+            "3": "Bilişim Danışmanlığı"
+          },
+          "metricLabel": "Marka",
+          "metricValue": "200+",
+          "projects": "500+ Kampanya"
+        },
+        "piran": {
+          "name": "Piran Gayrimenkul",
+          "sector": "Gayrimenkul Danışmanlığı",
+          "description": "Gayrimenkul danışmanlığı alanında uzman olan Piran, yatırım ve satış süreçlerinde profesyonel destek sağlamaktadır.",
+          "services": {
+            "0": "Gayrimenkul Danışmanlığı",
+            "1": "Yatırım Danışmanlığı",
+            "2": "Değerleme Hizmetleri",
+            "3": "Portföy Yönetimi"
+          },
+          "metricLabel": "Portföy",
+          "metricValue": "500M₺",
+          "projects": "1000+ Danışmanlık"
+        }
+      },
+      "cta": {
+        "title": "İş Birliği Fırsatları",
+        "description": "Grup şirketlerimizle iş birliği yapmak, projelerinize destek almak veya hizmetlerimiz hakkında detaylı bilgi almak için bizimle iletişime geçin.",
+        "button": "İletişime Geçin"
+      }
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Gelecek nesillere yaşanabilir bir dünya bırakma vizyonuyla, sürdürülebilir büyümeyi hedefliyoruz.",
+      "statement": {
+        "heading": "Geleceğe Bakış Açımız",
+        "content": "Ekşioğlu Grup olarak vizyonumuz, Türkiye'nin ve dünyanın sürdürülebilir kalkınmasına öncülük eden, teknolojik innovasyonları hayata geçiren ve toplumsal değer üreten global bir güç olmaktır.",
+        "quote": "2035 yılında, teknoloji ve sürdürülebilirliği harmanlayan, global ölçekte saygın bir holding olmak",
+        "attribution": "— Ekşioğlu Grup Vizyon Beyanı"
+      },
+      "pillars": {
+        "heading": "Vizyon Direitlerimiz",
+        "subheading": "Vizyonumuzu destekleyen temel ilkeler ve odak alanlarımız",
+        "list": {
+          "technology": {
+            "title": "Teknolojik Liderlik",
+            "description": "En son teknolojileri kullanarak sektörümüzde öncü olmak ve dijital dönüşümü yönlendirmek."
+          },
+          "sustainability": {
+            "title": "Sürdürülebilir Büyüme",
+            "description": "Çevreye saygılı, sosyal sorumluluğu ön planda tutan sürdürülebilir büyüme modeli."
+          },
+          "people": {
+            "title": "İnsan Odaklılık",
+            "description": "Çalışanlarımızın ve toplumun refahını önceleyerek değer üretmek."
+          },
+          "global": {
+            "title": "Global Rekabet",
+            "description": "Uluslararası pazarlarda güçlü bir oyuncu olarak Türkiye'yi temsil etmek."
+          }
+        }
+      },
+      "goals": {
+        "heading": "Hedeflerimiz",
+        "subheading": "Vizyonumuzu gerçekleştirmek için belirlediğimiz stratejik hedefler",
+        "progressLabel": "İlerleme",
+        "list": {
+          "carbon": {
+            "year": "2030",
+            "title": "Karbon Nötr Operasyonlar",
+            "description": "Tüm operasyonlarımızda karbon nötr hedefine ulaşmak"
+          },
+          "digital": {
+            "year": "2032",
+            "title": "Dijital Dönüşüm Lideri",
+            "description": "Sektörümüzde yapay zeka ve otomasyon kullanımında öncü olmak"
+          },
+          "expansion": {
+            "year": "2035",
+            "title": "Global Expansion",
+            "description": "3 kıtada 15 ülkede aktif operasyon yürütmek"
+          }
+        }
+      },
+      "cta": {
+        "title": "Geleceği Birlikte Şekillendirelim",
+        "description": "Vizyonumuzu gerçekleştirmek için değerli iş ortaklarımız ve çalışanlarımızla birlikte çalışıyoruz.",
+        "buttonCareer": "Ekibimize Katılın",
+        "buttonContact": "İletişime Geçin"
+      }
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "İnsana, çevreye ve topluma değer katan projelerle sektörümüzde öncü olmak.",
+      "statement": {
+        "heading": "Temel Amacımız",
+        "content": "Ekşioğlu Grup olarak misyonumuz, altı farklı sektörde faaliyet göstererek Türkiye'nin ekonomik kalkınmasına katkı sağlamak, müşterilerimize en yüksek kalitede hizmet sunmak ve sürdürülebilir bir gelecek için çalışmaktır.",
+        "quote": "İnsanı ve çevreyi merkeze alarak, teknoloji ile güçlenmiş çözümlerle değer üretmek",
+        "attribution": "— Ekşioğlu Grup Misyon Beyanı"
+      },
+      "pillars": {
+        "heading": "Misyon Direitlerimiz",
+        "subheading": "Misyonumuzu destekleyen temel ilkeler ve odak alanlarımız",
+        "list": {
+          "quality": {
+            "title": "Kaliteli Hizmet",
+            "description": "Müşterilerimize en yüksek standartlarda hizmet sunarak beklentilerini aşmak."
+          },
+          "sustainability": {
+            "title": "Sürdürülebilir Değer",
+            "description": "Ekonomik, çevresel ve sosyal açıdan sürdürülebilir değer yaratmak."
+          },
+          "innovation": {
+            "title": "İnovasyon",
+            "description": "Ar-Ge ve teknolojik yeniliklerle sektörümüzde öncülük etmek."
+          },
+          "responsibility": {
+            "title": "Toplumsal Sorumluluk",
+            "description": "Topluma ve çevreye olan sorumluluğumuzu en üst düzeyde yerine getirmek."
+          }
+        }
+      },
+      "approach": {
+        "heading": "Yaklaşımımız",
+        "subheading": "Misyonumuzu gerçekleştirmek için benimsediğimiz temel yaklaşımlar",
+        "areasLabel": "Ana Uygulama Alanları:",
+        "list": {
+          "customer": {
+            "title": "Müşteri Odaklılık",
+            "description": "Müşteri memnuniyetini her zaman önceleyerek, ihtiyaçlara özel çözümler üretiyoruz.",
+            "points": {
+              "0": "7/24 müşteri hizmetleri",
+              "1": "Kişiselleştirilmiş çözümler",
+              "2": "Sürekli geri bildirim alma",
+              "3": "Proaktif destek hizmetleri"
+            }
+          },
+          "quality": {
+            "title": "Kalite ve Mükemmellik",
+            "description": "Tüm süreçlerimizde en yüksek kalite standartlarını benimser, sürekli iyileştirme yaparız.",
+            "points": {
+              "0": "ISO kalite sertifikaları",
+              "1": "Sürekli iyileştirme programları",
+              "2": "Performans ölçüm sistemleri",
+              "3": "Kalite güvence protokolleri"
+            }
+          },
+          "technology": {
+            "title": "Teknolojik Öncülük",
+            "description": "En son teknolojileri benimser, dijital dönüşümde öncü rol oynarız.",
+            "points": {
+              "0": "Ar-Ge yatırımları",
+              "1": "Dijital platform geliştirme",
+              "2": "Yapay zeka entegrasyonu",
+              "3": "Otomasyon çözümleri"
+            }
+          }
+        }
+      },
+      "impact": {
+        "heading": "Misyonumuzun Etkisi",
+        "metrics": {
+          "satisfaction": {
+            "value": "98%",
+            "label": "Müşteri Memnuniyeti"
+          },
+          "employees": {
+            "value": "5000+",
+            "label": "Çalışan"
+          },
+          "revenue": {
+            "value": "₺2.5B",
+            "label": "Yıllık Ciro"
+          },
+          "experience": {
+            "value": "88",
+            "label": "Yıllık Deneyim"
+          }
+        }
+      }
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "description": "Dürüstlük, kalite, inovasyon ve sürdürülebilirlik temel değerlerimizdir.",
+      "intro": {
+        "heading": "Temel İlkelerimiz",
+        "content": "Ekşioğlu Grup olarak değerlerimiz, şirket kültürümüzün temelini oluşturur. Bu değerler, çalışanlarımızdan müşterilerimize, iş ortaklarımızdan topluma kadar tüm paydaşlarımızla olan ilişkilerimizde rehberimizdir.",
+        "quote": "Değerlerimiz, kim olduğumuzu ve nasıl hareket ettiğimizi tanımlar",
+        "attribution": "— Ekşioğlu Grup Değerler Manifestosu"
+      },
+      "core": {
+        "heading": "Altı Temel Değerimiz",
+        "subheading": "Her gün yaşadığımız, kararlarımızda rehber aldığımız core değerlerimiz",
+        "areasLabel": "Uygulama Alanları:",
+        "list": {
+          "honesty": {
+            "title": "Dürüstlük",
+            "description": "Tüm faaliyetlerimizde şeffaflığı ve dürüstlüğü esas alır, etik değerlere bağlı kalırız.",
+            "examples": {
+              "0": "Şeffaf finansal raporlama",
+              "1": "Etik iş uygulamaları",
+              "2": "Açık iletişim kültürü",
+              "3": "Hesap verebilirlik"
+            }
+          },
+          "excellence": {
+            "title": "Mükemmellik",
+            "description": "Sürekli öğrenme ve gelişim ile her alanda mükemmelliği hedefler, kaliteyi asla ödün vermeyiz.",
+            "examples": {
+              "0": "Sürekli eğitim programları",
+              "1": "Kalite yönetim sistemleri",
+              "2": "İnovasyon kültürü",
+              "3": "Performans odaklılık"
+            }
+          },
+          "respect": {
+            "title": "Saygı",
+            "description": "İnsan haklarına, çevre ve doğaya, farklılıklara saygı gösterir, kapsayıcı bir yaklaşım benimseriz.",
+            "examples": {
+              "0": "Çeşitlilik ve kapsayıcılık",
+              "1": "Çevresel sorumluluk",
+              "2": "İnsan hakları koruması",
+              "3": "Kültürel duyarlılık"
+            }
+          },
+          "collaboration": {
+            "title": "İşbirliği",
+            "description": "Takım ruhu ile hareket eder, paydaşlarımızla güçlü ortaklıklar kurar, birlikte büyürüz.",
+            "examples": {
+              "0": "Takım çalışması kültürü",
+              "1": "Paydaş katılımı",
+              "2": "Stratejik ortaklıklar",
+              "3": "Bilgi paylaşımı"
+            }
+          },
+          "responsibility": {
+            "title": "Sorumluluk",
+            "description": "Topluma, çevreye ve gelecek nesillere karşı sorumluluğumuzu bilir ve hareket ederiz.",
+            "examples": {
+              "0": "Sosyal sorumluluk projeleri",
+              "1": "Çevresel sürdürülebilirlik",
+              "2": "Toplumsal katkı",
+              "3": "Gelecek nesil odaklılık"
+            }
+          },
+          "innovation": {
+            "title": "Yenilikçilik",
+            "description": "Değişime açık olur, yaratıcı düşünce ile sektörümüzde öncü çözümler geliştiririz.",
+            "examples": {
+              "0": "Ar-Ge yatırımları",
+              "1": "Dijital dönüşüm",
+              "2": "Yaratıcı çözümler",
+              "3": "Teknolojik öncülük"
+            }
+          }
+        }
+      },
+      "culture": {
+        "heading": "Şirket Kültürümüz",
+        "subheading": "Değerlerimizin günlük iş hayatımızda nasıl yaşandığı",
+        "impactLabel": "Etki:",
+        "list": {
+          "learning": {
+            "title": "Öğrenme Kültürü",
+            "description": "Sürekli öğrenmeyi teşvik eden, hatalardan ders çıkaran ve gelişime açık bir ortam yaratıyoruz.",
+            "impact": "Çalışan gelişimi ve inovasyon"
+          },
+          "communication": {
+            "title": "Açık İletişim",
+            "description": "Tüm seviyelerde açık, şeffaf ve yapıcı iletişimi destekleyerek güven ortamı oluşturuyoruz.",
+            "impact": "Takım uyumu ve verimlilik"
+          },
+          "results": {
+            "title": "Sonuç Odaklılık",
+            "description": "Hedeflerimize ulaşmak için kararlılık gösterir, sonuç odaklı çalışma yaklaşımı benimseriz.",
+            "impact": "Başarı ve sürdürülebilirlik"
+          },
+          "satisfaction": {
+            "title": "Müşteri Memnuniyeti",
+            "description": "Müşteri beklentilerini aşmayı hedefler, memnuniyet odaklı hizmet anlayışını benimseriz.",
+            "impact": "Müşteri sadakati ve büyüme"
+          }
+        }
+      },
+      "action": {
+        "heading": "Değerlerimizi Yaşıyoruz",
+        "subheading": "Bu değerler sadece kağıt üzerinde değil, her gün attığımız adımlarda, aldığımız kararlarda ve kurduğumuz ilişkilerde hayat buluyor.",
+        "metrics": {
+          "satisfaction": {
+            "value": "95%",
+            "label": "Çalışan Memnuniyeti"
+          },
+          "ethics": {
+            "value": "Zero",
+            "label": "Etik İhlal"
+          },
+          "projects": {
+            "value": "100+",
+            "label": "Sosyal Proje"
+          }
+        }
+      }
+    },
+    "board": {
+      "title": "Yönetim Kurulu",
+      "description": "Deneyimli ve vizyon sahibi yönetim kadromuzla, şirketlerimizi geleceğe taşıyoruz.",
+      "intro": {
+        "heading": "Kurumsal Liderliğimiz",
+        "content": "Ekşioğlu Grup Yönetim Kurulu, zengin deneyim ve uzmanlıklarıyla şirketimizin stratejik yönlendirmesini sağlar. Bağımsız üyelerimizin katkısıyla güçlenen kurulumuz, şeffaf ve hesap verebilir yönetim anlayışını benimser.",
+        "stats": {
+          "members": {
+            "value": "5",
+            "label": "Yönetim Kurulu Üyesi"
+          },
+          "independent": {
+            "value": "3",
+            "label": "Bağımsız Üye"
+          },
+          "experience": {
+            "value": "150+",
+            "label": "Toplam Deneyim Yılı"
+          }
+        }
+      },
+      "members": {
+        "heading": "Yönetim Kurulu Üyelerimiz",
+        "subheading": "Farklı uzmanlık alanlarından deneyimli liderlerimiz",
+        "experienceLabel": "deneyim",
+        "educationLabel": "Eğitim:",
+        "specializationLabel": "Uzmanlık:",
+        "achievementsLabel": "Önemli Başarılar:",
+        "list": {
+          "ahmet": {
+            "name": "Ahmet Ekşioğlu",
+            "position": "Yönetim Kurulu Başkanı",
+            "experience": "45 yıl",
+            "education": "İnşaat Mühendisliği, İTÜ",
+            "specialization": "Stratejik Yönetim, İnşaat Sektörü",
+            "achievements": {
+              "0": "Ekşioğlu Grup kurucusu",
+              "1": "TMB Onur Üyesi",
+              "2": "İMO Emektar Üyesi",
+              "3": "Türkiye İnşaat Sanayicileri Derneği Kurucu Üyesi"
+            }
+          },
+          "mehmet": {
+            "name": "Mehmet Ekşioğlu",
+            "position": "İcracı Üye / Genel Müdür",
+            "experience": "25 yıl",
+            "education": "İşletme, Boğaziçi Üniversitesi / MBA, Harvard",
+            "specialization": "Kurumsal Yönetim, Finans",
+            "achievements": {
+              "0": "Digital transformation leader",
+              "1": "Sustainability champion",
+              "2": "Strategic partnerships architect",
+              "3": "Innovation catalyst"
+            }
+          },
+          "ayse": {
+            "name": "Dr. Ayşe Demir",
+            "position": "Bağımsız Üye",
+            "experience": "30 yıl",
+            "education": "Hukuk Doktoru, Ankara Üniversitesi",
+            "specialization": "Kurumsal Hukuk, Risk Yönetimi",
+            "achievements": {
+              "0": "Ticaret Hukuku uzmanı",
+              "1": "Risk Management Institute sertifikası",
+              "2": "Kurumsal Yönetim Derneği üyesi",
+              "3": "Board Advisory çalışmaları"
+            }
+          },
+          "kemal": {
+            "name": "Prof. Dr. Kemal Özkan",
+            "position": "Bağımsız Üye",
+            "experience": "35 yıl",
+            "education": "Makine Mühendisliği Doktoru, ODTÜ",
+            "specialization": "Teknoloji, Ar-Ge, İnovasyon",
+            "achievements": {
+              "0": "TÜBİTAK Bilim Kurulu eski üyesi",
+              "1": "100+ bilimsel yayın",
+              "2": "Technology transfer specialist",
+              "3": "Patent ve inovasyon danışmanı"
+            }
+          },
+          "fatma": {
+            "name": "Fatma Yılmaz",
+            "position": "Bağımsız Üye",
+            "experience": "28 yıl",
+            "education": "İktisat, LSE / MBA, Wharton",
+            "specialization": "Finans, Yatırımcı İlişkileri",
+            "achievements": {
+              "0": "Ex-CFO global financial institution",
+              "1": "ESG reporting specialist",
+              "2": "International finance expert",
+              "3": "Sustainability metrics developer"
+            }
+          }
+        }
+      },
+      "committees": {
+        "heading": "Yönetim Kurulu Komiteleri",
+        "subheading": "Uzmanlaşmış komitelerimiz ile etkin kurumsal yönetim",
+        "membersLabel": "Üyeler:",
+        "frequencyLabel": "Toplantı Sıklığı:",
+        "responsibilitiesLabel": "Ana Sorumluluklar:",
+        "list": {
+          "audit": {
+            "name": "Denetim Komitesi",
+            "purpose": "Finansal raporlama süreçlerinin denetimi ve iç kontrol sistemlerinin etkinliğinin gözetimi",
+            "members": {
+              "0": "Dr. Ayşe Demir (Başkan)",
+              "1": "Fatma Yılmaz",
+              "2": "Prof. Dr. Kemal Özkan"
+            },
+            "meetings": "Çeyrek dönem",
+            "responsibilities": {
+              "0": "Finansal tabloların denetimi",
+              "1": "İç kontrol sistemlerinin değerlendirilmesi",
+              "2": "Bağımsız denetçi seçimi ve gözetimi",
+              "3": "Risk yönetimi süreçlerinin incelenmesi"
+            }
+          },
+          "governance": {
+            "name": "Kurumsal Yönetim Komitesi",
+            "purpose": "Kurumsal yönetim ilkelerinin uygulanması ve sürekli iyileştirilmesi",
+            "members": {
+              "0": "Prof. Dr. Kemal Özkan (Başkan)",
+              "1": "Dr. Ayşe Demir",
+              "2": "Mehmet Ekşioğlu"
+            },
+            "meetings": "Altı ayda bir",
+            "responsibilities": {
+              "0": "Kurumsal yönetim politikalarının geliştirilmesi",
+              "1": "Etik kuralların belirlenmesi",
+              "2": "Paydaş ilişkilerinin yönetimi",
+              "3": "Şeffaflık ve hesap verebilirlik"
+            }
+          },
+          "risk": {
+            "name": "Riskin Erken Saptanması Komitesi",
+            "purpose": "Şirketin varlığını, gelişmesini ve devamını tehlikeye düşürebilecek risklerin erken teşhisi",
+            "members": {
+              "0": "Fatma Yılmaz (Başkan)",
+              "1": "Dr. Ayşe Demir",
+              "2": "Mehmet Ekşioğlu"
+            },
+            "meetings": "Altı ayda bir",
+            "responsibilities": {
+              "0": "Risk haritasının oluşturulması",
+              "1": "Erken uyarı sistemlerinin kurulması",
+              "2": "Risk yönetim stratejilerinin geliştirilmesi",
+              "3": "Crisis management planning"
+            }
+          }
+        }
+      },
+      "principles": {
+        "heading": "Kurumsal Yönetim İlkelerimiz",
+        "list": {
+          "transparency": {
+            "title": "Şeffaflık",
+            "description": "Açık ve net bilgi paylaşımı"
+          },
+          "accountability": {
+            "title": "Hesap Verebilirlik",
+            "description": "Tüm kararlardan sorumlu tutulma"
+          },
+          "fairness": {
+            "title": "Adillik",
+            "description": "Tüm paydaşlara eşit mesafede"
+          },
+          "responsibility": {
+            "title": "Sorumluluk",
+            "description": "Topluma ve çevreye karşı sorumluluk"
+          }
+        }
+      }
+    },
+    "management": {
+      "title": "Üst Düzey Yönetim",
+      "description": "Alanında uzman yöneticilerimizle, operasyonel mükemmelliği hedefliyoruz.",
+      "intro": {
+        "heading": "Liderlik Ekibimiz",
+        "content": "Farklı disiplinlerden gelen deneyimli yöneticilerimiz, Ekşioğlu Grup'un stratejik hedeflerine ulaşması için güçlü bir ekip oluşturur. Her biri kendi alanında uzman olan liderlerimiz, şirketimizin sürdürülebilir büyümesini sağlar.",
+        "stats": {
+          "clevel": {
+            "value": "6",
+            "label": "C-Level Yönetici"
+          },
+          "experience": {
+            "value": "116",
+            "label": "Toplam Deneyim Yılı"
+          },
+          "phd": {
+            "value": "4",
+            "label": "Doktora Derecesi"
+          },
+          "mba": {
+            "value": "8",
+            "label": "MBA Derecesi"
+          }
+        }
+      },
+      "team": {
+        "heading": "C-Level Yönetim Ekibi",
+        "subheading": "Şirketimizin stratejik yönlendirmesinden sorumlu üst düzey yöneticilerimiz",
+        "experienceLabel": "deneyim",
+        "departmentLabel": "Departman:",
+        "educationLabel": "Eğitim:",
+        "expertiseLabel": "Uzmanlık:",
+        "achievementsLabel": "Başarılar:",
+        "list": {
+          "mehmet": {
+            "name": "Mehmet Ekşioğlu",
+            "position": "Genel Müdür",
+            "department": "Genel Yönetim",
+            "experience": "25 yıl",
+            "education": "İşletme, Boğaziçi Üniversitesi / MBA, Harvard",
+            "expertise": "Stratejik Yönetim, Dijital Dönüşüm, Kurumsal Gelişim",
+            "achievements": {
+              "0": "Şirket cirosunu 5 yılda %200 artırdı",
+              "1": "Dijital dönüşüm programını başarıyla yönetti",
+              "2": "Uluslararası genişleme projelerini liderlik etti",
+              "3": "ESG stratejisinin mimarı"
+            }
+          },
+          "selma": {
+            "name": "Dr. Selma Koç",
+            "position": "Mali İşler Direktörü (CFO)",
+            "department": "Finans",
+            "experience": "20 yıl",
+            "education": "İktisat Doktoru, LSE / CPA",
+            "expertise": "Finansal Planlama, Risk Yönetimi, Yatırımcı İlişkileri",
+            "achievements": {
+              "0": "Şirket değerlemesini optimize etti",
+              "1": "Risk yönetim sistemlerini modernize etti",
+              "2": "Sürdürülebilirlik finansmanında öncü",
+              "3": "International finance awards kazandı"
+            }
+          },
+          "murat": {
+            "name": "Murat Demir",
+            "position": "İcra Direktörü (COO)",
+            "department": "Operasyonlar",
+            "experience": "22 yıl",
+            "education": "Endüstri Mühendisliği, ODTÜ / MBA, Koç Üniversitesi",
+            "expertise": "Operasyonel Mükemmellik, Supply Chain, Process Optimization",
+            "achievements": {
+              "0": "Operasyonel verimliliği %40 artırdı",
+              "1": "Lean management sistemlerini hayata geçirdi",
+              "2": "Digital operations transformation",
+              "3": "Quality excellence programs"
+            }
+          },
+          "ayhan": {
+            "name": "Ayhan Yılmaz",
+            "position": "İnsan Kaynakları Direktörü (CHRO)",
+            "department": "İnsan Kaynakları",
+            "experience": "18 yıl",
+            "education": "Psikoloji, İstanbul Üniversitesi / MBA, Sabancı",
+            "expertise": "Talent Management, Organizational Development, Change Management",
+            "achievements": {
+              "0": "Employee engagement %90'a çıkardı",
+              "1": "Talent development programları oluşturdu",
+              "2": "Diversity & inclusion champion",
+              "3": "Future of work strategist"
+            }
+          },
+          "kerem": {
+            "name": "Prof. Dr. Kerem Özkan",
+            "position": "Teknoloji Direktörü (CTO)",
+            "department": "Teknoloji",
+            "experience": "15 yıl",
+            "education": "Bilgisayar Mühendisliği Doktoru, Stanford",
+            "expertise": "AI/ML, Cloud Architecture, Digital Innovation",
+            "achievements": {
+              "0": "AI-first technology strategy",
+              "1": "Cloud transformation leadership",
+              "2": "Innovation lab kurucusu",
+              "3": "Tech patent portfolio developer"
+            }
+          },
+          "zeynep": {
+            "name": "Zeynep Arslan",
+            "position": "Pazarlama Direktörü (CMO)",
+            "department": "Pazarlama",
+            "experience": "16 yıl",
+            "education": "İletişim, Galatasaray Üniversitesi / MBA, INSEAD",
+            "expertise": "Brand Management, Digital Marketing, Customer Experience",
+            "achievements": {
+              "0": "Brand value %150 artırdı",
+              "1": "Omnichannel experience designer",
+              "2": "Customer-centric transformation",
+              "3": "Sustainability storytelling expert"
+            }
+          }
+        }
+      },
+      "structure": {
+        "heading": "Organizasyon Yapısı",
+        "subheading": "Hiyerarşik yapımız ve yönetim seviyeleri",
+        "list": {
+          "clevel": {
+            "level": "C-Level",
+            "description": "Üst düzey yönetim ekibi, stratejik kararlar ve genel yönetim",
+            "positions": {
+              "0": "CEO",
+              "1": "CFO",
+              "2": "COO",
+              "3": "CTO",
+              "4": "CHRO",
+              "5": "CMO"
+            }
+          },
+          "director": {
+            "level": "Direktör Seviyesi",
+            "description": "Fonksiyonel alanların direktörleri, departman yönetimi",
+            "positions": {
+              "0": "İş Geliştirme",
+              "1": "Hukuk",
+              "2": "Kurumsal İletişim",
+              "3": "Sürdürülebilirlik",
+              "4": "İç Denetim"
+            }
+          },
+          "manager": {
+            "level": "Müdür Seviyesi",
+            "description": "Operasyonel yönetim, proje ve süreç yönetimi",
+            "positions": {
+              "0": "Proje Müdürleri",
+              "1": "Bölge Müdürleri",
+              "2": "Ürün Müdürleri",
+              "3": "İşletme Müdürleri"
+            }
+          }
+        }
+      },
+      "committees": {
+        "heading": "Yönetim Komiteleri",
+        "subheading": "Koordinasyon ve karar alma süreçlerimiz",
+        "frequencyLabel": "Sıklık:",
+        "membersLabel": "Üyeler:",
+        "purposeLabel": "Amaç:",
+        "list": {
+          "executive": {
+            "name": "İcra Komitesi",
+            "frequency": "Haftalık",
+            "members": "C-Level Yöneticiler",
+            "purpose": "Stratejik kararlar ve güncel operasyonel konuların değerlendirilmesi"
+          },
+          "technology": {
+            "name": "Teknoloji Komitesi",
+            "frequency": "Aylık",
+            "members": "CTO, CIO, Innovation Leads",
+            "purpose": "Teknoloji stratejisi, dijital dönüşüm ve inovasyon projelerinin yönetimi"
+          },
+          "risk": {
+            "name": "Risk Komitesi",
+            "frequency": "Çeyrek dönem",
+            "members": "CFO, COO, Risk Managers",
+            "purpose": "Risk analizi, crisis management ve business continuity planning"
+          }
+        }
+      },
+      "philosophy": {
+        "heading": "Liderlik Felsefemiz",
+        "list": {
+          "transformational": {
+            "title": "Transformasyonel Liderlik",
+            "description": "Değişimi yönlendiren, vizyoner yaklaşımla geleceği şekillendiren liderlik"
+          },
+          "inclusive": {
+            "title": "Kapsayıcı Yönetim",
+            "description": "Çeşitliliği destekleyen, tüm paydaşları kapsayan yönetim anlayışı"
+          },
+          "sustainable": {
+            "title": "Sürdürülebilir Büyüme",
+            "description": "Uzun vadeli düşünen, sürdürülebilirliği merkeze alan büyüme stratejisi"
+          }
+        }
+      }
+    },
+    "sustainability": {
+      "title": "Sürdürülebilirlik",
+      "description": "Ekonomik büyüme, çevresel koruma ve sosyal kalkınma arasında denge kurarak, gelecek nesillere değer yaratıyoruz.",
+      "vision": {
+        "heading": "Sürdürülebilirlik Vizyonumuz",
+        "content": "Ekşioğlu Grup olarak, ekonomik büyüme, çevresel koruma ve sosyal kalkınma arasında denge kurarak, tüm paydaşlarımız için uzun vadeli değer yaratmayı hedefliyoruz. Sürdürülebilir iş modellerimizle sektörümüzde öncü bir rol oynayarak, gelecek nesillere daha iyi bir dünya bırakma sorumluluğumuzu yerine getiriyoruz."
+      },
+      "areas": {
+        "heading": "Sürdürülebilirlik Alanlarımız",
+        "initiativesLabel": "Temel Girişimlerimiz:",
+        "list": {
+          "0": {
+            "title": "Çevresel Sorumluluk",
+            "description": "Doğal kaynakları koruyarak çevre dostu üretim ve işletme süreçleri geliştiriyoruz.",
+            "initiatives": {
+              "0": "ISO 14001 Çevre Yönetim Sistemi",
+              "1": "Karbon Ayak İzi Azaltma",
+              "2": "Atık Minimizasyonu",
+              "3": "Su Tasarrufu Projeleri"
+            }
+          },
+          "1": {
+            "title": "Sosyal Sorumluluk",
+            "description": "Topluma değer katmak için eğitim, sağlık ve sosyal projeler geliştiriyoruz.",
+            "initiatives": {
+              "0": "Eğitim Bursları",
+              "1": "Sağlık Projeleri",
+              "2": "Kırsal Kalkınma",
+              "3": "Kadın İstihdamı Destekleme"
+            }
+          },
+          "2": {
+            "title": "Ekonomik Sürdürülebilirlik",
+            "description": "Uzun vadeli büyüme hedeflerimizi sürdürülebilir iş modelleri ile gerçekleştiriyoruz.",
+            "initiatives": {
+              "0": "Yenilenebilir Enerji Yatırımları",
+              "1": "Ar-Ge Faaliyetleri",
+              "2": "İnovasyon Projeleri",
+              "3": "Yerel Tedarikçi Destekleme"
+            }
+          },
+          "3": {
+            "title": "Etik ve Uyum",
+            "description": "İş etiği ve kurumsal yönetim ilkeleri doğrultusunda şeffaf ve hesap verebilir bir yönetim anlayışı benimser.",
+            "initiatives": {
+              "0": "Etik Kurallar",
+              "1": "Anti-Rüşvet Politikaları",
+              "2": "Şeffaflık İlkeleri",
+              "3": "Paydaş Katılımı"
+            }
+          }
+        }
+      },
+      "reports": {
+        "heading": "Sürdürülebilirlik Raporlarımız",
+        "description": "Sürdürülebilirlik performansımızı şeffaf bir şekilde raporluyoruz",
+        "download": "İndir",
+        "list": {
+          "0": {
+            "title": "Sürdürülebilirlik Raporu 2024",
+            "status": "Yayında"
+          },
+          "1": {
+            "title": "Sürdürülebilirlik Raporu 2023",
+            "status": "Yayında"
+          },
+          "2": {
+            "title": "Sürdürülebilirlik Raporu 2022",
+            "status": "Yayında"
+          }
+        }
+      },
+      "certifications": {
+        "heading": "Sertifikalarımız ve Üyeliklerimiz",
+        "list": {
+          "0": "ISO 14001 Çevre Yönetim Sistemi",
+          "1": "ISO 45001 İş Sağlığı ve Güvenliği",
+          "2": "SA 8000 Sosyal Sorumluluk Standardı",
+          "3": "UN Global Compact Üyeliği"
+        }
+      },
+      "cta": {
+        "heading": "Sürdürülebilirlik Hakkında Daha Fazla Bilgi",
+        "description": "Sürdürülebilirlik girişimlerimiz ve projelerimiz hakkında detaylı bilgi almak için bizimle iletişime geçin.",
+        "button": "İletişime Geçin"
+      }
+    },
+    "career": {
+      "title": "Kariyer Fırsatları",
+      "description": "Yetenekli ve tutkulu bireyleri aramızda görmekten mutluluk duyarız.",
+      "whyUs": {
+        "heading": "Neden Ekşioğlu Grup?",
+        "content": "88 yıllık deneyimi olan güçlü bir kurumun parçası olarak, kariyerinizi geliştirmek için ihtiyacınız olan tüm fırsatları sunuyoruz.",
+        "values": {
+          "list": {
+            "innovation": {
+              "title": "İnovasyon",
+              "description": "Yenilikçi düşünce ve yaratıcı çözümler geliştirmeye değer veriyoruz."
+            },
+            "teamwork": {
+              "title": "Takım Çalışması",
+              "description": "İşbirliği içinde çalışarak ortak hedeflere ulaşmayı hedefliyoruz."
+            },
+            "learning": {
+              "title": "Sürekli Öğrenme",
+              "description": "Mesleki gelişimi destekler ve öğrenmeyi teşvik ederiz."
+            },
+            "diversity": {
+              "title": "Çeşitlilik",
+              "description": "Farklı bakış açılarını değerli görür, kapsayıcı bir ortam yaratırız."
+            }
+          }
+        }
+      },
+      "benefits": {
+        "heading": "Çalışan Avantajlarımız",
+        "subheading": "Çalışanlarımızın refahını önceleyerek, hem iş hem de özel yaşamlarında başarılı olmalarını destekliyoruz.",
+        "list": {
+          "salary": {
+            "title": "Rekabetçi Maaş",
+            "description": "Sektör standartlarının üzerinde maaş ve performans primi"
+          },
+          "health": {
+            "title": "Sağlık Sigortası",
+            "description": "Kapsamlı sağlık sigortası ve özel sağlık hizmetleri"
+          },
+          "education": {
+            "title": "Eğitim Desteği",
+            "description": "Mesleki gelişim eğitimleri ve sertifikasyon programları"
+          },
+          "flexible": {
+            "title": "Esnek Çalışma",
+            "description": "Hibrit çalışma modeli ve esnek mesai saatleri"
+          },
+          "social": {
+            "title": "Sosyal Aktiviteler",
+            "description": "Çalışan etkinlikleri, spor kulübü ve sosyal tesisler"
+          },
+          "career": {
+            "title": "Kariyer Fırsatları",
+            "description": "İç promosyon önceliği ve kariyer planlama desteği"
+          }
+        }
+      },
+      "positions": {
+        "heading": "Açık Pozisyonlar",
+        "subheading": "Çeşitli departmanlarda size uygun kariyer fırsatlarını keşfedin",
+        "openLabel": "açık pozisyon",
+        "viewButton": "Pozisyonları İncele",
+        "categories": {
+          "list": {
+            "engineering": {
+              "title": "Mühendislik",
+              "openPositions": "12",
+              "description": "İnşaat, elektrik, makine ve endüstri mühendisliği pozisyonları"
+            },
+            "hr": {
+              "title": "İnsan Kaynakları",
+              "openPositions": "3",
+              "description": "İK uzmanı, işe alım ve yetenek geliştirme pozisyonları"
+            },
+            "finance": {
+              "title": "Finans",
+              "openPositions": "5",
+              "description": "Mali işler, muhasebe ve finansal analiz pozisyonları"
+            },
+            "technology": {
+              "title": "Teknoloji",
+              "openPositions": "8",
+              "description": "Yazılım geliştirme, sistem yönetimi ve BT pozisyonları"
+            },
+            "marketing": {
+              "title": "Pazarlama",
+              "openPositions": "4",
+              "description": "Dijital pazarlama, satış ve müşteri ilişkileri pozisyonları"
+            },
+            "operations": {
+              "title": "Operasyon",
+              "openPositions": "7",
+              "description": "Üretim, kalite kontrol ve operasyon yönetimi pozisyonları"
+            }
+          }
+        }
+      },
+      "process": {
+        "heading": "Başvuru Süreci",
+        "steps": {
+          "0": {
+            "title": "Başvuru",
+            "description": "CV'nizi ve motivasyon mektubunuzu gönderin"
+          },
+          "1": {
+            "title": "Değerlendirme",
+            "description": "İK ekibimiz başvurunuzu değerlendirir"
+          },
+          "2": {
+            "title": "Görüşme",
+            "description": "Teknik ve yetenek odaklı görüşmeler"
+          },
+          "3": {
+            "title": "Katılım",
+            "description": "Onboarding süreciyle takıma katılım"
+          }
+        }
+      },
+      "cta": {
+        "heading": "Kariyeriniz İçin Bir Sonraki Adım",
+        "content": "Ekşioğlu Grup ailesine katılmak ve kariyerinizi geliştirmek için hemen başvuru yapın.",
+        "applyButton": "CV Gönder",
+        "contactButton": "İletişime Geçin"
+      }
+    },
+    "technology": {
+      "title": "Teknoloji & İnovasyon",
+      "description": "Ar-Ge ve dijital dönüşüm projelerimizle sektörümüzde teknolojik öncülüğü hedefliyoruz.",
+      "stats": {
+        "heading": "Ar-Ge ve İnovasyon Rakamları",
+        "list": {
+          "investment": {
+            "title": "Ar-Ge Yatırımı",
+            "value": "₺120M",
+            "subtitle": "2024 yılında"
+          },
+          "projects": {
+            "title": "Aktif Projeler",
+            "value": "28",
+            "subtitle": "Farklı teknoloji alanında"
+          },
+          "patents": {
+            "title": "Patent Başvurusu",
+            "value": "15",
+            "subtitle": "Son 2 yılda"
+          },
+          "personnel": {
+            "title": "Ar-Ge Personeli",
+            "value": "85",
+            "subtitle": "Uzman mühendis"
+          }
+        }
+      },
+      "areas": {
+        "heading": "Teknoloji Alanlarımız",
+        "list": {
+          "digital": {
+            "title": "Dijital Dönüşüm",
+            "description": "İş süreçlerimizi dijitalleştirerek verimliliği artırıyor, müşteri deneyimini geliştiriyoruz.",
+            "technologies": {
+              "0": "Bulut Bilişim",
+              "1": "Yapay Zeka",
+              "2": "IoT",
+              "3": "Blockchain"
+            },
+            "projects": {
+              "0": "ERP Entegrasyonu",
+              "1": "Müşteri Portalı",
+              "2": "Mobil Uygulamalar"
+            }
+          },
+          "rnd": {
+            "title": "Ar-Ge Faaliyetleri",
+            "description": "Yenilikçi çözümler geliştirerek sektörümüzde teknolojik öncülük yapıyoruz.",
+            "technologies": {
+              "0": "Malzeme Bilimi",
+              "1": "Enerji Teknolojileri",
+              "2": "Yapı Teknolojileri",
+              "3": "Çevre Teknolojileri"
+            },
+            "projects": {
+              "0": "Akıllı Malzemeler",
+              "1": "Enerji Depolama",
+              "2": "Yeşil İnşaat Teknolojileri"
+            }
+          },
+          "smart": {
+            "title": "Akıllı Sistemler",
+            "description": "Otomasyon ve akıllı sistemlerle operasyonel mükemmeliyeti hedefliyoruz.",
+            "technologies": {
+              "0": "Otomasyon",
+              "1": "Sensör Teknolojileri",
+              "2": "Veri Analitiği",
+              "3": "Makine Öğrenmesi"
+            },
+            "projects": {
+              "0": "Akıllı Fabrika",
+              "1": "Predictive Maintenance",
+              "2": "Energy Management"
+            }
+          },
+          "sustainable": {
+            "title": "Sürdürülebilir Teknolojiler",
+            "description": "Çevre dostu teknolojilerle sürdürülebilir bir gelecek inşa ediyoruz.",
+            "technologies": {
+              "0": "Yenilenebilir Enerji",
+              "1": "Karbon Yakalama",
+              "2": "Geri Dönüşüm",
+              "3": "Yeşil Hidrojen"
+            },
+            "projects": {
+              "0": "Solar Park",
+              "1": "Atık Yönetim Sistemi",
+              "2": "Carbon Neutral Campus"
+            }
+          }
+        },
+        "technologiesLabel": "Kullanılan Teknolojiler:",
+        "projectsLabel": "Projeler:"
+      },
+      "innovations": {
+        "heading": "İnovasyon Projelerimiz",
+        "subheading": "Son yıllarda geliştirdiğimiz yenilikçi teknoloji projeleri",
+        "impactLabel": "Etki:",
+        "list": {
+          "0": {
+            "year": "2024",
+            "title": "Yapay Zeka Destekli Proje Yönetim Sistemi",
+            "description": "Büyük ölçekli projelerde risk analizi ve kaynak optimizasyonu için AI kullanımı",
+            "status": "Pilot Aşamada",
+            "impact": "%25 verimlilik artışı"
+          },
+          "1": {
+            "year": "2024",
+            "title": "Akıllı Bina Yönetim Platformu",
+            "description": "IoT sensörleri ile enerji optimizasyonu ve güvenlik yönetimi",
+            "status": "Uygulamada",
+            "impact": "%30 enerji tasarrufu"
+          },
+          "2": {
+            "year": "2023",
+            "title": "Blokzincir Tabanlı Tedarik Zinciri",
+            "description": "Şeffaf ve güvenli tedarik zinciri yönetimi için blockchain teknolojisi",
+            "status": "Tamamlandı",
+            "impact": "%40 izlenebilirlik artışı"
+          },
+          "3": {
+            "year": "2023",
+            "title": "Drone Destekli İnşaat Takibi",
+            "description": "Yapım süreçlerinin izlenmesi ve kalite kontrol için drone teknolojisi",
+            "status": "Tamamlandı",
+            "impact": "%50 denetim hızlanması"
+          }
+        }
+      },
+      "partnerships": {
+        "heading": "Teknoloji Ortaklıklarımız",
+        "subheading": "Küresel teknoloji liderleri ve araştırma kurumları ile stratejik iş birlikleri geliştiriyoruz.",
+        "typeLabel": "Ortaklık Tipi:",
+        "focusLabel": "Odak Alanı:",
+        "list": {
+          "tubitak": {
+            "name": "TÜBİTAK",
+            "type": "Araştırma İş Birliği",
+            "focus": "Malzeme bilimi ve enerji depolama projeleri"
+          },
+          "itu": {
+            "name": "İTÜ",
+            "type": "Akademik Ortaklık",
+            "focus": "Makine öğrenmesi ve yapay zeka uygulamaları"
+          },
+          "microsoft": {
+            "name": "Microsoft",
+            "type": "Teknoloji Ortaklığı",
+            "focus": "Bulut bilişim ve dijital dönüşüm çözümleri"
+          },
+          "sap": {
+            "name": "SAP",
+            "type": "Çözüm Ortaklığı",
+            "focus": "Kurumsal kaynak planlama ve iş zekası"
+          }
+        }
+      },
+      "culture": {
+        "heading": "İnovasyon Kültürümüz",
+        "content": "Ekşioğlu Grup olarak, inovasyonu sadece bir teknoloji meselesi olarak görmeyiz. Tüm çalışanlarımızın yaratıcı fikirlerini destekler, farklı disiplinlerden ekiplerin bir araya gelmesiyle yenilikçi çözümler üretmesini teşvik ederiz.",
+        "values": {
+          "0": {
+            "title": "Fikir Geliştirme",
+            "description": "Çalışanlarımızın yenilikçi fikirlerini hayata geçirmek için gerekli desteği sağlıyoruz."
+          },
+          "1": {
+            "title": "Disiplinler Arası İş Birliği",
+            "description": "Farklı uzmanlık alanlarından ekiplerin ortak projeler üretmesini destekliyoruz."
+          },
+          "2": {
+            "title": "Hızlı Prototipleme",
+            "description": "Fikirleri hızla test edilebilir prototipler haline getirip pazar gereksinimlerini karşılıyoruz."
+          }
+        }
+      },
+      "cta": {
+        "heading": "Teknoloji Ortaklığı Kurmak İster misiniz?",
+        "content": "İnovatif çözümler geliştirmek için bizimle iş birliği yapmak istiyorsanız, teknoloji ekibimizle iletişime geçin.",
+        "contactButton": "İletişime Geçin",
+        "presentationButton": "Teknoloji Sunumu İsteyin"
+      }
+    },
+    "media": {
+      "title": "Medya & Basın Merkezi",
+      "description": "Haberlerimiz, duyurularımız ve basın bültenlerimiz için medya merkezimizi ziyaret edin.",
+      "news": {
+        "heading": "Son Haberler",
+        "readMore": "Devamını Oku",
+        "loadMore": "Daha Fazla Haber Yükle",
+        "list": {
+          "0": {
+            "title": "Ekşioğlu Grup, Yenilenebilir Enerji Yatırımlarında Yeni İş Birliği Anlaşması İmzaladı",
+            "summary": "Sürdürülebilir enerji hedefleri doğrultusunda stratejik ortaklık kuruldu.",
+            "category": "Kurumsal"
+          },
+          "1": {
+            "title": "2024 3. Çeyrek Finansal Sonuçları: %18 Büyüme ile Hedefleri Aştı",
+            "summary": "Güçlü operasyonel performans ve stratejik yatırımlarla büyüme devam ediyor.",
+            "category": "Finansal"
+          },
+          "2": {
+            "title": "Ekşioğlu Grup, Dijital Dönüşüm Merkezi'ni Hizmete Açtı",
+            "summary": "Teknoloji yatırımları kapsamında yeni nesil çözümler geliştiriliyor.",
+            "category": "Teknoloji"
+          },
+          "3": {
+            "title": "Sürdürülebilirlik Raporu 2024: Çevre Hedeflerinde %25 İlerleme",
+            "summary": "Karbon ayak izi azaltma ve çevre dostu üretim süreçlerinde önemli adımlar.",
+            "category": "Sürdürülebilirlik"
+          },
+          "4": {
+            "title": "Ekşioğlu İnşaat, Avrupa'da Yeni Proje İhalesi Kazandı",
+            "summary": "Uluslararası pazardaki güçlü konumumuzu pekiştiren önemli gelişme.",
+            "category": "Operasyonel"
+          },
+          "5": {
+            "title": "Genç Yetenekler Programı 2024 Başvuruları Başladı",
+            "summary": "Kariyer fırsatları ve mesleki gelişim programları ile gençleri destekliyoruz.",
+            "category": "İnsan Kaynakları"
+          }
+        }
+      },
+      "categories": {
+        "all": "Tümü",
+        "corporate": "Kurumsal",
+        "financial": "Finansal",
+        "technology": "Teknoloji",
+        "sustainability": "Sürdürülebilirlik",
+        "operational": "Operasyonel",
+        "hr": "İnsan Kaynakları"
+      },
+      "mediaKit": {
+        "heading": "Medya Kiti",
+        "description": "Ekşioğlu Grup hakkında haber yapımında kullanabileceğiniz logolar, fotoğraflar ve kurumsal materyaller.",
+        "download": "İndir",
+        "list": {
+          "0": {
+            "title": "Logo ve Marka Kimligi",
+            "description": "Yüksek çözünürlüklü logolar ve marka rehberi"
+          },
+          "1": {
+            "title": "Yönetici Fotoğrafları",
+            "description": "Yönetim kurulu ve üst düzey yöneticilerin fotoğrafları"
+          },
+          "2": {
+            "title": "Şirket Sunumu",
+            "description": "Güncel kurumsal sunum ve faktsheet"
+          },
+          "3": {
+            "title": "Tesis ve Proje Görselleri",
+            "description": "Yüksek kalite proje ve tesis fotoğrafları"
+          }
+        }
+      },
+      "events": {
+        "heading": "Yaklaşan Etkinlikler",
+        "details": "Detaylar",
+        "list": {
+          "0": {
+            "title": "Yıl Sonu Değerlendirme Toplantısı",
+            "type": "Kurumsal Etkinlik",
+            "location": "İstanbul"
+          },
+          "1": {
+            "title": "Sürdürülebilirlik Zirvesi 2024",
+            "type": "Konferans",
+            "location": "Ankara"
+          },
+          "2": {
+            "title": "Teknoloji ve İnovasyon Fuarı",
+            "type": "Fuar",
+            "location": "İzmir"
+          }
+        }
+      },
+      "contacts": {
+        "heading": "Medya İletişim",
+        "description": "Basın açıklamaları ve röportaj talepleri için iletişim bilgilerimiz",
+        "list": {
+          "0": {
+            "name": "Ayşe Demir",
+            "title": "Kurumsal İletişim Müdürü"
+          },
+          "1": {
+            "name": "Mehmet Kaya",
+            "title": "Basın İlişkileri Uzmanı"
+          }
+        }
+      },
+      "newsletter": {
+        "heading": "Basın Bültenlerimizi Takip Edin",
+        "description": "Ekşioğlu Grup'un güncel gelişmelerinden haberdar olmak için e-bültene abone olun.",
+        "placeholder": "E-posta adresiniz",
+        "subscribe": "Abone Ol"
+      }
+    },
+    "investor": {
+      "title": "Yatırımcı İlişkileri",
+      "description": "Şeffaflık ilkesi doğrultusunda, yatırımcılarımıza detaylı bilgi sağlıyoruz.",
+      "highlights": {
+        "heading": "Finansal Öne Çıkanlar (2024)",
+        "list": {
+          "0": {
+            "title": "Toplam Aktif",
+            "value": "₺18.2 Milyar",
+            "change": "+12%"
+          },
+          "1": {
+            "title": "Net Satış Hasılatı",
+            "value": "₺15.8 Milyar",
+            "change": "+18%"
+          },
+          "2": {
+            "title": "EBITDA",
+            "value": "₺2.4 Milyar",
+            "change": "+22%"
+          },
+          "3": {
+            "title": "Net Kar",
+            "value": "₺1.1 Milyar",
+            "change": "+15%"
+          }
+        }
+      },
+      "reports": {
+        "heading": "Raporlar ve Sunumlar",
+        "download": "İndir",
+        "view": "Görüntüle",
+        "list": {
+          "0": {
+            "title": "2024 3. Çeyrek Mali Tabloları"
+          },
+          "1": {
+            "title": "2024 2. Çeyrek Mali Tabloları"
+          },
+          "2": {
+            "title": "2023 Yıllık Faaliyet Raporu"
+          },
+          "3": {
+            "title": "2023 Sürdürülebilirlik Raporu"
+          }
+        }
+      },
+      "announcements": {
+        "heading": "Duyurular",
+        "viewAll": "Tüm Duyuruları Görüntüle",
+        "list": {
+          "0": {
+            "title": "Enerji Sektörü Yatırımında Yeni İş Birliği",
+            "category": "Kurumsal"
+          },
+          "1": {
+            "title": "3. Çeyrek Finansal Sonuçları Açıklandı",
+            "category": "Finansal"
+          },
+          "2": {
+            "title": "Yönetim Kurulu Kararları",
+            "category": "Kurumsal Yönetim"
+          },
+          "3": {
+            "title": "Teknoloji Yatırımları Genişletiliyor",
+            "category": "Operasyonel"
+          }
+        }
+      },
+      "governance": {
+        "heading": "Kurumsal Yönetim",
+        "description": "Şeffaflık, hesap verebilirlik ve etik değerler doğrultusunda kurumsal yönetim ilkelerimizi uyguluyoruz.",
+        "board": {
+          "title": "Yönetim Kurulu",
+          "items": {
+            "0": "7 üyeli Yönetim Kurulu",
+            "1": "3 bağımsız üye",
+            "2": "Çeşitlilik ve deneyim odaklı yapı",
+            "3": "Düzenli performans değerlendirmesi"
+          }
+        },
+        "committees": {
+          "title": "Komiteler",
+          "items": {
+            "0": "Denetim Komitesi",
+            "1": "Risk Yönetim Komitesi",
+            "2": "Kurumsal Yönetim Komitesi",
+            "3": "Sürdürülebilirlik Komitesi"
+          }
+        },
+        "documents": {
+          "heading": "Kurumsal Yönetim Belgeleri",
+          "list": {
+            "0": "Esas Sözleşme",
+            "1": "İç Denetim Tüzüğü",
+            "2": "Etik Kurallar",
+            "3": "Risk Yönetim Politikası",
+            "4": "Bilgilendirme Politikası",
+            "5": "Kar Dağıtım Politikası"
+          }
+        }
+      },
+      "contact": {
+        "heading": "Yatırımcı İlişkileri İletişim",
+        "description": "Sorularınız ve önerileriniz için yatırımcı ilişkileri ekibimizle iletişime geçin.",
+        "email": {
+          "label": "Email",
+          "value": "yatirimci@eksioglugrup.com"
+        },
+        "phone": {
+          "label": "Telefon",
+          "value": "+90 212 555 0123"
+        },
+        "button": "İletişim Formu"
+      }
+    },
+    "contact": {
+      "title": "İletişim",
+      "description": "Bizimle iletişime geçmek için aşağıdaki formu kullanabilir veya iletişim bilgilerimizden ulaşabilirsiniz.",
+      "info": {
+        "heading": "İletişim Bilgileri",
+        "address": {
+          "title": "Merkez Ofis",
+          "line1": "Maslak Mahallesi, Büyükdere Caddesi",
+          "line2": "No: 255, Sarıyer/İstanbul",
+          "line3": "34398 Türkiye"
+        },
+        "phone": {
+          "title": "Telefon",
+          "main": "+90 212 456 78 90",
+          "fax": "+90 212 456 78 91 (Fax)"
+        },
+        "email": {
+          "title": "E-posta",
+          "info": "info@eksioglugrup.com.tr",
+          "contact": "iletisim@eksioglugrup.com.tr"
+        },
+        "hours": {
+          "title": "Çalışma Saatleri",
+          "weekday": "Pazartesi - Cuma: 09:00 - 18:00",
+          "saturday": "Cumartesi: 09:00 - 13:00",
+          "sunday": "Pazar: Kapalı"
+        },
+        "social": {
+          "title": "Sosyal Medya"
+        }
+      },
+      "form": {
+        "heading": "Bize Ulaşın",
+        "name": "Ad Soyad",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "company": "Şirket",
+        "subject": {
+          "label": "Konu",
+          "placeholder": "Konu seçiniz",
+          "general": "Genel Bilgi",
+          "partnership": "İş Birliği",
+          "career": "Kariyer",
+          "press": "Basın",
+          "other": "Diğer"
+        },
+        "message": {
+          "label": "Mesaj",
+          "placeholder": "Mesajınızı buraya yazın..."
+        },
+        "privacy": {
+          "text": "kapsamında kişisel verilerimin işlenmesini kabul ediyorum.",
+          "link": "Kişisel Verilerin Korunması Kanunu"
+        },
+        "submit": "Mesaj Gönder",
+        "required": "*"
+      },
+      "map": {
+        "heading": "Konumumuz",
+        "integration": "Harita Entegrasyonu",
+        "note": "Google Maps veya benzer servis entegre edilecek"
+      }
+    }
+  }
+}

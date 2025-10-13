@@ -1,35 +1,98 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import StoryPage from './pages/StoryPage';
+import VisionPage from './pages/VisionPage';
+import MissionPage from './pages/MissionPage';
+import ValuesPage from './pages/ValuesPage';
+import BoardPage from './pages/BoardPage';
+import ManagementPage from './pages/ManagementPage';
+import CompaniesPage from './pages/CompaniesPage';
+import ContactPage from './pages/ContactPage';
+import SustainabilityPage from './pages/SustainabilityPage';
+import CareerPage from './pages/CareerPage';
+import InvestorRelationsPage from './pages/InvestorRelationsPage';
+import MediaPage from './pages/MediaPage';
+import TechnologyPage from './pages/TechnologyPage';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <Router>
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1">
+          <Routes>
+            <Route
+              path="/"
+              element={<HomePage />}
+            />
+            <Route
+              path="/hakkimizda"
+              element={<AboutPage />}
+            />
+            <Route
+              path="/hikayemiz"
+              element={<StoryPage />}
+            />
+            <Route
+              path="/vizyon"
+              element={<VisionPage />}
+            />
+            <Route
+              path="/misyon"
+              element={<MissionPage />}
+            />
+            <Route
+              path="/degerler"
+              element={<ValuesPage />}
+            />
+            <Route
+              path="/yonetim-kurulu"
+              element={<BoardPage />}
+            />
+            <Route
+              path="/ust-yonetim"
+              element={<ManagementPage />}
+            />
+            <Route
+              path="/grup-sirketleri"
+              element={<CompaniesPage />}
+            />
+            <Route
+              path="/surdurulebilirlik"
+              element={<SustainabilityPage />}
+            />
+            <Route
+              path="/kariyer"
+              element={<CareerPage />}
+            />
+            <Route
+              path="/yatirimci-iliskileri"
+              element={<InvestorRelationsPage />}
+            />
+            <Route
+              path="/medya"
+              element={<MediaPage />}
+            />
+            <Route
+              path="/teknoloji-inovasyon"
+              element={<TechnologyPage />}
+            />
+            <Route
+              path="/iletisim"
+              element={<ContactPage />}
+            />
+          </Routes>
+        </main>
+        <Footer />
+        <ScrollToTop />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
