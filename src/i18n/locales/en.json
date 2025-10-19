@@ -2,7 +2,7 @@
   "navigation": {
     "home": "Home",
     "about": "About Us",
-    "businessAreas": "Business Areas",
+    "businessAreas": "Fields of Activity",
     "sustainability": "Sustainability",
     "career": "Corporate",
     "media": "Media",
@@ -57,15 +57,15 @@
   },
   "businessAreas": {
     "title": "Our Business Areas",
-    "subtitle": "With our deep knowledge and experience gained in various sectors, we offer quality and reliable solutions in every field.",
+    "subtitle": "We offer professional solutions in every field with our group companies operating in 4 main categories.",
     "cta": {
       "question": "Would you like to learn more about our companies?",
       "button": "Explore All Our Companies"
     },
     "areas": {
       "0": {
-        "title": "Construction & Engineering",
-        "company": "Ekgüntaş & Ekutaş Construction",
+        "title": "Construction",
+        "company": "Construction & Building Sector",
         "description": "We are the leader in the sector with 88 years of experience in large-scale infrastructure, residential and commercial building projects.",
         "features": {
           "0": "Residential Projects",
@@ -74,136 +74,88 @@
         },
         "stats": {
           "0": {
-            "label": "Experience",
-            "value": "88 Years"
+            "label": "Companies",
+            "value": "5"
           },
           "1": {
             "label": "Projects",
             "value": "800+"
           },
           "2": {
-            "label": "m² Construction",
-            "value": "2M+"
+            "label": "Experience",
+            "value": "88 Years"
           }
         }
       },
       "1": {
-        "title": "Energy & Electricity",
-        "company": "Tevor Energy",
-        "description": "We offer sustainable solutions in the energy sector from renewable energy sources to electricity generation.",
+        "title": "Corporate Services",
+        "company": "Professional Service Solutions",
+        "description": "We offer a wide range of services from security to real estate, from publishing to tourism.",
         "features": {
-          "0": "Wind Energy",
-          "1": "Solar Energy",
-          "2": "Electricity Generation"
+          "0": "Security Services",
+          "1": "Real Estate Management",
+          "2": "Media & Advertising"
         },
         "stats": {
           "0": {
-            "label": "Experience",
-            "value": "25 Years"
+            "label": "Companies",
+            "value": "10"
           },
           "1": {
-            "label": "Capacity",
-            "value": "150MW"
+            "label": "Service Areas",
+            "value": "15+"
           },
           "2": {
-            "label": "Facilities",
-            "value": "25+"
+            "label": "Clients",
+            "value": "500+"
           }
         }
       },
       "2": {
-        "title": "Media & IT",
-        "company": "Ponton Media",
-        "description": "We produce digital solutions and creative campaigns in advertising, publishing and information technology.",
+        "title": "Corporate Supply",
+        "company": "Supply & Logistics Services",
+        "description": "We provide corporate supply solutions from energy to logistics, from construction machinery to IT.",
         "features": {
-          "0": "Digital Advertising",
-          "1": "Publishing",
-          "2": "IT Solutions"
+          "0": "Energy Supply",
+          "1": "Logistics Services",
+          "2": "Construction Machinery"
         },
         "stats": {
           "0": {
-            "label": "Experience",
-            "value": "33 Years"
+            "label": "Companies",
+            "value": "6"
           },
           "1": {
-            "label": "Campaigns",
-            "value": "500+"
+            "label": "Supply Network",
+            "value": "1000+"
           },
           "2": {
-            "label": "Brands",
-            "value": "200+"
+            "label": "Capacity",
+            "value": "150MW"
           }
         }
       },
       "3": {
-        "title": "Real Estate",
-        "company": "Piran Real Estate",
-        "description": "We add value to our customers with real estate consultancy and investment management services.",
+        "title": "Production",
+        "company": "Manufacturing & Engineering",
+        "description": "We offer production solutions from machine manufacturing to construction materials, from mining to engineering.",
         "features": {
-          "0": "Consultancy",
-          "1": "Investment Management",
-          "2": "Portfolio Management"
+          "0": "Machine Manufacturing",
+          "1": "Construction Materials",
+          "2": "Mining"
         },
         "stats": {
           "0": {
-            "label": "Experience",
-            "value": "37 Years"
+            "label": "Companies",
+            "value": "3"
           },
           "1": {
-            "label": "Consultancy",
-            "value": "1000+"
+            "label": "Production Lines",
+            "value": "12+"
           },
           "2": {
-            "label": "Portfolio",
-            "value": "500M₺"
-          }
-        }
-      },
-      "4": {
-        "title": "Construction Machinery",
-        "company": "Ekşizade Machinery",
-        "description": "We offer construction machinery sales, rental and service services for the construction and industrial sectors.",
-        "features": {
-          "0": "Sales",
-          "1": "Rental",
-          "2": "Service & Maintenance"
-        },
-        "stats": {
-          "0": {
-            "label": "Experience",
-            "value": "40 Years"
-          },
-          "1": {
-            "label": "Machinery",
-            "value": "1000+"
-          },
-          "2": {
-            "label": "Brands",
-            "value": "15+"
-          }
-        }
-      },
-      "5": {
-        "title": "Service Sector",
-        "company": "İlka Security & Leyan Restoration",
-        "description": "We offer solutions in a wide range with security, cleaning, restoration and renovation services.",
-        "features": {
-          "0": "Security",
-          "1": "Cleaning",
-          "2": "Restoration"
-        },
-        "stats": {
-          "0": {
-            "label": "Experience",
-            "value": "35 Years"
-          },
-          "1": {
-            "label": "Locations",
-            "value": "500+"
-          },
-          "2": {
-            "label": "Cities",
-            "value": "25+"
+            "label": "Capacity",
+            "value": "10K tons/year"
           }
         }
       }
@@ -230,21 +182,49 @@
     },
     "business": {
       "title": "Business Areas",
-      "description": "We serve with our group companies operating in 6 different sectors",
-      "mainSectors": "Main Sectors",
-      "otherAreas": "Other Areas",
-      "construction": "Construction & Engineering",
-      "constructionDesc": "500+ successful projects",
-      "energy": "Energy & Electricity",
-      "energyDesc": "Renewable energy",
-      "technology": "Technology & Software",
-      "technologyDesc": "Digital solutions",
-      "realEstate": "Real Estate",
-      "realEstateDesc": "Modern living spaces",
-      "industry": "Industry & Manufacturing",
-      "industryDesc": "Production facilities",
-      "media": "Advertising & Publishing",
-      "mediaDesc": "Media services"
+      "description": "We serve with our group companies operating in 4 main categories",
+      "construction": "Construction",
+      "constructionDesc": "Construction and building sector",
+      "corporateServices": "Corporate Services",
+      "corporateServicesDesc": "Professional service solutions",
+      "corporateSupply": "Corporate Supply",
+      "corporateSupplyDesc": "Supply and logistics services",
+      "production": "Production",
+      "productionDesc": "Manufacturing and engineering",
+      "companies": {
+        "construction": {
+          "ekguntas": "Ekgüntaş",
+          "ekutas": "Ekutaş",
+          "turansan": "Ekşioğlu Turansan",
+          "leyan": "Leyan Construction",
+          "leyanDemolition": "Leyan Demolition & Excavation"
+        },
+        "corporateServices": {
+          "ilka": "İlka Security and Cleaning",
+          "piranRealEstate": "Piran Real Estate",
+          "piranCorporate": "Piran Corporate Services",
+          "piranManagement": "Piran Management",
+          "piranBusiness": "Piran Operations",
+          "piranPublishing": "Piran Publishing",
+          "volan": "Volan Service Solutions",
+          "tulpar": "Tulpar Tourism",
+          "onay": "Onay R&D",
+          "ponton": "Ponton Advertising"
+        },
+        "corporateSupply": {
+          "tevorSupply": "Tevor Corporate Supply",
+          "peyk": "Peyk Logistics",
+          "eksizade": "Ekşizade Construction Machinery",
+          "tevorEnergy": "Tevor Energy",
+          "vervoer": "Vervoer Electric Vehicles",
+          "tevorIT": "Tevor IT Online Marketing"
+        },
+        "production": {
+          "jerfaMachine": "Jerfa Machine Manufacturing & Engineering",
+          "jerfaConstruction": "Jerfa Construction Materials",
+          "jerfaMining": "Jerfa Mining"
+        }
+      }
     },
     "sustainability": {
       "title": "Sustainable Future",
@@ -413,9 +393,9 @@
     "contact": "Contact",
     "contactInfo": "Contact",
     "address": {
-      "line1": "Küçük Çamlıca Mahallesi",
-      "line2": "Libadiye Caddesi No: 52",
-      "line3": "Üsküdar/Istanbul"
+      "line1": "Bağdat Caddesi No: 128B",
+      "line2": "Kadıköy/Istanbul",
+      "line3": ""
     },
     "phone": "Tel: +90 850 346 46 52",
     "email": "info@eksioglugrup.tr",
@@ -550,7 +530,7 @@
           "projects": "100 MW Installed Power"
         },
         "ilka": {
-          "name": "İlka Security",
+          "name": "İlka Security and Cleaning",
           "sector": "Security & Cleaning",
           "description": "Providing professional security and cleaning services, İlka offers quality service to corporate and individual clients.",
           "services": {
@@ -1881,19 +1861,19 @@
         "heading": "Contact Information",
         "address": {
           "title": "Head Office",
-          "line1": "Maslak Mahallesi, Büyükdere Caddesi",
-          "line2": "No: 255, Sarıyer/Istanbul",
-          "line3": "34398 Turkey"
+          "line1": "Bağdat Caddesi No: 128B",
+          "line2": "Kadıköy/Istanbul",
+          "line3": "Turkey"
         },
         "phone": {
           "title": "Phone",
-          "main": "+90 212 456 78 90",
-          "fax": "+90 212 456 78 91 (Fax)"
+          "main": "+90 850 346 46 52",
+          "fax": "+90 850 346 46 52 (Fax)"
         },
         "email": {
           "title": "Email",
-          "info": "info@eksioglugrup.com.tr",
-          "contact": "iletisim@eksioglugrup.com.tr"
+          "info": "info@eksioglugrup.tr",
+          "contact": "iletisim@eksioglugrup.tr"
         },
         "hours": {
           "title": "Working Hours",
@@ -2149,12 +2129,12 @@
     },
     "address": {
       "title": "Head Office",
-      "street": "Küçük Çamlıca Mahallesi",
-      "street2": "Libadiye Caddesi No: 52",
-      "district": "Üsküdar/Istanbul",
-      "postalCode": "34398",
+      "street": "Bağdat Caddesi No: 128B",
+      "street2": "",
+      "district": "Kadıköy/Istanbul",
+      "postalCode": "",
       "country": "Turkey",
-      "full": "Küçük Çamlıca Mahallesi, Libadiye Caddesi No: 52, Üsküdar/Istanbul, 34398 Turkey"
+      "full": "Bağdat Caddesi No: 128B, Kadıköy/Istanbul, Turkey"
     },
     "phone": {
       "main": "+90 850 346 46 52",
@@ -2169,6 +2149,7 @@
       "career": "kariyer@eksioglugrup.tr"
     },
     "hours": {
+      "title": "Working Hours",
       "weekday": "Monday - Friday: 09:00 - 18:00",
       "saturday": "Saturday: Closed",
       "sunday": "Sunday: Closed"

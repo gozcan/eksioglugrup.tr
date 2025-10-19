@@ -8,32 +8,22 @@ const BusinessAreas = () => {
     {
       id: 0,
       icon: '🏗️',
-      color: 'from-blue-600 to-blue-800',
+      color: 'from-orange-600 to-orange-800',
     },
     {
       id: 1,
-      icon: '⚡',
-      color: 'from-amber-500 to-orange-600',
+      icon: '🏢',
+      color: 'from-blue-600 to-blue-800',
     },
     {
       id: 2,
-      icon: '📱',
-      color: 'from-purple-600 to-pink-600',
-    },
-    {
-      id: 3,
-      icon: '🏢',
+      icon: '📦',
       color: 'from-emerald-600 to-green-700',
     },
     {
-      id: 4,
-      icon: '🚜',
+      id: 3,
+      icon: '⚙️',
       color: 'from-gray-600 to-gray-800',
-    },
-    {
-      id: 5,
-      icon: '🛡️',
-      color: 'from-teal-600 to-cyan-700',
     },
   ];
 
@@ -62,7 +52,7 @@ const BusinessAreas = () => {
         {/* Business Areas Grid */}
         <div
           ref={containerRef}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto"
         >
           {businessAreas.map((area, index) => (
             <div
@@ -114,7 +104,7 @@ const BusinessAreas = () => {
                 </div>
 
                 {/* Stats Grid */}
-                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-100">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 border-t border-gray-100">
                   {[0, 1, 2].map((idx) => (
                     <div
                       key={idx}

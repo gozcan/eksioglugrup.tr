@@ -2,7 +2,7 @@
   "navigation": {
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
-    "businessAreas": "İş Alanlarımız",
+    "businessAreas": "Faaliyet Alanlarımız",
     "sustainability": "Sürdürülebilirlik",
     "career": "Kurumsal",
     "media": "Medya",
@@ -57,15 +57,15 @@
   },
   "businessAreas": {
     "title": "Faaliyet Alanlarımız",
-    "subtitle": "Çeşitli sektörlerde edindiğimiz derin bilgi ve deneyimimizle, her alanda kaliteli ve güvenilir çözümler sunuyoruz.",
+    "subtitle": "4 ana kategoride faaliyet gösteren grup şirketlerimizle, her alanda profesyonel çözümler sunuyoruz.",
     "cta": {
       "question": "Şirketlerimiz hakkında daha fazla bilgi almak ister misiniz?",
       "button": "Tüm Şirketlerimizi Keşfedin"
     },
     "areas": {
       "0": {
-        "title": "İnşaat & Mühendislik",
-        "company": "Ekgüntaş & Ekutaş İnşaat",
+        "title": "Yapı",
+        "company": "İnşaat & Yapı Sektörü",
         "description": "Büyük ölçekli altyapı, konut ve ticari yapı projelerinde 88 yıllık deneyimimizle sektörün öncüsüyüz.",
         "features": {
           "0": "Konut Projeleri",
@@ -74,136 +74,88 @@
         },
         "stats": {
           "0": {
-            "label": "Deneyim",
-            "value": "88 Yıl"
+            "label": "Şirket",
+            "value": "5"
           },
           "1": {
             "label": "Proje",
             "value": "800+"
           },
           "2": {
-            "label": "m² İnşaat",
-            "value": "2M+"
+            "label": "Deneyim",
+            "value": "88 Yıl"
           }
         }
       },
       "1": {
-        "title": "Enerji & Elektrik",
-        "company": "Tevor Enerji",
-        "description": "Yenilenebilir enerji kaynaklarından elektrik üretimine kadar enerji sektöründe sürdürülebilir çözümler sunuyoruz.",
+        "title": "Kurumsal Hizmetler",
+        "company": "Profesyonel Hizmet Çözümleri",
+        "description": "Güvenlikten gayrimenkule, yayıncılıktan turizme kadar geniş bir hizmet yelpazesi sunuyoruz.",
         "features": {
-          "0": "Rüzgar Enerjisi",
-          "1": "Solar Enerji",
-          "2": "Elektrik Üretimi"
+          "0": "Güvenlik Hizmetleri",
+          "1": "Gayrimenkul Yönetimi",
+          "2": "Medya & Reklam"
         },
         "stats": {
           "0": {
-            "label": "Deneyim",
-            "value": "25 Yıl"
+            "label": "Şirket",
+            "value": "10"
           },
           "1": {
-            "label": "Kapasite",
-            "value": "150MW"
+            "label": "Hizmet Alanı",
+            "value": "15+"
           },
           "2": {
-            "label": "Tesis",
-            "value": "25+"
+            "label": "Müşteri",
+            "value": "500+"
           }
         }
       },
       "2": {
-        "title": "Medya & Bilişim",
-        "company": "Ponton Medya",
-        "description": "Reklam, yayıncılık ve bilişim alanında dijital çözümler ve yaratıcı kampanyalar üretiyoruz.",
+        "title": "Kurumsal Tedarik",
+        "company": "Tedarik & Lojistik Hizmetleri",
+        "description": "Enerjiden lojistiğe, iş makinalarından bilişime kadar kurumsal tedarik çözümleri sağlıyoruz.",
         "features": {
-          "0": "Dijital Reklam",
-          "1": "Yayıncılık",
-          "2": "Bilişim Çözümleri"
+          "0": "Enerji Tedariki",
+          "1": "Lojistik Hizmetleri",
+          "2": "İş Makinaları"
         },
         "stats": {
           "0": {
-            "label": "Deneyim",
-            "value": "33 Yıl"
+            "label": "Şirket",
+            "value": "6"
           },
           "1": {
-            "label": "Kampanya",
-            "value": "500+"
+            "label": "Tedarik Ağı",
+            "value": "1000+"
           },
           "2": {
-            "label": "Marka",
-            "value": "200+"
+            "label": "Kapasite",
+            "value": "150MW"
           }
         }
       },
       "3": {
-        "title": "Gayrimenkul",
-        "company": "Piran Gayrimenkul",
-        "description": "Gayrimenkul danışmanlığı ve yatırım yönetimi hizmetleri ile müşterilerimize değer katıyoruz.",
+        "title": "Üretim",
+        "company": "İmalat & Mühendislik",
+        "description": "Makina imalatından yapı malzemelerine, madencilikten mühendisliğe kadar üretim çözümleri sunuyoruz.",
         "features": {
-          "0": "Danışmanlık",
-          "1": "Yatırım Yönetimi",
-          "2": "Portföy Yönetimi"
+          "0": "Makina İmalat",
+          "1": "Yapı Malzemeleri",
+          "2": "Madencilik"
         },
         "stats": {
           "0": {
-            "label": "Deneyim",
-            "value": "37 Yıl"
+            "label": "Şirket",
+            "value": "3"
           },
           "1": {
-            "label": "Danışmanlık",
-            "value": "1000+"
+            "label": "Üretim Hattı",
+            "value": "12+"
           },
           "2": {
-            "label": "Portföy",
-            "value": "500M₺"
-          }
-        }
-      },
-      "4": {
-        "title": "İş Makinaları",
-        "company": "Ekşizade Makina",
-        "description": "İnşaat ve sanayi sektörüne yönelik iş makinaları satış, kiralama ve servis hizmetleri sunuyoruz.",
-        "features": {
-          "0": "Satış",
-          "1": "Kiralama",
-          "2": "Servis & Bakım"
-        },
-        "stats": {
-          "0": {
-            "label": "Deneyim",
-            "value": "40 Yıl"
-          },
-          "1": {
-            "label": "Makina",
-            "value": "1000+"
-          },
-          "2": {
-            "label": "Marka",
-            "value": "15+"
-          }
-        }
-      },
-      "5": {
-        "title": "Hizmet Sektörü",
-        "company": "İlka Güvenlik & Leyan Restorasyon",
-        "description": "Güvenlik, temizlik, restorasyon ve tadilat hizmetleri ile geniş bir yelpazede çözümler sunuyoruz.",
-        "features": {
-          "0": "Güvenlik",
-          "1": "Temizlik",
-          "2": "Restorasyon"
-        },
-        "stats": {
-          "0": {
-            "label": "Deneyim",
-            "value": "35 Yıl"
-          },
-          "1": {
-            "label": "Lokasyon",
-            "value": "500+"
-          },
-          "2": {
-            "label": "Şehir",
-            "value": "25+"
+            "label": "Kapasite",
+            "value": "10K ton/yıl"
           }
         }
       }
@@ -230,21 +182,49 @@
     },
     "business": {
       "title": "Faaliyet Alanları",
-      "description": "6 farklı sektörde faaliyet gösteren grup şirketlerimiz ile hizmet veriyoruz",
-      "mainSectors": "Ana Sektörler",
-      "otherAreas": "Diğer Alanlar",
-      "construction": "İnşaat & Mühendislik",
-      "constructionDesc": "500+ başarılı proje",
-      "energy": "Enerji & Elektrik",
-      "energyDesc": "Yenilenebilir enerji",
-      "technology": "Teknoloji & Yazılım",
-      "technologyDesc": "Dijital çözümler",
-      "realEstate": "Gayrimenkul",
-      "realEstateDesc": "Modern yaşam alanları",
-      "industry": "Sanayi & Üretim",
-      "industryDesc": "Üretim tesisleri",
-      "media": "Reklam & Yayıncılık",
-      "mediaDesc": "Medya hizmetleri"
+      "description": "4 ana kategoride faaliyet gösteren grup şirketlerimiz ile hizmet veriyoruz",
+      "construction": "Yapı",
+      "constructionDesc": "İnşaat ve yapı sektörü",
+      "corporateServices": "Kurumsal Hizmetler",
+      "corporateServicesDesc": "Profesyonel hizmet çözümleri",
+      "corporateSupply": "Kurumsal Tedarik",
+      "corporateSupplyDesc": "Tedarik ve lojistik hizmetleri",
+      "production": "Üretim",
+      "productionDesc": "İmalat ve mühendislik",
+      "companies": {
+        "construction": {
+          "ekguntas": "Ekgüntaş",
+          "ekutas": "Ekutaş",
+          "turansan": "Ekşioğlu Turansan",
+          "leyan": "Leyan İnşaat",
+          "leyanDemolition": "Leyan Yıkım & Hafriyat"
+        },
+        "corporateServices": {
+          "ilka": "İlka Güvenlik ve Temizlik",
+          "piranRealEstate": "Piran Gayrimenkul",
+          "piranCorporate": "Piran Kurumsal Hizmetler",
+          "piranManagement": "Piran Yönetim",
+          "piranBusiness": "Piran İşletmecilik",
+          "piranPublishing": "Piran Yayıncılık",
+          "volan": "Volan Servis Hizmetleri",
+          "tulpar": "Tulpar Turizm",
+          "onay": "Onay AR-GE",
+          "ponton": "Ponton Reklam"
+        },
+        "corporateSupply": {
+          "tevorSupply": "Tevor Kurumsal Tedarik",
+          "peyk": "Peyk Lojistik",
+          "eksizade": "Ekşizade İş Makinaları",
+          "tevorEnergy": "Tevor Enerji",
+          "vervoer": "Vervoer Elektrikli Araçlar",
+          "tevorIT": "Tevor Bilişim Online Pazarlama"
+        },
+        "production": {
+          "jerfaMachine": "Jerfa Makina İmalat ve Mühendislik",
+          "jerfaConstruction": "Jerfa Yapı Malzemeleri",
+          "jerfaMining": "Jerfa Madencilik"
+        }
+      }
     },
     "sustainability": {
       "title": "Sürdürülebilir Gelecek",
@@ -413,9 +393,9 @@
     "contact": "İletişim",
     "contactInfo": "İletişim",
     "address": {
-      "line1": "Küçük Çamlıca Mahallesi",
-      "line2": "Libadiye Caddesi No: 52",
-      "line3": "Üsküdar/İstanbul"
+      "line1": "Bağdat Caddesi No: 128B",
+      "line2": "Kadıköy/İstanbul",
+      "line3": ""
     },
     "phone": "Tel: +90 850 346 46 52",
     "email": "info@eksioglugrup.tr",
@@ -550,7 +530,7 @@
           "projects": "100 MW Kurulu Güç"
         },
         "ilka": {
-          "name": "İlka Güvenlik",
+          "name": "İlka Güvenlik ve Temizlik",
           "sector": "Güvenlik & Temizlik",
           "description": "Profesyonel güvenlik ve temizlik hizmetleri sunan İlka, kurumsal ve bireysel müşterilere kaliteli hizmet vermektedir.",
           "services": {
@@ -1881,9 +1861,9 @@
         "heading": "İletişim Bilgileri",
         "address": {
           "title": "Merkez Ofis",
-          "line1": "Küçük Çamlıca Mahallesi, Libadiye Caddesi",
-          "line2": "No: 52, Üsküdar/İstanbul",
-          "line3": "34398 Türkiye"
+          "line1": "Bağdat Caddesi No: 128B",
+          "line2": "Kadıköy/İstanbul",
+          "line3": "Türkiye"
         },
         "phone": {
           "title": "Telefon",
@@ -2149,12 +2129,12 @@
     },
     "address": {
       "title": "Merkez Ofis",
-      "street": "Küçük Çamlıca Mahallesi",
-      "street2": "Libadiye Caddesi No: 52",
-      "district": "Üsküdar/İstanbul",
-      "postalCode": "34398",
+      "street": "Bağdat Caddesi No: 128B",
+      "street2": "",
+      "district": "Kadıköy/İstanbul",
+      "postalCode": "",
       "country": "Türkiye",
-      "full": "Küçük Çamlıca Mahallesi, Libadiye Caddesi No: 52, Üsküdar/İstanbul, 34398 Türkiye"
+      "full": "Bağdat Caddesi No: 128B, Kadıköy/İstanbul, Türkiye"
     },
     "phone": {
       "main": "+90 850 346 46 52",
@@ -2169,6 +2149,7 @@
       "career": "kariyer@eksioglugrup.tr"
     },
     "hours": {
+      "title": "Çalışma Saatleri",
       "weekday": "Pazartesi - Cuma: 09:00 - 18:00",
       "saturday": "Cumartesi: Kapalı",
       "sunday": "Pazar: Kapalı"

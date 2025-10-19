@@ -78,21 +78,6 @@ const Header = () => {
               },
             ],
           },
-          {
-            title: t('megaMenu.about.managementSection'),
-            items: [
-              {
-                name: t('megaMenu.about.board'),
-                href: '/yonetim-kurulu',
-                description: t('megaMenu.about.boardDesc'),
-              },
-              {
-                name: t('megaMenu.about.management'),
-                href: '/ust-yonetim',
-                description: t('megaMenu.about.managementDesc'),
-              },
-            ],
-          },
         ],
       },
     },
@@ -105,42 +90,153 @@ const Header = () => {
         image: 'linear-gradient(135deg, #065f46 0%, #10b981 100%)',
         sections: [
           {
-            title: t('megaMenu.business.mainSectors'),
+            title: t('megaMenu.business.construction'),
             items: [
               {
-                name: t('megaMenu.business.construction'),
-                href: '/grup-sirketleri#insaat',
+                name: t('megaMenu.business.companies.construction.ekguntas'),
+                href: '/grup-sirketleri?company=ekguntas',
                 description: t('megaMenu.business.constructionDesc'),
               },
               {
-                name: t('megaMenu.business.energy'),
-                href: '/grup-sirketleri#enerji',
-                description: t('megaMenu.business.energyDesc'),
+                name: t('megaMenu.business.companies.construction.ekutas'),
+                href: '/grup-sirketleri?company=ekutas',
+                description: t('megaMenu.business.constructionDesc'),
               },
               {
-                name: t('megaMenu.business.technology'),
-                href: '/grup-sirketleri#teknoloji',
-                description: t('megaMenu.business.technologyDesc'),
+                name: t('megaMenu.business.companies.construction.turansan'),
+                href: '/grup-sirketleri?company=turansan',
+                description: t('megaMenu.business.constructionDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.construction.leyan'),
+                href: '/grup-sirketleri?company=leyan',
+                description: t('megaMenu.business.constructionDesc'),
+              },
+              {
+                name: t(
+                  'megaMenu.business.companies.construction.leyanDemolition'
+                ),
+                href: '/grup-sirketleri?company=leyan-yikim',
+                description: t('megaMenu.business.constructionDesc'),
               },
             ],
           },
           {
-            title: t('megaMenu.business.otherAreas'),
+            title: t('megaMenu.business.corporateServices'),
             items: [
               {
-                name: t('megaMenu.business.realEstate'),
-                href: '/grup-sirketleri#gayrimenkul',
-                description: t('megaMenu.business.realEstateDesc'),
+                name: t('megaMenu.business.companies.corporateServices.ilka'),
+                href: '/grup-sirketleri?company=ilka',
+                description: t('megaMenu.business.corporateServicesDesc'),
               },
               {
-                name: t('megaMenu.business.industry'),
-                href: '/grup-sirketleri#sanayi',
-                description: t('megaMenu.business.industryDesc'),
+                name: t(
+                  'megaMenu.business.companies.corporateServices.piranRealEstate'
+                ),
+                href: '/grup-sirketleri?company=piran-gayrimenkul',
+                description: t('megaMenu.business.corporateServicesDesc'),
               },
               {
-                name: t('megaMenu.business.media'),
-                href: '/grup-sirketleri#medya',
-                description: t('megaMenu.business.mediaDesc'),
+                name: t(
+                  'megaMenu.business.companies.corporateServices.piranCorporate'
+                ),
+                href: '/grup-sirketleri?company=piran-kurumsal',
+                description: t('megaMenu.business.corporateServicesDesc'),
+              },
+              {
+                name: t(
+                  'megaMenu.business.companies.corporateServices.piranManagement'
+                ),
+                href: '/grup-sirketleri?company=piran-yonetim',
+                description: t('megaMenu.business.corporateServicesDesc'),
+              },
+              {
+                name: t(
+                  'megaMenu.business.companies.corporateServices.piranBusiness'
+                ),
+                href: '/grup-sirketleri?company=piran-isletmecilik',
+                description: t('megaMenu.business.corporateServicesDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.corporateServices.volan'),
+                href: '/grup-sirketleri?company=volan',
+                description: t('megaMenu.business.corporateServicesDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.corporateServices.tulpar'),
+                href: '/grup-sirketleri?company=tulpar',
+                description: t('megaMenu.business.corporateServicesDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.corporateServices.onay'),
+                href: '/grup-sirketleri?company=onay',
+                description: t('megaMenu.business.corporateServicesDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.corporateServices.ponton'),
+                href: '/grup-sirketleri?company=ponton',
+                description: t('megaMenu.business.corporateServicesDesc'),
+              },
+            ],
+          },
+          {
+            title: t('megaMenu.business.corporateSupply'),
+            items: [
+              {
+                name: t(
+                  'megaMenu.business.companies.corporateSupply.tevorSupply'
+                ),
+                href: '/grup-sirketleri?company=tevor-tedarik',
+                description: t('megaMenu.business.corporateSupplyDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.corporateSupply.peyk'),
+                href: '/grup-sirketleri?company=peyk',
+                description: t('megaMenu.business.corporateSupplyDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.corporateSupply.eksizade'),
+                href: '/grup-sirketleri?company=eksizade',
+                description: t('megaMenu.business.corporateSupplyDesc'),
+              },
+              {
+                name: t(
+                  'megaMenu.business.companies.corporateSupply.tevorEnergy'
+                ),
+                href: '/grup-sirketleri?company=tevor-enerji',
+                description: t('megaMenu.business.corporateSupplyDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.corporateSupply.tevorIT'),
+                href: '/grup-sirketleri?company=tevor-bilisim',
+                description: t('megaMenu.business.corporateSupplyDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.corporateSupply.vervoer'),
+                href: '/grup-sirketleri?company=vervoer',
+                description: t('megaMenu.business.corporateSupplyDesc'),
+              },
+            ],
+          },
+          {
+            title: t('megaMenu.business.production'),
+            items: [
+              {
+                name: t('megaMenu.business.companies.production.jerfaMachine'),
+                href: '/grup-sirketleri?company=jerfa-makina',
+                description: t('megaMenu.business.productionDesc'),
+              },
+              {
+                name: t(
+                  'megaMenu.business.companies.production.jerfaConstruction'
+                ),
+                href: '/grup-sirketleri?company=jerfa-yapi',
+                description: t('megaMenu.business.productionDesc'),
+              },
+              {
+                name: t('megaMenu.business.companies.production.jerfaMining'),
+                href: '/grup-sirketleri?company=jerfa-madencilik',
+                description: t('megaMenu.business.productionDesc'),
               },
             ],
           },
@@ -350,28 +446,25 @@ const Header = () => {
 
                         {/* Right Content Section */}
                         <div className="col-span-8 p-8">
-                          <div className="grid grid-cols-2 gap-8 h-full">
+                          <div className="grid grid-cols-4 gap-6 h-full">
                             {item.megaMenu.sections.map(
                               (section, sectionIndex) => (
                                 <div
                                   key={sectionIndex}
                                   className="space-y-4"
                                 >
-                                  <h4 className="font-semibold text-primary-900 text-lg border-b border-gray-200 pb-2">
+                                  <h4 className="font-semibold text-primary-900 text-sm border-b border-gray-200 pb-2">
                                     {section.title}
                                   </h4>
-                                  <ul className="space-y-3">
+                                  <ul className="space-y-2">
                                     {section.items.map((subItem, itemIndex) => (
                                       <li key={itemIndex}>
                                         <Link
                                           to={subItem.href}
-                                          className="group block p-3 rounded-lg hover:bg-gray-50 transition-all duration-200"
+                                          className="group block p-2 rounded-lg hover:bg-gray-50 transition-all duration-200"
                                         >
-                                          <div className="font-medium text-primary-900 group-hover:text-primary-700 mb-1">
+                                          <div className="font-medium text-primary-900 group-hover:text-primary-700 text-sm">
                                             {subItem.name}
-                                          </div>
-                                          <div className="text-sm text-gray-600 group-hover:text-gray-800">
-                                            {subItem.description}
                                           </div>
                                         </Link>
                                       </li>
