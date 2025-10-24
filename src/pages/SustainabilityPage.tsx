@@ -1,8 +1,13 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const SustainabilityPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.sustainability') });
+
+  useDocumentTitle({ title: t('pageTitles.sustainability') });
   const sustainabilityAreas = [
     {
       id: 0,

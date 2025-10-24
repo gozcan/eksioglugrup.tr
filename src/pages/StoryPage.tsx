@@ -1,51 +1,22 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const StoryPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.story') });
   const { elementRef: timelineRef, isVisible: timelineVisible } =
     useScrollAnimation();
   const { elementRef: milestonesRef, isVisible: milestonesVisible } =
     useScrollAnimation();
 
-  const milestones = [
-    {
-      year: '1937',
-      title: t('story.milestones.founding'),
-      description: t('story.milestones.foundingDesc'),
-      achievement: t('story.milestones.foundingAchievement'),
-    },
-    {
-      year: '1960',
-      title: t('story.milestones.expansion'),
-      description: t('story.milestones.expansionDesc'),
-      achievement: t('story.milestones.expansionAchievement'),
-    },
-    {
-      year: '1985',
-      title: t('story.milestones.diversification'),
-      description: t('story.milestones.diversificationDesc'),
-      achievement: t('story.milestones.diversificationAchievement'),
-    },
-    {
-      year: '2000',
-      title: t('story.milestones.modernization'),
-      description: t('story.milestones.modernizationDesc'),
-      achievement: t('story.milestones.modernizationAchievement'),
-    },
-    {
-      year: '2010',
-      title: t('story.milestones.sustainability'),
-      description: t('story.milestones.sustainabilityDesc'),
-      achievement: t('story.milestones.sustainabilityAchievement'),
-    },
-    {
-      year: '2025',
-      title: t('story.milestones.future'),
-      description: t('story.milestones.futureDesc'),
-      achievement: t('story.milestones.futureAchievement'),
-    },
-  ];
+  const milestones = t('story.milestones', { returnObjects: true }) as Array<{
+    year: string;
+    title: string;
+    description: string;
+    achievement: string;
+  }>;
 
   return (
     <div className="pt-20">

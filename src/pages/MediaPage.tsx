@@ -1,7 +1,10 @@
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const MediaPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.media') });
   const pressReleases = [
     {
       id: 0,

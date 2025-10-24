@@ -1,4 +1,24 @@
 {
+  "pageTitles": {
+    "home": "Home",
+    "about": "About Us",
+    "story": "Our Story",
+    "mission": "Our Mission",
+    "vision": "Our Vision",
+    "values": "Our Values",
+    "companies": "Group Companies",
+    "sustainability": "Sustainability",
+    "technology": "Technology Center",
+    "career": "Career",
+    "contact": "Contact",
+    "media": "Media",
+    "investorRelations": "Investor Relations",
+    "board": "Board of Directors",
+    "management": "Executive Management",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "cookiePolicy": "Cookie Policy"
+  },
   "navigation": {
     "home": "Home",
     "about": "About Us",
@@ -12,7 +32,7 @@
     "slide1": {
       "title": "Building the Future",
       "subtitle": "Trusted Brand",
-      "description": "With our 85+ years of experience, we live our values of trust, quality and innovation in every project, and continue to be a leading brand in our industry.",
+      "description": "With our 88 years of experience, we live our values of trust, quality and innovation in every project, and continue to be a leading brand in our industry.",
       "cta": "Discover Our Story"
     },
     "slide2": {
@@ -39,20 +59,42 @@
   },
   "about": {
     "title": "About Us",
-    "description": "Founded in 1937, Ekşioğlu Group is a well-established family company operating in construction, energy, technology, real estate, industry and advertising-publishing sectors. With our 85+ years of experience, we continue our trust and quality-focused service approach and develop projects that will add value to future generations.",
-    "stats": {
-      "years": "Years of Experience",
-      "projects": "Completed Projects",
-      "employees": "Employees",
-      "companies": "Group Companies"
+    "description": "Founded in 1937 with its first tender in Istanbul Çamlıca, Ekşioğlu Group has played a pioneering role in construction, banking, automotive, tourism, energy and technology sectors throughout its 88-year heritage. With our global presence extending from Germany to the Middle East, from Ukraine to Africa, we are now a strong family holding consisting of 24 companies. We continue to develop projects that will add value to future generations with our sustainable growth vision.",
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become a leading and exemplary group company in its sector by focusing on technology and innovation with a sustainable growth approach."
+    },
+    "mission": {
+      "title": "Our Mission", 
+      "description": "To create social benefit and build a sustainable future by keeping customer satisfaction at the highest level with our quality products and services."
     },
     "values": {
-      "quality": "Quality",
-      "qualityDesc": "We provide services at the highest standards",
-      "innovation": "Innovation",
-      "innovationDesc": "We lead technology in our industry",
-      "sustainability": "Sustainability",
-      "sustainabilityDesc": "We develop environmentally friendly solutions"
+      "title": "Our Values",
+      "list": [
+        "Reliability and Transparency",
+        "Innovation and Continuous Development",
+        "Environmental Responsibility", 
+        "Human-Centered Approach",
+        "Social Contribution"
+      ]
+    },
+    "stats": {
+      "title": "Ekşioğlu Group in Numbers",
+      "experience": "Years of Experience",
+      "companies": "Group Companies", 
+      "employees": "Employees",
+      "projects": "Completed Projects",
+      "revenue": "Annual Revenue",
+      "countries": "Countries of Operation"
+    },
+    "certifications": {
+      "title": "Our Certifications",
+      "quality": "Quality Certificate"
+    },
+    "cta": {
+      "title": "Let's Work Together",
+      "description": "If you are looking for a reliable business partner for your projects, we would be happy to help you.",
+      "button": "Get in Touch"
     }
   },
   "businessAreas": {
@@ -271,26 +313,92 @@
       "title": "Timeline",
       "subtitle": "Important steps we took and achievements we made in our 88-year journey"
     },
-    "milestones": {
-      "founding": "Foundation Years",
-      "foundingDesc": "Our company was founded in 1937 and took its first steps in the construction sector.",
-      "foundingAchievement": "First projects completed",
-      "expansion": "Growth and Development",
-      "expansionDesc": "In the 1960s, we expanded our fields of activity and entered the energy and technology sectors.",
-      "expansionAchievement": "First energy project",
-      "diversification": "Diversification",
-      "diversificationDesc": "In the 1980s, we made significant investments in real estate and industrial sectors.",
-      "diversificationAchievement": "First technology company established",
-      "modernization": "Modernization",
-      "modernizationDesc": "In the 2000s, we started our digital transformation process and developed technology-focused solutions.",
-      "modernizationAchievement": "First international project",
-      "sustainability": "Sustainability",
-      "sustainabilityDesc": "In the 2010s, we focused on environmentally friendly projects and green energy investments.",
-      "sustainabilityAchievement": "Green certificates obtained",
-      "future": "Vision for the Future",
-      "futureDesc": "Today, we continue to build the world of the future with technology and innovation.",
-      "futureAchievement": "AI and blockchain integration"
-    },
+    "milestones": [
+      {
+        "year": "1937",
+        "title": "Foundation and First Steps",
+        "description": "The first generation won the first tender in Istanbul and construction activities began in the Çamlıca region. Government tenders were awarded in Erzurum, Diyarbakır, Muş, Rize and Trabzon.",
+        "achievement": "Entry into the construction sector in Istanbul and growth in Eastern Anatolia"
+      },
+      {
+        "year": "1967",
+        "title": "International Expansion and Tourism",
+        "description": "International market experience through the establishment of tourism, airline and halal meat slaughter companies in Germany. Foundation of Tulpar company.",
+        "achievement": "Entry into international markets and leadership in tourism sector"
+      },
+      {
+        "year": "1971",
+        "title": "Entry into Housing Sector",
+        "description": "Launch of the first housing projects in Kadıköy and start of activities in the real estate sector.",
+        "achievement": "Positioning in real estate and housing sector"
+      },
+      {
+        "year": "1974",
+        "title": "Automotive and Industrial Sector",
+        "description": "Entry into automotive and industrial sectors. Founding partnerships in Lassa, Lisa and Vitra companies, Ford and Fiat dealerships.",
+        "achievement": "Strategic partnerships in automotive sector"
+      },
+      {
+        "year": "1978",
+        "title": "Banking and Historic Investments",
+        "description": "Entry into the banking sector with the acquisition of Çay Bank and purchase and operation of Fuat Pasha Mansion.",
+        "achievement": "Banking sector and historic asset investments"
+      },
+      {
+        "year": "1981",
+        "title": "Middle East Projects",
+        "description": "Undertaking large-scale construction projects in Saudi Arabia, Kuwait, Iraq, Libya and Lebanon.",
+        "achievement": "Strong position in Middle East market"
+      },
+      {
+        "year": "1989",
+        "title": "Municipal and Infrastructure Works",
+        "description": "Implementing important projects in the public sector with Eyüp Municipality infrastructure works.",
+        "achievement": "Reliable partner in public sector"
+      },
+      {
+        "year": "1997",
+        "title": "Concrete Plant and Production",
+        "description": "Establishing concrete plant to increase production capacity and entry into construction materials sector.",
+        "achievement": "Strengthening production infrastructure"
+      },
+      {
+        "year": "2012",
+        "title": "European Expansion",
+        "description": "Expansion into European markets with the establishment of companies in Ukraine and Russia.",
+        "achievement": "Presence in European markets"
+      },
+      {
+        "year": "2015",
+        "title": "Entry into Energy Sector",
+        "description": "Strategic entry into the energy sector by establishing business partnership with Fina Energy.",
+        "achievement": "New business models in energy sector"
+      },
+      {
+        "year": "2016",
+        "title": "Mediterranean and Africa Expansion",
+        "description": "Expansion into Mediterranean and African markets with the establishment of companies in Cyprus and Somalia.",
+        "achievement": "Geographic diversification and new markets"
+      },
+      {
+        "year": "2018",
+        "title": "European Center - Germany",
+        "description": "Creating a strong center for European operations with the establishment of the German company.",
+        "achievement": "European center and operational strength"
+      },
+      {
+        "year": "2020",
+        "title": "Balkan Strategic Partnership",
+        "description": "Establishment of Montenegro company and strategic partnership with Tahincioğlu.",
+        "achievement": "Strategic position in Balkan region"
+      },
+      {
+        "year": "2025",
+        "title": "Future Vision and Sustainability",
+        "description": "Preparing for the world of the future with electric mobility (Vervoer), digital technologies and sustainable energy solutions. Investment in next-generation technologies with 88 years of experience.",
+        "achievement": "Sustainable future and technological transformation"
+      }
+    ],
     "today": {
       "title": "Where We Are Today",
       "subtitle": "With our 88 years of experience, we continue to be a strong part of the Turkish economy",

@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const TechnologyPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.technology') });
   const techAreas = [
     { id: 'digital', gradient: 'from-blue-500 to-blue-700' },
     { id: 'rnd', gradient: 'from-purple-500 to-purple-700' },

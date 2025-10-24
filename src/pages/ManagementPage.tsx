@@ -1,8 +1,11 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const ManagementPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.management') });
   const { elementRef: teamRef, isVisible: teamVisible } = useScrollAnimation();
   const { elementRef: structureRef, isVisible: structureVisible } =
     useScrollAnimation();

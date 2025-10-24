@@ -1,4 +1,24 @@
 {
+  "pageTitles": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "story": "Tarihçemiz",
+    "mission": "Misyonumuz",
+    "vision": "Vizyonumuz", 
+    "values": "Değerlerimiz",
+    "companies": "Grup Şirketlerimiz",
+    "sustainability": "Sürdürülebilirlik",
+    "technology": "Teknoloji Merkezi",
+    "career": "Kariyer",
+    "contact": "İletişim",
+    "media": "Medya",
+    "investorRelations": "Yatırımcı İlişkileri",
+    "board": "Yönetim Kurulu",
+    "management": "Üst Düzey Yönetim",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfUse": "Kullanım Şartları",
+    "cookiePolicy": "Çerez Politikası"
+  },
   "navigation": {
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
@@ -12,7 +32,7 @@
     "slide1": {
       "title": "Geleceği İnşa Eden",
       "subtitle": "Güvenilir Marka",
-      "description": "85+ yıllık deneyimimizle, güven, kalite ve inovasyon değerlerimizi her projede yaşatıyor, sektörümüzde öncü bir marka olmayı sürdürüyoruz.",
+      "description": "88 yıllık deneyimimizle, güven, kalite ve inovasyon değerlerimizi her projede yaşatıyor, sektörümüzde öncü bir marka olmayı sürdürüyoruz.",
       "cta": "Hikayemizi Keşfedin"
     },
     "slide2": {
@@ -39,20 +59,42 @@
   },
   "about": {
     "title": "Hakkımızda",
-    "description": "1937 yılında kurulan Ekşioğlu Grup, bugün inşaat, enerji, teknoloji, gayrimenkul, sanayi ve reklam-yayıncılık sektörlerinde faaliyet gösteren köklü bir aile şirketidir. 85+ yıllık deneyimimizle, güven ve kalite odaklı hizmet anlayışımızı sürdürüyor, gelecek nesillere değer katacak projeler geliştiriyoruz.",
-    "stats": {
-      "years": "Yıllık Deneyim",
-      "projects": "Tamamlanan Proje",
-      "employees": "Çalışan",
-      "companies": "Grup Şirketi"
+    "description": "1937 yılında İstanbul Çamlıca'da ilk ihalesi ile temelleri atılan Ekşioğlu Grup, 88 yıllık köklü geçmişi boyunca inşaat, bankacılık, otomotiv, turizm, enerji ve teknoloji sektörlerinde öncü rol oynamıştır. Almanya'dan Orta Doğu'ya, Ukrayna'dan Afrika'ya uzanan küresel varlığımızla bugün 24 şirketten oluşan güçlü bir aile holdingiyiz. Sürdürülebilir büyüme vizyonumuzla gelecek nesillere değer katacak projeler geliştirmeye devam ediyoruz.",
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Sürdürülebilir büyüme anlayışıyla, teknoloji ve inovasyonu merkeze alarak, sektöründe öncü ve örnek gösterilen bir grup şirketi olmak."
+    },
+    "mission": {
+      "title": "Misyonumuz", 
+      "description": "Kaliteli ürün ve hizmetlerimizle müşteri memnuniyetini en üst seviyede tutarak, toplumsal fayda yaratmak ve sürdürülebilir bir gelecek inşa etmek."
     },
     "values": {
-      "quality": "Kalite",
-      "qualityDesc": "En yüksek standartlarda hizmet sunuyoruz",
-      "innovation": "İnovasyon",
-      "innovationDesc": "Sektörümüzde teknolojik öncülük yapıyoruz",
-      "sustainability": "Sürdürülebilirlik",
-      "sustainabilityDesc": "Çevre dostu çözümler geliştiriyoruz"
+      "title": "Değerlerimiz",
+      "list": [
+        "Güvenilirlik ve Şeffaflık",
+        "İnovasyon ve Sürekli Gelişim",
+        "Çevresel Sorumluluk", 
+        "İnsan Odaklı Yaklaşım",
+        "Toplumsal Katkı"
+      ]
+    },
+    "stats": {
+      "title": "Rakamlarla Ekşioğlu Grup",
+      "experience": "Yıllık Deneyim",
+      "companies": "Grup Şirketi", 
+      "employees": "Çalışan",
+      "projects": "Tamamlanan Proje",
+      "revenue": "Yıllık Ciro",
+      "countries": "Ülkede Faaliyet"
+    },
+    "certifications": {
+      "title": "Sertifikalarımız",
+      "quality": "Kalite Sertifikası"
+    },
+    "cta": {
+      "title": "Birlikte Çalışalım",
+      "description": "Projelerinizde güvenilir bir iş ortağı arıyorsanız, size yardımcı olmaktan mutluluk duyarız.",
+      "button": "İletişime Geçin"
     }
   },
   "businessAreas": {
@@ -164,7 +206,7 @@
   "megaMenu": {
     "about": {
       "title": "Kurumumuz",
-      "description": "85+ yılı aşkın deneyimimizle sektörde öncü bir kuruluşuz",
+      "description": "88 yılı aşkın deneyimimizle sektörde öncü bir kuruluşuz",
       "corporateIdentity": "Kurumsal Kimlik",
       "managementSection": "Yönetim",
       "story": "Hikayemiz",
@@ -271,26 +313,92 @@
       "title": "Zaman Çizelgesi",
       "subtitle": "88 yıllık yolculuğumuzda attığımız önemli adımlar ve elde ettiğimiz başarılar"
     },
-    "milestones": {
-      "founding": "Kuruluş Yılları",
-      "foundingDesc": "Şirketimiz 1937 yılında kurulmuş ve inşaat sektöründe ilk adımlarını atmıştır.",
-      "foundingAchievement": "İlk projeler tamamlandı",
-      "expansion": "Büyüme ve Gelişim",
-      "expansionDesc": "1960'larda faaliyet alanlarımızı genişleterek enerji ve teknoloji sektörlerine girdik.",
-      "expansionAchievement": "İlk enerji projesi",
-      "diversification": "Çeşitlendirme",
-      "diversificationDesc": "1980'lerde gayrimenkul ve sanayi sektörlerinde önemli yatırımlar gerçekleştirdik.",
-      "diversificationAchievement": "İlk teknoloji şirketi kuruldu",
-      "modernization": "Modernizasyon",
-      "modernizationDesc": "2000'lerde dijital dönüşüm sürecimizi başlatarak teknoloji odaklı çözümler geliştirdik.",
-      "modernizationAchievement": "İlk uluslararası proje",
-      "sustainability": "Sürdürülebilirlik",
-      "sustainabilityDesc": "2010'larda çevre dostu projeler ve yeşil enerji yatırımlarına odaklandık.",
-      "sustainabilityAchievement": "Yeşil sertifikalar alındı",
-      "future": "Geleceğe Bakış",
-      "futureDesc": "Bugün teknoloji ve inovasyonla geleceğin dünyasını inşa etmeye devam ediyoruz.",
-      "futureAchievement": "AI ve blockchain entegrasyonu"
-    },
+    "milestones": [
+      {
+        "year": "1937",
+        "title": "Kuruluş ve İlk Adımlar",
+        "description": "İlk kuşak İstanbul'da ilk ihale kazanılması ve Çamlıca bölgesinde başlayan inşaat faaliyetleri. Erzurum, Diyarbakır, Muş, Rize ve Trabzon'da devlet ihaleleri alınması.",
+        "achievement": "İstanbul'da inşaat sektörüne giriş ve Doğu Anadolu'da büyüme"
+      },
+      {
+        "year": "1967",
+        "title": "Yurtdışına Açılım ve Turizm",
+        "description": "Almanya'da turizm, havayolları ve helal et kesim şirketlerinin kurulması ile uluslararası pazar deneyimi. Tulpar şirketinin kuruluşu.",
+        "achievement": "Uluslararası pazarlara giriş ve turizm sektöründe öncülük"
+      },
+      {
+        "year": "1971",
+        "title": "Konut Sektörüne Giriş",
+        "description": "Kadıköy'de ilk konut projelerinin başlatılması ve gayrimenkul sektöründe faaliyet göstermeye başlama.",
+        "achievement": "Gayrimenkul ve konut sektöründe konumlanma"
+      },
+      {
+        "year": "1974",
+        "title": "Otomotiv ve Sanayi Sektörü",
+        "description": "Otomotiv ve sanayi sektörlerine giriş. Lassa, Lisa ve Vitra şirketlerinde kurucu ortaklık, Ford ve Fiat bayiliği alınması.",
+        "achievement": "Otomotiv sektöründe stratejik ortaklıklar"
+      },
+      {
+        "year": "1978",
+        "title": "Bankacılık ve Tarihi Yatırımlar",
+        "description": "Çay Bank'ın satın alınması ile bankacılık sektörüne giriş ve Fuat Paşa Yalısı'nın satın alınıp işletmeye başlanması.",
+        "achievement": "Bankacılık sektörü ve tarihi eser yatırımları"
+      },
+      {
+        "year": "1981",
+        "title": "Orta Doğu Projeleri",
+        "description": "Suudi Arabistan, Kuveyt, Irak, Libya ve Lübnan'da büyük ölçekli inşaat projelerinin üstlenilmesi.",
+        "achievement": "Orta Doğu pazarında güçlü konum"
+      },
+      {
+        "year": "1989",
+        "title": "Belediye ve Altyapı İşleri",
+        "description": "Eyüp Belediyesi altyapı işleri ile kamu sektöründe önemli projeler gerçekleştirme.",
+        "achievement": "Kamu sektöründe güvenilir partner"
+      },
+      {
+        "year": "1997",
+        "title": "Beton Santrali ve Üretim",
+        "description": "Beton santrali kurulması ile üretim kapasitesinin artırılması ve inşaat malzemeleri sektörüne giriş.",
+        "achievement": "Üretim altyapısının güçlendirilmesi"
+      },
+      {
+        "year": "2012",
+        "title": "Avrupa Genişlemesi",
+        "description": "Ukrayna ve Rusya şirketlerinin kurulması ile Avrupa pazarlarına genişleme.",
+        "achievement": "Avrupa pazarlarında varlık"
+      },
+      {
+        "year": "2015",
+        "title": "Enerji Sektörüne Giriş",
+        "description": "Fina Enerji ile iş ortaklığı kurularak enerji sektörüne stratejik giriş yapılması.",
+        "achievement": "Enerji sektöründe yeni iş modelleri"
+      },
+      {
+        "year": "2016",
+        "title": "Akdeniz ve Afrika Açılımı",
+        "description": "Kıbrıs ve Somali şirketlerinin kurulması ile Akdeniz ve Afrika pazarlarına açılım.",
+        "achievement": "Coğrafi çeşitlendirme ve yeni pazarlar"
+      },
+      {
+        "year": "2018",
+        "title": "Avrupa Merkezi - Almanya",
+        "description": "Almanya şirketinin kurulması ile Avrupa operasyonları için güçlü bir merkez oluşturulması.",
+        "achievement": "Avrupa merkezi ve operasyonel güç"
+      },
+      {
+        "year": "2020",
+        "title": "Balkan Stratejik Ortaklığı",
+        "description": "Karadağ şirketinin kurulması ve Tahincioğlu ile stratejik ortaklık kurulması.",
+        "achievement": "Balkan bölgesinde stratejik konum"
+      },
+      {
+        "year": "2025",
+        "title": "Gelecek Vizyonu ve Sürdürülebilirlik",
+        "description": "Elektrikli mobilite (Vervoer), dijital teknolojiler ve sürdürülebilir enerji çözümleri ile geleceğin dünyasına hazırlık. 88 yıllık deneyimle yeni nesil teknolojilere yatırım.",
+        "achievement": "Sürdürülebilir gelecek ve teknolojik dönüşüm"
+      }
+    ],
     "today": {
       "title": "Bugün Geldiğimiz Nokta",
       "subtitle": "88 yıllık deneyimimizle, Türkiye ekonomisinin güçlü bir parçası olmaya devam ediyoruz",

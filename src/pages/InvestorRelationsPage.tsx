@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ContactInfoDisplay from '../components/ContactInfoDisplay';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const InvestorRelationsPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.investorRelations') });
   const financialHighlights = [0, 1, 2, 3];
 
   const reports = [

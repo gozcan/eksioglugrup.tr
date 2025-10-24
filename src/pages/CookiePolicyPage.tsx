@@ -8,9 +8,12 @@ import {
   Trash2,
 } from 'lucide-react';
 import ContactInfoDisplay from '../components/ContactInfoDisplay';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const CookiePolicyPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.cookiePolicy') });
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

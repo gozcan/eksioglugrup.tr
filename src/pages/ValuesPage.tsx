@@ -1,8 +1,11 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const ValuesPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.values') });
   const { elementRef: valuesRef, isVisible: valuesVisible } =
     useScrollAnimation();
   const { elementRef: cultureRef, isVisible: cultureVisible } =

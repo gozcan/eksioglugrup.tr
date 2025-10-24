@@ -1,8 +1,11 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const MissionPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.mission') });
   const { elementRef: missionRef, isVisible: missionVisible } =
     useScrollAnimation();
   const { elementRef: approachRef, isVisible: approachVisible } =

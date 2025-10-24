@@ -1,8 +1,11 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const VisionPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.vision') });
   const { elementRef: visionRef, isVisible: visionVisible } =
     useScrollAnimation();
   const { elementRef: goalsRef, isVisible: goalsVisible } =

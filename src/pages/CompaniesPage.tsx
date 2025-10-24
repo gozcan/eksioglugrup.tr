@@ -1,15 +1,18 @@
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const CompaniesPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.companies') });
   const [searchParams] = useSearchParams();
 
-  // URL'den şirket ID'sini oku, yoksa ilk şirketi seç
+  // URL'den şirket ID'sini oku, yoksa en eski şirketi seç (Tulpar 1967)
   const companyIdFromUrl = searchParams.get('company');
   const [selectedCompany, setSelectedCompany] = useState(
-    companyIdFromUrl || 'ekguntas'
+    companyIdFromUrl || 'tulpar'
   );
 
   // URL parametresi değiştiğinde seçili şirketi güncelle
@@ -32,7 +35,7 @@ const CompaniesPage = () => {
           name: t('megaMenu.business.companies.construction.ekguntas'),
           description: t('pages.companies.list.ekguntas.description'),
           website: 'https://www.ekguntas.com',
-          established: '1937',
+          established: '1981',
           logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=EKGÜNTAŞ',
           services: [
             t('pages.companies.list.ekguntas.services.0'),
@@ -46,7 +49,7 @@ const CompaniesPage = () => {
           name: t('megaMenu.business.companies.construction.ekutas'),
           description: t('pages.companies.list.ekutas.description'),
           website: 'https://www.ekutas.com',
-          established: '1983',
+          established: '1978',
           logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=EKUTAŞ',
           services: [
             t('pages.companies.list.ekutas.services.0'),
@@ -59,9 +62,9 @@ const CompaniesPage = () => {
           id: 'turansan',
           name: t('megaMenu.business.companies.construction.turansan'),
           description:
-            'Turansan İnşaat, 1990 yılından bu yana inşaat sektöründe kaliteli ve güvenilir projeler gerçekleştirmektedir. Konut, ticari ve endüstriyel yapı projelerinde uzmanlaşan firmamız, modern yapı teknikleri ve çevre dostu yaklaşımlarla sektöre öncülük etmektedir. Müşteri memnuniyeti odaklı çalışma prensibimizle zamanında teslimat ve kaliteden ödün vermeme ilkelerine bağlı kalarak projelerimizi hayata geçiriyoruz.',
+            'Ekşioğlu Turansan, 2012 yılında kurulmuş olan inşaat sektöründe kaliteli ve güvenilir projeler gerçekleştiren bir şirkettir. Konut, ticari ve endüstriyel yapı projelerinde uzmanlaşan firmamız, modern yapı teknikleri ve çevre dostu yaklaşımlarla sektöre öncülük etmektedir. Müşteri memnuniyeti odaklı çalışma prensibimizle zamanında teslimat ve kaliteden ödün vermeme ilkelerine bağlı kalarak projelerimizi hayata geçiriyoruz.',
           website: '#',
-          established: '1990',
+          established: '2012',
           logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=TURANSAN',
           services: [
             'Konut Projeleri',
@@ -74,7 +77,7 @@ const CompaniesPage = () => {
           name: t('megaMenu.business.companies.construction.leyan'),
           description: t('pages.companies.list.leyan.description'),
           website: 'https://www.leyanrestorasyon.com',
-          established: '1995',
+          established: '2004',
           logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=LEYAN',
           services: [
             t('pages.companies.list.leyan.services.0'),
@@ -87,9 +90,9 @@ const CompaniesPage = () => {
           id: 'leyan-yikim',
           name: t('megaMenu.business.companies.construction.leyanDemolition'),
           description:
-            'Leyan Yıkım, 2000 yılından itibaren kontrollü yıkım ve hafriyat hizmetlerinde uzmanlaşmış, güvenli ve çevre dostu çözümler sunan bir firmadır. Modern yıkım teknolojileri ve deneyimli ekibimiz ile hem küçük ölçekli bina yıkımlarında hem de büyük endüstriyel tesislerin sökümünde başarılı projeler gerçekleştirmekteyiz. İş güvenliği ve çevre koruma standartlarına tam uyum sağlayarak hizmet veriyoruz.',
+            'Leyan Yıkım, 2004 yılında Leyan bünyesinde kurulan kontrollü yıkım ve hafriyat hizmetlerinde uzmanlaşmış, güvenli ve çevre dostu çözümler sunan bir firmadır. Modern yıkım teknolojileri ve deneyimli ekibimiz ile hem küçük ölçekli bina yıkımlarında hem de büyük endüstriyel tesislerin sökümünde başarılı projeler gerçekleştirmekteyiz. İş güvenliği ve çevre koruma standartlarına tam uyum sağlayarak hizmet veriyoruz.',
           website: '#',
-          established: '2000',
+          established: '2004',
           logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=LEYAN+YIKIM',
           services: [
             'Bina Yıkımı',
@@ -126,7 +129,7 @@ const CompaniesPage = () => {
           ),
           description: t('pages.companies.list.piran.description'),
           website: 'https://www.pirangayrimenkul.com',
-          established: '1988',
+          established: '2004',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
           services: [
             t('pages.companies.list.piran.services.0'),
@@ -141,9 +144,9 @@ const CompaniesPage = () => {
             'megaMenu.business.companies.corporateServices.piranCorporate'
           ),
           description:
-            'Piran Kurumsal Hizmetler, şirketlerin insan kaynakları, eğitim ve operasyonel ihtiyaçlarına yönelik entegre çözümler sunan deneyimli bir organizasyondur. 1988 yılından bu yana edindiğimiz bilgi birikimi ile kurumsal danışmanlık, personel eğitimi ve organizasyonel gelişim alanlarında sektörün öncü firmalarından biriyiz. İş süreçlerini optimize ederek şirketlerin verimliliğini artırmayı hedefliyoruz.',
+            'Piran Kurumsal Hizmetler, şirketlerin insan kaynakları, eğitim ve operasyonel ihtiyaçlarına yönelik entegre çözümler sunan deneyimli bir organizasyondur. 2004 yılından bu yana edindiğimiz bilgi birikimi ile kurumsal danışmanlık, personel eğitimi ve organizasyonel gelişim alanlarında sektörün öncü firmalarından biriyiz. İş süreçlerini optimize ederek şirketlerin verimliliğini artırmayı hedefliyoruz.',
           website: '#',
-          established: '1988',
+          established: '2004',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
           services: [
             'Danışmanlık',
@@ -160,7 +163,7 @@ const CompaniesPage = () => {
           description:
             'Piran Yönetim Danışmanlığı, kurumların stratejik hedeflerine ulaşmaları için kapsamlı yönetim danışmanlığı ve iş geliştirme hizmetleri sunmaktadır. Deneyimli danışman kadromuz ile şirketlerin organizasyonel yapılarını güçlendiriyor, performans yönetimi sistemleri kuruyoruz. Stratejik planlama, süreç iyileştirme ve yönetim sistemleri konularında sektörde fark yaratan çözümler üretiyoruz.',
           website: '#',
-          established: '1988',
+          established: '2004',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
           services: [
             'Stratejik Planlama',
@@ -177,7 +180,7 @@ const CompaniesPage = () => {
           description:
             'Piran İşletmecilik, endüstriyel tesisler, ticari binalar ve özel sektör kuruluşlarının tesis yönetimi ve operasyonel süreçlerini optimize ederek kesintisiz hizmet sunar. Profesyonel ekibimiz ile bakım-onarım, teknik altyapı yönetimi ve operasyonel verimlilik konularında kapsamlı çözümler üretiyoruz. Modern tesis yönetimi anlayışı ile müşterilerimizin maliyetlerini düşürüyor, verimliliğini artırıyoruz.',
           website: '#',
-          established: '1988',
+          established: '2004',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
           services: [
             'Tesis İşletmesi',
@@ -194,7 +197,7 @@ const CompaniesPage = () => {
           description:
             'Piran Yayıncılık, kurumsal yayınlar, dijital içerik üretimi ve medya hizmetleri alanında uzmanlaşmış bir kuruluştur. Şirketlerin kurumsal kimliklerini güçlendiren yayınlar, dijital platformlar için içerik ve basılı materyaller üretiyoruz. Yaratıcı ekibimiz ve modern teknolojilerimiz ile markaların hedef kitlelerine etkili bir şekilde ulaşmalarını sağlıyoruz.',
           website: '#',
-          established: '1988',
+          established: '2004',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
           services: [
             'Kurumsal Yayınlar',
@@ -207,9 +210,9 @@ const CompaniesPage = () => {
           id: 'volan',
           name: t('megaMenu.business.companies.corporateServices.volan'),
           description:
-            'Volan Taşımacılık, 2010 yılından beri kurumsal personel taşımacılığı ve filo yönetimi hizmetlerinde güvenilir bir iş ortağıdır. Modern araç filomuz ve deneyimli sürücü kadromuz ile güvenli, konforlu ve zamanında taşımacılık hizmeti sunuyoruz. Şirketlerin personel taşıma ihtiyaçlarına özel çözümler üreterek operasyonel verimliliğe katkı sağlıyoruz.',
+            'Volan Taşımacılık, 2003 yılından beri kurumsal personel taşımacılığı ve filo yönetimi hizmetlerinde güvenilir bir iş ortağıdır. Modern araç filomuz ve deneyimli sürücü kadromuz ile güvenli, konforlu ve zamanında taşımacılık hizmeti sunuyoruz. Şirketlerin personel taşıma ihtiyaçlarına özel çözümler üreterek operasyonel verimliliğe katkı sağlıyoruz.',
           website: '#',
-          established: '2010',
+          established: '2003',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=VOLAN',
           services: [
             'Servis Hizmetleri',
@@ -222,9 +225,9 @@ const CompaniesPage = () => {
           id: 'tulpar',
           name: t('megaMenu.business.companies.corporateServices.tulpar'),
           description:
-            'Tulpar Turizm, kurumsal seyahat organizasyonu ve etkinlik yönetimi konusunda uzmanlaşmış bir turizm şirketidir. 2015 yılından itibaren kongre organizasyonları, kurumsal geziler ve özel etkinlik planlaması alanlarında hizmet vermekteyiz. Profesyonel ekibimiz ve geniş iş ortağı ağımız ile unutulmaz deneyimler yaratıyoruz.',
+            'Tulpar Turizm, 1967 yılından bu yana kurumsal seyahat organizasyonu ve etkinlik yönetimi konusunda uzmanlaşmış köklü bir turizm şirketidir. Kongre organizasyonları, kurumsal geziler ve özel etkinlik planlaması alanlarında hizmet vermekteyiz. Uzun yıllara dayanan deneyimimiz, profesyonel ekibimiz ve geniş iş ortağı ağımız ile unutulmaz deneyimler yaratıyoruz.',
           website: '#',
-          established: '2015',
+          established: '1967',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=TULPAR',
           services: [
             'Tur Organizasyonu',
@@ -237,9 +240,9 @@ const CompaniesPage = () => {
           id: 'onay',
           name: t('megaMenu.business.companies.corporateServices.onay'),
           description:
-            'Onay Ar-Ge, 2018 yılından itibaren teknoloji ve inovasyon odaklı projeler geliştiren bir araştırma-geliştirme kuruluşudur. Şirketlerin rekabet gücünü artıracak yenilikçi çözümler üretmek, patent süreçlerinde danışmanlık vermek ve Ar-Ge projelerini yönetmek konusunda uzmanız. Üniversite-sanayi işbirliği projelerinde aktif rol alarak teknoloji transferine katkı sağlıyoruz.',
+            'Onay Ar-Ge, 2023 yılından itibaren teknoloji ve inovasyon odaklı projeler geliştiren bir araştırma-geliştirme kuruluşudur. Şirketlerin rekabet gücünü artıracak yenilikçi çözümler üretmek, patent süreçlerinde danışmanlık vermek ve Ar-Ge projelerini yönetmek konusunda uzmanız. Üniversite-sanayi işbirliği projelerinde aktif rol alarak teknoloji transferine katkı sağlıyoruz.',
           website: '#',
-          established: '2018',
+          established: '2023',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=ONAY',
           services: [
             'Ar-Ge Projeleri',
@@ -253,7 +256,7 @@ const CompaniesPage = () => {
           name: t('megaMenu.business.companies.corporateServices.ponton'),
           description: t('pages.companies.list.ponton.description'),
           website: 'https://www.pontonmedya.com',
-          established: '2024',
+          established: '1996',
           logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PONTON',
           services: [
             t('pages.companies.list.ponton.services.0'),
@@ -273,9 +276,9 @@ const CompaniesPage = () => {
           id: 'tevor-tedarik',
           name: t('megaMenu.business.companies.corporateSupply.tevorSupply'),
           description:
-            'Tevor Tedarik, 2000 yılından bu yana endüstriyel ve ticari işletmelerin tedarik zinciri yönetiminde güvenilir çözümler sunar. Satın alma süreçlerinin optimizasyonu, tedarikçi yönetimi ve lojistik koordinasyonu konularında uzman ekibimiz ile müşterilerimizin maliyetlerini düşürüyor, tedarik süreçlerini hızlandırıyoruz. Geniş tedarikçi ağımız ve sektörel deneyimimiz ile kesintisiz hizmet garantisi sağlıyoruz.',
+            'Tevor Tedarik, 1997 yılından bu yana endüstriyel ve ticari işletmelerin tedarik zinciri yönetiminde güvenilir çözümler sunar. Satın alma süreçlerinin optimizasyonu, tedarikçi yönetimi ve lojistik koordinasyonu konularında uzman ekibimiz ile müşterilerimizin maliyetlerini düşürüyor, tedarik süreçlerini hızlandırıyoruz. Geniş tedarikçi ağımız ve sektörel deneyimimiz ile kesintisiz hizmet garantisi sağlıyoruz.',
           website: '#',
-          established: '2000',
+          established: '1997',
           logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=TEVOR',
           services: [
             'Tedarik Yönetimi',
@@ -288,9 +291,9 @@ const CompaniesPage = () => {
           id: 'peyk',
           name: t('megaMenu.business.companies.corporateSupply.peyk'),
           description:
-            'Peyk Lojistik, 2005 yılından itibaren kara taşımacılığı, depolama ve dağıtım hizmetlerinde hızlı ve güvenilir çözümler sunan bir lojistik firmasıdır. Modern depolama tesislerimiz, geniş araç filomuz ve teknolojik altyapımız ile yurt içi lojistik ihtiyaçlarınızı karşılıyoruz. Zamanında teslimat ve müşteri memnuniyeti odaklı hizmet anlayışımız ile sektörde öne çıkıyoruz.',
+            'Peyk Lojistik, 1978 yılından itibaren kara taşımacılığı, depolama ve dağıtım hizmetlerinde köklü bir geçmişe sahip, hızlı ve güvenilir çözümler sunan bir lojistik firmasıdır. Modern depolama tesislerimiz, geniş araç filomuz ve teknolojik altyapımız ile yurt içi lojistik ihtiyaçlarınızı karşılıyoruz. Zamanında teslimat ve müşteri memnuniyeti odaklı hizmet anlayışımız ile sektörde öne çıkıyoruz.',
           website: '#',
-          established: '2005',
+          established: '1978',
           logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=PEYK',
           services: [
             'Kara Taşımacılığı',
@@ -304,7 +307,7 @@ const CompaniesPage = () => {
           name: t('megaMenu.business.companies.corporateSupply.eksizade'),
           description: t('pages.companies.list.eksizade.description'),
           website: 'https://www.eksizademakina.com',
-          established: '1985',
+          established: '1994',
           logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=EKŞİZADE',
           services: [
             t('pages.companies.list.eksizade.services.0'),
@@ -318,7 +321,7 @@ const CompaniesPage = () => {
           name: t('megaMenu.business.companies.corporateSupply.tevorEnergy'),
           description: t('pages.companies.list.tevor.description'),
           website: 'https://www.tevorenerji.com.tr',
-          established: '2000',
+          established: '1997',
           logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=TEVOR',
           services: [
             t('pages.companies.list.tevor.services.0'),
@@ -331,9 +334,9 @@ const CompaniesPage = () => {
           id: 'vervoer',
           name: t('megaMenu.business.companies.corporateSupply.vervoer'),
           description:
-            'Vervoer, 2020 yılında kurulan ve elektrikli mobilite çözümlerinde uzmanlaşmış yenilikçi bir firmadır. Sürdürülebilir ulaşım vizyonumuz ile elektrikli araç satışı, şarj altyapısı kurulumu ve bakım hizmetleri sunuyoruz. Çevre dostu ulaşım çözümlerine geçiş yapmak isteyen bireysel ve kurumsal müşterilerimize kapsamlı danışmanlık ve teknik destek sağlıyoruz.',
+            'Vervoer, 2025 yılında kurulan ve elektrikli mobilite çözümlerinde uzmanlaşmış yenilikçi bir firmadır. Sürdürülebilir ulaşım vizyonumuz ile elektrikli araç satışı, şarj altyapısı kurulumu ve bakım hizmetleri sunuyoruz. Çevre dostu ulaşım çözümlerine geçiş yapmak isteyen bireysel ve kurumsal müşterilerimize kapsamlı danışmanlık ve teknik destek sağlıyoruz.',
           website: '#',
-          established: '2020',
+          established: '2025',
           logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=VERVOER',
           services: [
             'Elektrikli Araç Satışı',
@@ -346,9 +349,9 @@ const CompaniesPage = () => {
           id: 'tevor-bilisim',
           name: t('megaMenu.business.companies.corporateSupply.tevorIT'),
           description:
-            'Tevor Bilişim, dijital dönüşüm ve online pazarlama alanında 2015 yılından bu yana hizmet veren bir teknoloji şirketidir. E-ticaret platformları, web tasarım, dijital pazarlama stratejileri ve SEO optimizasyonu konularında uzmanız. İşletmelerin dijital varlıklarını güçlendiriyor, online satışlarını artırmalarına yardımcı oluyoruz. Modern web teknolojileri ve veri odaklı pazarlama yaklaşımları ile müşterilerimize değer katıyoruz.',
+            'Tevor Bilişim, dijital dönüşüm ve online pazarlama alanında 1997 yılından bu yana hizmet veren köklü bir teknoloji şirketidir. E-ticaret platformları, web tasarım, dijital pazarlama stratejileri ve SEO optimizasyonu konularında uzmanız. İşletmelerin dijital varlıklarını güçlendiriyor, online satışlarını artırmalarına yardımcı oluyoruz. Modern web teknolojileri ve veri odaklı pazarlama yaklaşımları ile müşterilerimize değer katıyoruz.',
           website: '#',
-          established: '2015',
+          established: '1997',
           logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=TEVOR',
           services: [
             'Dijital Pazarlama',
@@ -368,9 +371,9 @@ const CompaniesPage = () => {
           id: 'jerfa-makina',
           name: t('megaMenu.business.companies.production.jerfaMachine'),
           description:
-            'Jerfa Makina, 2010 yılından itibaren hassas CNC imalat, kalıp üretimi ve özel makina tasarımı alanlarında faaliyet gösteren bir üretim şirketidir. Modern CNC tezgahlarımız ve deneyimli mühendis kadromuz ile otomotiv, savunma sanayi ve beyaz eşya sektörlerine yüksek kaliteli parça ve kalıp üretimi yapıyoruz. Müşteri odaklı çözümler ve mühendislik desteği ile sektörde fark yaratıyoruz.',
+            'Jerfa Makina, 2012 yılından itibaren hassas CNC imalat, kalıp üretimi ve özel makina tasarımı alanlarında faaliyet gösteren bir üretim şirketidir. Modern CNC tezgahlarımız ve deneyimli mühendis kadromuz ile otomotiv, savunma sanayi ve beyaz eşya sektörlerine yüksek kaliteli parça ve kalıp üretimi yapıyoruz. Müşteri odaklı çözümler ve mühendislik desteği ile sektörde fark yaratıyoruz.',
           website: '#',
-          established: '2010',
+          established: '2012',
           logo: 'https://via.placeholder.com/200x80/6b7280/ffffff?text=JERFA',
           services: [
             'CNC İmalat',

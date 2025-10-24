@@ -1,9 +1,12 @@
 import Hero from '../components/Hero';
 import BusinessAreas from '../components/BusinessAreas';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const HomePage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.home') });
 
   return (
     <div>

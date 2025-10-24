@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const CareerPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.career') });
   const jobCategories = [
     { id: 'engineering', gradient: 'from-blue-500 to-blue-700' },
     { id: 'hr', gradient: 'from-green-500 to-green-700' },

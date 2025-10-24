@@ -1,8 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import ContactInfoDisplay from '../components/ContactInfoDisplay';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const ContactPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.contact') });
   return (
     <div className="pt-20">
       {/* Header Section */}

@@ -8,9 +8,12 @@ import {
   Mail,
 } from 'lucide-react';
 import ContactInfoDisplay from '../components/ContactInfoDisplay';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const TermsOfUsePage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.termsOfUse') });
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

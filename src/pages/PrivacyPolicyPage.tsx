@@ -1,9 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { Shield, Lock, Eye, Database, UserCheck, FileText } from 'lucide-react';
 import ContactInfoDisplay from '../components/ContactInfoDisplay';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const PrivacyPolicyPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.privacyPolicy') });
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

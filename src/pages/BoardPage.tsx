@@ -1,8 +1,11 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTranslation } from 'react-i18next';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const BoardPage = () => {
   const { t } = useTranslation();
+
+  useDocumentTitle({ title: t('pageTitles.board') });
   const { elementRef: boardRef, isVisible: boardVisible } =
     useScrollAnimation();
   const { elementRef: committeesRef, isVisible: committeesVisible } =

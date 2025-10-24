@@ -72,14 +72,12 @@ const About = () => {
                   <div className="relative z-10">
                     <div className="mb-6">
                       <h3 className="text-3xl font-bold text-primary-800 mb-3">
-                        Vizyonumuz
+                        {t('about.vision.title')}
                       </h3>
                       <div className="w-16 h-1 bg-gradient-to-r from-primary-500 to-primary-700 rounded-full group-hover:w-full transition-all duration-500"></div>
                     </div>
                     <p className="text-gray-600 leading-relaxed text-lg">
-                      Sürdürülebilir büyüme anlayışıyla, teknoloji ve inovasyonu
-                      merkeze alarak, sektöründe öncü ve örnek gösterilen bir
-                      grup şirketi olmak.
+                      {t('about.vision.description')}
                     </p>
                   </div>
                 </div>
@@ -97,14 +95,12 @@ const About = () => {
                   <div className="relative z-10">
                     <div className="mb-6">
                       <h3 className="text-3xl font-bold text-primary-800 mb-3">
-                        Misyonumuz
+                        {t('about.mission.title')}
                       </h3>
                       <div className="w-16 h-1 bg-gradient-to-r from-secondary-500 to-secondary-700 rounded-full group-hover:w-full transition-all duration-500"></div>
                     </div>
                     <p className="text-gray-600 leading-relaxed text-lg">
-                      Kaliteli ürün ve hizmetlerimizle müşteri memnuniyetini en
-                      üst seviyede tutarak, toplumsal fayda yaratmak ve
-                      sürdürülebilir bir gelecek inşa etmek.
+                      {t('about.mission.description')}
                     </p>
                   </div>
                 </div>
@@ -122,18 +118,16 @@ const About = () => {
                   <div className="relative z-10">
                     <div className="mb-6">
                       <h3 className="text-3xl font-bold text-primary-800 mb-3">
-                        Değerlerimiz
+                        {t('about.values.title')}
                       </h3>
                       <div className="w-16 h-1 bg-gradient-to-r from-accent-500 to-accent-700 rounded-full group-hover:w-full transition-all duration-500"></div>
                     </div>
                     <div className="grid grid-cols-1 gap-4">
-                      {[
-                        'Güvenilirlik ve Şeffaflık',
-                        'İnovasyon ve Sürekli Gelişim',
-                        'Çevresel Sorumluluk',
-                        'İnsan Odaklı Yaklaşım',
-                        'Toplumsal Katkı',
-                      ].map((value, idx) => (
+                      {(
+                        t('about.values.list', {
+                          returnObjects: true,
+                        }) as string[]
+                      ).map((value: string, idx: number) => (
                         <div
                           key={idx}
                           className="relative p-4 bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl hover:from-accent-50 hover:to-accent-100 transition-all duration-300 group/item"
@@ -164,7 +158,7 @@ const About = () => {
 
                 <div className="relative z-10">
                   <h3 className="text-3xl font-bold mb-8 text-center text-secondary-400">
-                    Rakamlarla Ekşioğlu Grup
+                    {t('about.stats.title')}
                   </h3>
                   <div
                     ref={statsRef}
@@ -173,32 +167,32 @@ const About = () => {
                     {[
                       {
                         value: '88',
-                        label: 'Yıllık Deneyim',
+                        label: t('about.stats.experience'),
                         gradient: 'from-secondary-400 to-secondary-600',
                       },
                       {
                         value: '25',
-                        label: 'Grup Şirketi',
+                        label: t('about.stats.companies'),
                         gradient: 'from-accent-400 to-accent-600',
                       },
                       {
                         value: '10.000+',
-                        label: 'Çalışan',
+                        label: t('about.stats.employees'),
                         gradient: 'from-green-400 to-green-600',
                       },
                       {
                         value: '1.000+',
-                        label: 'Tamamlanan Proje',
+                        label: t('about.stats.projects'),
                         gradient: 'from-blue-400 to-blue-600',
                       },
                       {
                         value: '₺15M',
-                        label: 'Yıllık Ciro',
+                        label: t('about.stats.revenue'),
                         gradient: 'from-purple-400 to-purple-600',
                       },
                       {
                         value: '12',
-                        label: 'Ülkede Faaliyet',
+                        label: t('about.stats.countries'),
                         gradient: 'from-pink-400 to-pink-600',
                       },
                     ].map((stat, idx) => (
@@ -231,7 +225,7 @@ const About = () => {
                 <div className="relative z-10">
                   <div className="mb-8">
                     <h3 className="text-3xl font-bold text-primary-800 mb-3">
-                      Sertifikalarımız
+                      {t('about.certifications.title')}
                     </h3>
                     <div className="w-16 h-1 bg-gradient-to-r from-yellow-500 to-yellow-700 rounded-full group-hover:w-full transition-all duration-500"></div>
                   </div>
@@ -272,7 +266,7 @@ const About = () => {
                             {cert.name}
                           </h4>
                           <p className="text-sm text-gray-600 mt-2">
-                            Kalite Sertifikası
+                            {t('about.certifications.quality')}
                           </p>
                         </div>
                       </div>
@@ -283,16 +277,17 @@ const About = () => {
 
               {/* CTA Section */}
               <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white p-8 rounded-2xl text-center">
-                <h3 className="text-2xl font-bold mb-4">Birlikte Çalışalım</h3>
+                <h3 className="text-2xl font-bold mb-4">
+                  {t('about.cta.title')}
+                </h3>
                 <p className="text-lg opacity-90 mb-6">
-                  Projelerinizde güvenilir bir iş ortağı arıyorsanız, size
-                  yardımcı olmaktan mutluluk duyarız.
+                  {t('about.cta.description')}
                 </p>
                 <a
                   href="/iletisim"
                   className="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg"
                 >
-                  İletişime Geçin
+                  {t('about.cta.button')}
                   <span className="ml-2">→</span>
                 </a>
               </div>
