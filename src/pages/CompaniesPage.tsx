@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useNavigate } from 'react-router-dom';
 import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 const CompaniesPage = () => {
@@ -8,6 +8,7 @@ const CompaniesPage = () => {
 
   useDocumentTitle({ title: t('pageTitles.companies') });
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
 
   // URL'den şirket ID'sini oku, yoksa en eski şirketi seç (Tulpar 1967)
   const companyIdFromUrl = searchParams.get('company');
@@ -23,9 +24,11 @@ const CompaniesPage = () => {
     }
   }, [searchParams]);
 
-  // Şirket değiştirme fonksiyonu (scroll to top ile)
+  // Şirket değiştirme fonksiyonu (URL güncelleme ve scroll to top ile)
   const handleCompanyChange = (companyId: string) => {
     setSelectedCompany(companyId);
+    // URL'yi güncelle
+    navigate(`/grup-sirketleri?company=${companyId}`, { replace: true });
     // Sayfanın en üstüne smooth scroll
     window.scrollTo({
       top: 0,
