@@ -143,7 +143,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.piran.description'),
           website: 'https://www.pirangayrimenkul.com',
           established: '2004',
-          logo: '/images/logos/piran.jpg',
+          logo: '/images/logos/piran_gayrimenkul.svg',
           services: [
             t('pages.companies.list.piran.services.0'),
             t('pages.companies.list.piran.services.1'),
@@ -160,7 +160,7 @@ const CompaniesPage = () => {
             'Piran Kurumsal Hizmetler, şirketlerin insan kaynakları, eğitim ve operasyonel ihtiyaçlarına yönelik entegre çözümler sunan deneyimli bir organizasyondur. 2004 yılından bu yana edindiğimiz bilgi birikimi ile kurumsal danışmanlık, personel eğitimi ve organizasyonel gelişim alanlarında sektörün öncü firmalarından biriyiz. İş süreçlerini optimize ederek şirketlerin verimliliğini artırmayı hedefliyoruz.',
           website: '#',
           established: '2004',
-          logo: '/images/logos/piran.jpg',
+          logo: '/images/logos/piran_kurumsal_hizmetler.svg',
           services: [
             'Danışmanlık',
             'Kurumsal Eğitim',
@@ -176,7 +176,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.piranYonetim.description'),
           website: '#',
           established: '2004',
-          logo: '/images/logos/piran.jpg',
+          logo: '/images/logos/piran_yonetim.svg',
           services: [
             t('pages.companies.list.piranYonetim.services.0'),
             t('pages.companies.list.piranYonetim.services.1'),
@@ -193,7 +193,7 @@ const CompaniesPage = () => {
             'Piran İşletmecilik, endüstriyel tesisler, ticari binalar ve özel sektör kuruluşlarının tesis yönetimi ve operasyonel süreçlerini optimize ederek kesintisiz hizmet sunar. Profesyonel ekibimiz ile bakım-onarım, teknik altyapı yönetimi ve operasyonel verimlilik konularında kapsamlı çözümler üretiyoruz. Modern tesis yönetimi anlayışı ile müşterilerimizin maliyetlerini düşürüyor, verimliliğini artırıyoruz.',
           website: '#',
           established: '2004',
-          logo: '/images/logos/piran.jpg',
+          logo: '/images/logos/piran_isletmecilik.svg',
           services: [
             'Tesis İşletmesi',
             'Operasyon Yönetimi',
@@ -210,7 +210,7 @@ const CompaniesPage = () => {
             'Piran Yayıncılık, kurumsal yayınlar, dijital içerik üretimi ve medya hizmetleri alanında uzmanlaşmış bir kuruluştur. Şirketlerin kurumsal kimliklerini güçlendiren yayınlar, dijital platformlar için içerik ve basılı materyaller üretiyoruz. Yaratıcı ekibimiz ve modern teknolojilerimiz ile markaların hedef kitlelerine etkili bir şekilde ulaşmalarını sağlıyoruz.',
           website: '#',
           established: '2004',
-          logo: '/images/logos/piran.jpg',
+          logo: '/images/logos/piran_yayincilik.svg',
           services: [
             'Kurumsal Yayınlar',
             'Dijital İçerik',
@@ -554,11 +554,11 @@ const CompaniesPage = () => {
                         <img
                           src={currentCompany.logo}
                           alt={currentCompany.name}
-                          className="h-16 sm:h-24 w-auto max-w-32 sm:max-w-40 object-contain rounded-lg bg-white shadow-md border border-gray-200 p-2"
+                          className="h-24 sm:h-32 w-auto max-w-40 sm:max-w-52 object-contain rounded-lg bg-white shadow-md border border-gray-200 p-3"
                         />
                       ) : (
-                        <div className="h-16 sm:h-24 w-32 sm:w-40 bg-gradient-to-br from-primary-600 to-primary-800 rounded-lg flex items-center justify-center">
-                          <span className="text-white font-bold text-sm sm:text-base text-center px-2">
+                        <div className="h-24 sm:h-32 w-40 sm:w-52 bg-gradient-to-br from-primary-600 to-primary-800 rounded-lg flex items-center justify-center">
+                          <span className="text-white font-bold text-base sm:text-lg text-center px-3">
                             {currentCompany.name.split(' ')[0]}
                           </span>
                         </div>
