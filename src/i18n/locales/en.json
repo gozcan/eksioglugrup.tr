@@ -612,12 +612,12 @@
         "leyan": {
           "name": "Leyan Construction",
           "sector": "Restoration & Renovation",
-          "description": "Expert in restoration of historical buildings and renovation works, Leyan contributes to the preservation of cultural heritage.",
+          "description": "Expert in restoration of historical buildings and renovation of modern structures, Leyan serves both in preserving cultural heritage and renewing contemporary buildings.",
           "services": {
             "0": "Historical Restoration",
-            "1": "Renovation Works",
+            "1": "Modern Building Renovation",
             "2": "Cultural Heritage Preservation",
-            "3": "Custom Architectural Solutions"
+            "3": "Contemporary Architecture Renewal"
           },
           "metricLabel": "Expert Team",
           "metricValue": "150+",
@@ -678,6 +678,34 @@
           "metricLabel": "Portfolio",
           "metricValue": "500M₺",
           "projects": "1000+ Consultations"
+        },
+        "piranYonetim": {
+          "name": "Piran Management",
+          "sector": "Property Management & Consulting",
+          "description": "Providing apartment, complex and business center management services, Piran Management offers comprehensive solutions for effective management of corporate structures. We provide distinctive services in strategic planning, process improvement and management systems with our experienced staff.",
+          "services": {
+            "0": "Apartment Management",
+            "1": "Complex Management",
+            "2": "Business Center Management", 
+            "3": "Management Consulting"
+          },
+          "metricLabel": "Managed Properties",
+          "metricValue": "150+",
+          "projects": "300+ Management Projects"
+        },
+        "volan": {
+          "name": "Volan Service Solutions",
+          "sector": "Machinery & Vehicle Service",
+          "description": "Volan Service Solutions has been providing professional service for construction machinery and vehicles since 2003. With our expert technician team and modern service infrastructure, we produce reliable solutions in maintenance, repair and spare parts services. We ensure optimum performance of machinery in industrial, construction and transportation sectors.",
+          "services": {
+            "0": "Construction Machinery Service",
+            "1": "Vehicle Maintenance & Repair",
+            "2": "Spare Parts Supply",
+            "3": "Technical Support"
+          },
+          "metricLabel": "Serviced Vehicles",
+          "metricValue": "2000+",
+          "projects": "5000+ Service Operations"
         }
       },
       "cta": {

@@ -23,6 +23,16 @@ const CompaniesPage = () => {
     }
   }, [searchParams]);
 
+  // Şirket değiştirme fonksiyonu (scroll to top ile)
+  const handleCompanyChange = (companyId: string) => {
+    setSelectedCompany(companyId);
+    // Sayfanın en üstüne smooth scroll
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   // Kategoriler ve şirketler
   const categories = [
     {
@@ -36,7 +46,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.ekguntas.description'),
           website: 'https://www.ekguntas.com',
           established: '1981',
-          logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=EKGÜNTAŞ',
+          logo: '/images/logos/ekguntas.png',
           services: [
             t('pages.companies.list.ekguntas.services.0'),
             t('pages.companies.list.ekguntas.services.1'),
@@ -50,7 +60,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.ekutas.description'),
           website: 'https://www.ekutas.com',
           established: '1978',
-          logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=EKUTAŞ',
+          logo: '/images/logos/ekutas.svg',
           services: [
             t('pages.companies.list.ekutas.services.0'),
             t('pages.companies.list.ekutas.services.1'),
@@ -65,7 +75,7 @@ const CompaniesPage = () => {
             'Ekşioğlu Turansan, 2012 yılında kurulmuş olan inşaat sektöründe kaliteli ve güvenilir projeler gerçekleştiren bir şirkettir. Konut, ticari ve endüstriyel yapı projelerinde uzmanlaşan firmamız, modern yapı teknikleri ve çevre dostu yaklaşımlarla sektöre öncülük etmektedir. Müşteri memnuniyeti odaklı çalışma prensibimizle zamanında teslimat ve kaliteden ödün vermeme ilkelerine bağlı kalarak projelerimizi hayata geçiriyoruz.',
           website: '#',
           established: '2012',
-          logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=TURANSAN',
+          logo: null,
           services: [
             'Konut Projeleri',
             'Ticari Binalar',
@@ -78,7 +88,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.leyan.description'),
           website: 'https://www.leyanrestorasyon.com',
           established: '2004',
-          logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=LEYAN',
+          logo: '/images/logos/leyan.jpg',
           services: [
             t('pages.companies.list.leyan.services.0'),
             t('pages.companies.list.leyan.services.1'),
@@ -93,7 +103,7 @@ const CompaniesPage = () => {
             'Leyan Yıkım, 2004 yılında Leyan bünyesinde kurulan kontrollü yıkım ve hafriyat hizmetlerinde uzmanlaşmış, güvenli ve çevre dostu çözümler sunan bir firmadır. Modern yıkım teknolojileri ve deneyimli ekibimiz ile hem küçük ölçekli bina yıkımlarında hem de büyük endüstriyel tesislerin sökümünde başarılı projeler gerçekleştirmekteyiz. İş güvenliği ve çevre koruma standartlarına tam uyum sağlayarak hizmet veriyoruz.',
           website: '#',
           established: '2004',
-          logo: 'https://via.placeholder.com/200x80/065f46/ffffff?text=LEYAN+YIKIM',
+          logo: null,
           services: [
             'Bina Yıkımı',
             'Hafriyat',
@@ -114,7 +124,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.ilka.description'),
           website: 'https://www.ilkaprofesyonel.com',
           established: '2024',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=İLKA',
+          logo: '/images/logos/ilka.svg',
           services: [
             t('pages.companies.list.ilka.services.0'),
             t('pages.companies.list.ilka.services.1'),
@@ -130,7 +140,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.piran.description'),
           website: 'https://www.pirangayrimenkul.com',
           established: '2004',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
+          logo: '/images/logos/piran.jpg',
           services: [
             t('pages.companies.list.piran.services.0'),
             t('pages.companies.list.piran.services.1'),
@@ -147,7 +157,7 @@ const CompaniesPage = () => {
             'Piran Kurumsal Hizmetler, şirketlerin insan kaynakları, eğitim ve operasyonel ihtiyaçlarına yönelik entegre çözümler sunan deneyimli bir organizasyondur. 2004 yılından bu yana edindiğimiz bilgi birikimi ile kurumsal danışmanlık, personel eğitimi ve organizasyonel gelişim alanlarında sektörün öncü firmalarından biriyiz. İş süreçlerini optimize ederek şirketlerin verimliliğini artırmayı hedefliyoruz.',
           website: '#',
           established: '2004',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
+          logo: '/images/logos/piran.jpg',
           services: [
             'Danışmanlık',
             'Kurumsal Eğitim',
@@ -160,16 +170,15 @@ const CompaniesPage = () => {
           name: t(
             'megaMenu.business.companies.corporateServices.piranManagement'
           ),
-          description:
-            'Piran Yönetim Danışmanlığı, kurumların stratejik hedeflerine ulaşmaları için kapsamlı yönetim danışmanlığı ve iş geliştirme hizmetleri sunmaktadır. Deneyimli danışman kadromuz ile şirketlerin organizasyonel yapılarını güçlendiriyor, performans yönetimi sistemleri kuruyoruz. Stratejik planlama, süreç iyileştirme ve yönetim sistemleri konularında sektörde fark yaratan çözümler üretiyoruz.',
+          description: t('pages.companies.list.piranYonetim.description'),
           website: '#',
           established: '2004',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
+          logo: '/images/logos/piran.jpg',
           services: [
-            'Stratejik Planlama',
-            'Yönetim Danışmanlığı',
-            'Organizasyon',
-            'Performans',
+            t('pages.companies.list.piranYonetim.services.0'),
+            t('pages.companies.list.piranYonetim.services.1'),
+            t('pages.companies.list.piranYonetim.services.2'),
+            t('pages.companies.list.piranYonetim.services.3'),
           ],
         },
         {
@@ -181,7 +190,7 @@ const CompaniesPage = () => {
             'Piran İşletmecilik, endüstriyel tesisler, ticari binalar ve özel sektör kuruluşlarının tesis yönetimi ve operasyonel süreçlerini optimize ederek kesintisiz hizmet sunar. Profesyonel ekibimiz ile bakım-onarım, teknik altyapı yönetimi ve operasyonel verimlilik konularında kapsamlı çözümler üretiyoruz. Modern tesis yönetimi anlayışı ile müşterilerimizin maliyetlerini düşürüyor, verimliliğini artırıyoruz.',
           website: '#',
           established: '2004',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
+          logo: '/images/logos/piran.jpg',
           services: [
             'Tesis İşletmesi',
             'Operasyon Yönetimi',
@@ -198,7 +207,7 @@ const CompaniesPage = () => {
             'Piran Yayıncılık, kurumsal yayınlar, dijital içerik üretimi ve medya hizmetleri alanında uzmanlaşmış bir kuruluştur. Şirketlerin kurumsal kimliklerini güçlendiren yayınlar, dijital platformlar için içerik ve basılı materyaller üretiyoruz. Yaratıcı ekibimiz ve modern teknolojilerimiz ile markaların hedef kitlelerine etkili bir şekilde ulaşmalarını sağlıyoruz.',
           website: '#',
           established: '2004',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PİRAN',
+          logo: '/images/logos/piran.jpg',
           services: [
             'Kurumsal Yayınlar',
             'Dijital İçerik',
@@ -209,16 +218,15 @@ const CompaniesPage = () => {
         {
           id: 'volan',
           name: t('megaMenu.business.companies.corporateServices.volan'),
-          description:
-            'Volan Taşımacılık, 2003 yılından beri kurumsal personel taşımacılığı ve filo yönetimi hizmetlerinde güvenilir bir iş ortağıdır. Modern araç filomuz ve deneyimli sürücü kadromuz ile güvenli, konforlu ve zamanında taşımacılık hizmeti sunuyoruz. Şirketlerin personel taşıma ihtiyaçlarına özel çözümler üreterek operasyonel verimliliğe katkı sağlıyoruz.',
+          description: t('pages.companies.list.volan.description'),
           website: '#',
           established: '2003',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=VOLAN',
+          logo: null,
           services: [
-            'Servis Hizmetleri',
-            'Personel Taşıma',
-            'Araç Kiralama',
-            'Filo Yönetimi',
+            t('pages.companies.list.volan.services.0'),
+            t('pages.companies.list.volan.services.1'),
+            t('pages.companies.list.volan.services.2'),
+            t('pages.companies.list.volan.services.3'),
           ],
         },
         {
@@ -228,7 +236,7 @@ const CompaniesPage = () => {
             'Tulpar Turizm, 1967 yılından bu yana kurumsal seyahat organizasyonu ve etkinlik yönetimi konusunda uzmanlaşmış köklü bir turizm şirketidir. Kongre organizasyonları, kurumsal geziler ve özel etkinlik planlaması alanlarında hizmet vermekteyiz. Uzun yıllara dayanan deneyimimiz, profesyonel ekibimiz ve geniş iş ortağı ağımız ile unutulmaz deneyimler yaratıyoruz.',
           website: '#',
           established: '1967',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=TULPAR',
+          logo: null,
           services: [
             'Tur Organizasyonu',
             'Otel Rezervasyon',
@@ -243,7 +251,7 @@ const CompaniesPage = () => {
             'Onay Ar-Ge, 2023 yılından itibaren teknoloji ve inovasyon odaklı projeler geliştiren bir araştırma-geliştirme kuruluşudur. Şirketlerin rekabet gücünü artıracak yenilikçi çözümler üretmek, patent süreçlerinde danışmanlık vermek ve Ar-Ge projelerini yönetmek konusunda uzmanız. Üniversite-sanayi işbirliği projelerinde aktif rol alarak teknoloji transferine katkı sağlıyoruz.',
           website: '#',
           established: '2023',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=ONAY',
+          logo: null,
           services: [
             'Ar-Ge Projeleri',
             'İnovasyon',
@@ -257,7 +265,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.ponton.description'),
           website: 'https://www.pontonmedya.com',
           established: '1996',
-          logo: 'https://via.placeholder.com/200x80/0ea5e9/ffffff?text=PONTON',
+          logo: '/images/logos/ponton.png',
           services: [
             t('pages.companies.list.ponton.services.0'),
             t('pages.companies.list.ponton.services.1'),
@@ -279,7 +287,7 @@ const CompaniesPage = () => {
             'Tevor Tedarik, 1997 yılından bu yana endüstriyel ve ticari işletmelerin tedarik zinciri yönetiminde güvenilir çözümler sunar. Satın alma süreçlerinin optimizasyonu, tedarikçi yönetimi ve lojistik koordinasyonu konularında uzman ekibimiz ile müşterilerimizin maliyetlerini düşürüyor, tedarik süreçlerini hızlandırıyoruz. Geniş tedarikçi ağımız ve sektörel deneyimimiz ile kesintisiz hizmet garantisi sağlıyoruz.',
           website: '#',
           established: '1997',
-          logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=TEVOR',
+          logo: '/images/logos/tevor.jpg',
           services: [
             'Tedarik Yönetimi',
             'Satın Alma',
@@ -294,7 +302,7 @@ const CompaniesPage = () => {
             'Peyk Lojistik, 1978 yılından itibaren kara taşımacılığı, depolama ve dağıtım hizmetlerinde köklü bir geçmişe sahip, hızlı ve güvenilir çözümler sunan bir lojistik firmasıdır. Modern depolama tesislerimiz, geniş araç filomuz ve teknolojik altyapımız ile yurt içi lojistik ihtiyaçlarınızı karşılıyoruz. Zamanında teslimat ve müşteri memnuniyeti odaklı hizmet anlayışımız ile sektörde öne çıkıyoruz.',
           website: '#',
           established: '1978',
-          logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=PEYK',
+          logo: null,
           services: [
             'Kara Taşımacılığı',
             'Depolama',
@@ -308,7 +316,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.eksizade.description'),
           website: 'https://www.eksizademakina.com',
           established: '1994',
-          logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=EKŞİZADE',
+          logo: null,
           services: [
             t('pages.companies.list.eksizade.services.0'),
             t('pages.companies.list.eksizade.services.1'),
@@ -322,7 +330,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.tevor.description'),
           website: 'https://www.tevorenerji.com.tr',
           established: '1997',
-          logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=TEVOR',
+          logo: '/images/logos/tevor.jpg',
           services: [
             t('pages.companies.list.tevor.services.0'),
             t('pages.companies.list.tevor.services.1'),
@@ -337,7 +345,7 @@ const CompaniesPage = () => {
             'Vervoer, 2025 yılında kurulan ve elektrikli mobilite çözümlerinde uzmanlaşmış yenilikçi bir firmadır. Sürdürülebilir ulaşım vizyonumuz ile elektrikli araç satışı, şarj altyapısı kurulumu ve bakım hizmetleri sunuyoruz. Çevre dostu ulaşım çözümlerine geçiş yapmak isteyen bireysel ve kurumsal müşterilerimize kapsamlı danışmanlık ve teknik destek sağlıyoruz.',
           website: '#',
           established: '2025',
-          logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=VERVOER',
+          logo: null,
           services: [
             'Elektrikli Araç Satışı',
             'Şarj İstasyonları',
@@ -352,7 +360,7 @@ const CompaniesPage = () => {
             'Tevor Bilişim, dijital dönüşüm ve online pazarlama alanında 1997 yılından bu yana hizmet veren köklü bir teknoloji şirketidir. E-ticaret platformları, web tasarım, dijital pazarlama stratejileri ve SEO optimizasyonu konularında uzmanız. İşletmelerin dijital varlıklarını güçlendiriyor, online satışlarını artırmalarına yardımcı oluyoruz. Modern web teknolojileri ve veri odaklı pazarlama yaklaşımları ile müşterilerimize değer katıyoruz.',
           website: '#',
           established: '1997',
-          logo: 'https://via.placeholder.com/200x80/10b981/ffffff?text=TEVOR',
+          logo: '/images/logos/tevor.jpg',
           services: [
             'Dijital Pazarlama',
             'E-Ticaret',
@@ -374,7 +382,7 @@ const CompaniesPage = () => {
             'Jerfa Makina, 2012 yılından itibaren hassas CNC imalat, kalıp üretimi ve özel makina tasarımı alanlarında faaliyet gösteren bir üretim şirketidir. Modern CNC tezgahlarımız ve deneyimli mühendis kadromuz ile otomotiv, savunma sanayi ve beyaz eşya sektörlerine yüksek kaliteli parça ve kalıp üretimi yapıyoruz. Müşteri odaklı çözümler ve mühendislik desteği ile sektörde fark yaratıyoruz.',
           website: '#',
           established: '2012',
-          logo: 'https://via.placeholder.com/200x80/6b7280/ffffff?text=JERFA',
+          logo: null,
           services: [
             'CNC İmalat',
             'Kalıp Üretimi',
@@ -389,7 +397,7 @@ const CompaniesPage = () => {
             'Jerfa Yapı, 2012 yılından bu yana inşaat sektörüne yönelik beton ürünleri, prefabrik yapı elemanları ve yapı kimyasalları üretimi gerçekleştirmektedir. Modern üretim tesislerimizde kaliteli hammadde ve ileri teknoloji kullanarak dayanıklı, çevre dostu yapı malzemeleri üretiyoruz. İnşaat projelerinin ihtiyaç duyduğu tüm yapı malzemelerini tek çatı altında sunarak müşterilerimize zaman ve maliyet avantajı sağlıyoruz.',
           website: '#',
           established: '2012',
-          logo: 'https://via.placeholder.com/200x80/6b7280/ffffff?text=JERFA',
+          logo: null,
           services: [
             'Beton Ürünleri',
             'Prefabrik',
@@ -404,7 +412,7 @@ const CompaniesPage = () => {
             'Jerfa Madencilik, 2015 yılında kurulmuş olup taş ocağı işletmeciliği, agrega üretimi ve mineral işleme konularında faaliyet göstermektedir. Doğal kaynaklardan değer yaratan şirketimiz, çevre ve iş güvenliği standartlarına tam uyum sağlayarak sürdürülebilir madencilik prensiplerine bağlı kalır. Kaliteli agrega üretimi ve mineral işleme teknolojilerimiz ile inşaat ve sanayi sektörlerine hammadde tedarik ediyoruz.',
           website: '#',
           established: '2015',
-          logo: 'https://via.placeholder.com/200x80/6b7280/ffffff?text=JERFA',
+          logo: null,
           services: [
             'Maden İşletme',
             'Taş Ocağı',
@@ -481,7 +489,7 @@ const CompaniesPage = () => {
                         {category.companies.map((company) => (
                           <button
                             key={company.id}
-                            onClick={() => setSelectedCompany(company.id)}
+                            onClick={() => handleCompanyChange(company.id)}
                             className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-all duration-200 ${
                               selectedCompany === company.id
                                 ? 'bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-900 font-semibold border-l-4 border-emerald-600'
@@ -535,15 +543,24 @@ const CompaniesPage = () => {
                       </div>
                     </div>
                     {/* Logo */}
-                    {currentCompany.logo && (
-                      <div className="flex-shrink-0">
+                    <div className="flex-shrink-0">
+                      {currentCompany.logo &&
+                      !currentCompany.logo.startsWith(
+                        'https://via.placeholder'
+                      ) ? (
                         <img
                           src={currentCompany.logo}
                           alt={currentCompany.name}
-                          className="h-16 sm:h-24 w-auto object-contain"
+                          className="h-16 sm:h-24 w-auto max-w-32 sm:max-w-40 object-contain rounded-lg bg-white shadow-md border border-gray-200 p-2"
                         />
-                      </div>
-                    )}
+                      ) : (
+                        <div className="h-16 sm:h-24 w-32 sm:w-40 bg-gradient-to-br from-primary-600 to-primary-800 rounded-lg flex items-center justify-center">
+                          <span className="text-white font-bold text-sm sm:text-base text-center px-2">
+                            {currentCompany.name.split(' ')[0]}
+                          </span>
+                        </div>
+                      )}
+                    </div>
                   </div>
 
                   {/* Açıklama */}

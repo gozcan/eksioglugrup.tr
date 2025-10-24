@@ -612,12 +612,12 @@
         "leyan": {
           "name": "Leyan İnşaat",
           "sector": "Restorasyon & Tadilat",
-          "description": "Tarihi yapıların restorasyonu ve tadilat işlerinde uzman olan Leyan, kültürel mirasın korunmasına katkı sağlamaktadır.",
+          "description": "Tarihi yapıların restorasyonu ve modern yapıların tadilat işlerinde uzman olan Leyan, hem kültürel mirasın korunması hem de çağdaş yapıların yenilenmesinde hizmet vermektedir.",
           "services": {
             "0": "Tarihi Restorasyon",
-            "1": "Tadilat İşleri",
+            "1": "Modern Yapı Tadilat",
             "2": "Kültürel Miras Koruma",
-            "3": "Özel Mimari Çözümler"
+            "3": "Çağdaş Mimari Yenileme"
           },
           "metricLabel": "Uzman Ekip",
           "metricValue": "150+",
@@ -678,6 +678,34 @@
           "metricLabel": "Portföy",
           "metricValue": "500M₺",
           "projects": "1000+ Danışmanlık"
+        },
+        "piranYonetim": {
+          "name": "Piran Yönetim",
+          "sector": "Emlak Yönetimi & Danışmanlık",
+          "description": "Apartman, site ve iş merkezi yönetimi hizmetleri sunan Piran Yönetim, kurumsal yapıların etkin yönetimi için kapsamlı çözümler sunmaktadır. Deneyimli kadromuz ile stratejik planlama, süreç iyileştirme ve yönetim sistemleri konularında fark yaratan hizmetler veriyoruz.",
+          "services": {
+            "0": "Apartman Yönetimi",
+            "1": "Site Yönetimi", 
+            "2": "İş Merkezi Yönetimi",
+            "3": "Yönetim Danışmanlığı"
+          },
+          "metricLabel": "Yönetilen Yapı",
+          "metricValue": "150+",
+          "projects": "300+ Yönetim Projesi"
+        },
+        "volan": {
+          "name": "Volan Servis Hizmetleri",
+          "sector": "Makina & Araç Servis Hizmetleri",
+          "description": "Volan Servis Hizmetleri, 2003 yılından beri iş makinaları ve araçlara profesyonel servis hizmeti sunmaktadır. Uzman teknisyen kadromuz ve modern servis altyapımız ile bakım, onarım ve yedek parça hizmetlerinde güvenilir çözümler üretiyoruz. Sanayi, inşaat ve taşımacılık sektörlerindeki makinaların optimum performansını sağlıyoruz.",
+          "services": {
+            "0": "İş Makinası Servisi",
+            "1": "Araç Bakım Onarım",
+            "2": "Yedek Parça Tedarik",
+            "3": "Teknik Destek"
+          },
+          "metricLabel": "Servis Edilen Araç",
+          "metricValue": "2000+",
+          "projects": "5000+ Servis İşlemi"
         }
       },
       "cta": {
