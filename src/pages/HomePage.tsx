@@ -22,26 +22,60 @@ const HomePage = () => {
             </h2>
             <p className="text-gray-600">{t('homePage.partners.subtitle')}</p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center">
             {[
-              { name: 'Ekgüntaş', logo: '/images/logos/ekutas.svg' },
+              { name: 'Ekgüntaş', logo: '/images/logos/ekguntas.png' },
               { name: 'Ekutaş', logo: '/images/logos/ekutas.svg' },
-              { name: 'Tevor Enerji', logo: '/images/logos/tevor.jpg' },
-              { name: 'Ponton Medya', logo: '/images/logos/ponton.jpg' },
-              { name: 'Piran Gayrimenkul', logo: '/images/logos/piran.jpg' },
-              { name: 'İlka Güvenlik', logo: '/images/logos/ilka.svg' },
+              { name: 'Tevor', logo: '/images/logos/tevor.jpg' },
+              { name: 'Ponton Medya', logo: '/images/logos/ponton.png' },
+              {
+                name: 'Piran Gayrimenkul',
+                logo: '/images/logos/piran_gayrimenkul.svg',
+              },
+              { name: 'İlka', logo: '/images/logos/ilka.svg' },
+              { name: 'Leyan', logo: '/images/logos/leyan.jpg' },
+              {
+                name: 'Piran Yönetim',
+                logo: '/images/logos/piran_yonetim.svg',
+              },
+              {
+                name: 'Piran İşletmecilik',
+                logo: '/images/logos/piran_isletmecilik.svg',
+              },
+              {
+                name: 'Piran Kurumsal Hizmetler',
+                logo: '/images/logos/piran_kurumsal_hizmetler.svg',
+              },
+              {
+                name: 'Piran Yayıncılık',
+                logo: '/images/logos/piran_yayincilik.svg',
+              },
+              { name: 'Piran Genel', logo: '/images/logos/piran.jpg' },
             ].map((company, index) => (
               <div
                 key={index}
-                className="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all duration-300"
+                className="group flex items-center justify-center p-4 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all duration-300 min-h-24"
               >
                 <img
                   src={company.logo}
                   alt={company.name}
-                  className="max-h-16 w-auto object-contain grayscale group-hover:grayscale-0 opacity-70 group-hover:opacity-100 transition-all duration-300"
+                  className="max-h-12 w-auto max-w-full object-contain grayscale group-hover:grayscale-0 opacity-70 group-hover:opacity-100 transition-all duration-300"
                 />
               </div>
             ))}
+          </div>
+
+          {/* CTA to Companies Page */}
+          <div className="text-center mt-12">
+            <a
+              href="/grup-sirketleri"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            >
+              <span>Tüm Şirketlerimizi Keşfedin</span>
+              <span className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </a>
           </div>
         </div>
       </section>
