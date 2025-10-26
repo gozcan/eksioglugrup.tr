@@ -19,6 +19,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
+    lng: 'tr', // Set default language to Turkish
     fallbackLng: 'tr',
     debug: false,
 
@@ -27,7 +28,7 @@ i18n
     },
 
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
+      order: ['localStorage', 'querystring', 'htmlTag'],
       caches: ['localStorage'],
     },
   });
