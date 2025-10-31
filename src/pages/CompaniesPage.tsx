@@ -141,7 +141,7 @@ const CompaniesPage = () => {
             'megaMenu.business.companies.corporateServices.piranRealEstate'
           ),
           description: t('pages.companies.list.piran.description'),
-          website: 'https://www.pirangayrimenkul.com',
+          website: 'https://www.pirangyd.com',
           established: '2004',
           logo: '/images/logos/piran_gayrimenkul.svg',
           services: [
