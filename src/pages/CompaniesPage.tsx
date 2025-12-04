@@ -89,7 +89,7 @@ const CompaniesPage = () => {
           id: 'leyan',
           name: t('megaMenu.business.companies.construction.leyan'),
           description: t('pages.companies.list.leyan.description'),
-          website: 'https://www.leyanrestorasyon.com',
+          website: 'https://www.leyaninsaat.com',
           established: '2004',
           logo: '/images/logos/leyan.jpg',
           services: [
