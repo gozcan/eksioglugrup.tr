@@ -117,7 +117,7 @@
         "stats": {
           "0": {
             "label": "Şirket",
-            "value": "5"
+            "value": "6"
           },
           "1": {
             "label": "Proje",
@@ -236,6 +236,7 @@
       "companies": {
         "construction": {
           "ekguntas": "Ekgüntaş",
+          "eksa": "Eksa",
           "ekutas": "Ekutaş",
           "turansan": "Ekşioğlu Turansan",
           "leyan": "Leyan İnşaat",
@@ -580,6 +581,20 @@
           "metricLabel": "m² İnşaat",
           "metricValue": "2M+",
           "projects": "500+ Proje"
+        },
+        "eksa": {
+          "name": "Eksa",
+          "sector": "F Belgeli İnşaat Şirketi",
+          "description": "Eksa, F belgeli inşaat firması olarak konut, ticari ve endüstriyel yapı projelerinde profesyonel hizmetler sunan, deneyimli ve güvenilir bir kuruluştur. Proje yönetiminden uygulama aşamasına kadar tüm süreçlerde kalite ve güvenliği ön planda tutarak müşteri memnuniyetini sağlamaktadır.",
+          "services": {
+            "0": "Konut Projeleri",
+            "1": "Ticari Binalar",
+            "2": "Endüstriyel Yapılar",
+            "3": "Proje Yönetimi"
+          },
+          "metricLabel": "m² İnşaat",
+          "metricValue": "500K+",
+          "projects": "50+ Proje"
         },
         "ekutas": {
           "name": "Ekutaş",

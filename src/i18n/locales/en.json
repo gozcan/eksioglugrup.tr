@@ -117,7 +117,7 @@
         "stats": {
           "0": {
             "label": "Companies",
-            "value": "5"
+            "value": "6"
           },
           "1": {
             "label": "Projects",
@@ -236,6 +236,7 @@
       "companies": {
         "construction": {
           "ekguntas": "Ekgüntaş",
+          "eksa": "Eksa",
           "ekutas": "Ekutaş",
           "turansan": "Ekşioğlu Turansan",
           "leyan": "Leyan Construction",
@@ -580,6 +581,20 @@
           "metricLabel": "m² Construction",
           "metricValue": "2M+",
           "projects": "500+ Projects"
+        },
+        "eksa": {
+          "name": "Eksa",
+          "sector": "Class F Construction Company",
+          "description": "Eksa is a Class F licensed construction company providing professional services in residential, commercial and industrial construction projects. From project management to implementation, we prioritize quality and safety at every stage to ensure customer satisfaction.",
+          "services": {
+            "0": "Residential Projects",
+            "1": "Commercial Buildings",
+            "2": "Industrial Structures",
+            "3": "Project Management"
+          },
+          "metricLabel": "m² Construction",
+          "metricValue": "500K+",
+          "projects": "50+ Projects"
         },
         "ekutas": {
           "name": "Ekutaş",

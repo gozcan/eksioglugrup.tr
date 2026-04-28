@@ -58,6 +58,20 @@ const CompaniesPage = () => {
           ],
         },
         {
+          id: 'eksa',
+          name: t('megaMenu.business.companies.construction.eksa'),
+          description: t('pages.companies.list.eksa.description'),
+          website: '#',
+          established: '2000',
+          logo: null,
+          services: [
+            t('pages.companies.list.eksa.services.0'),
+            t('pages.companies.list.eksa.services.1'),
+            t('pages.companies.list.eksa.services.2'),
+            t('pages.companies.list.eksa.services.3'),
+          ],
+        },
+        {
           id: 'ekutas',
           name: t('megaMenu.business.companies.construction.ekutas'),
           description: t('pages.companies.list.ekutas.description'),
