@@ -61,7 +61,7 @@ const CompaniesPage = () => {
           id: 'eksa',
           name: t('megaMenu.business.companies.construction.eksa'),
           description: t('pages.companies.list.eksa.description'),
-          website: '#',
+          website: 'https://www.eksa.tr',
           established: '2000',
           logo: null,
           services: [
