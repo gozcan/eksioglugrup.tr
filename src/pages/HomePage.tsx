@@ -51,7 +51,6 @@ const HomePage = () => {
                 name: 'Piran Yayıncılık',
                 logo: '/images/logos/piran_yayincilik.svg',
               },
-              { name: 'Piran Genel', logo: '/images/logos/piran.jpg' },
             ].map((company, index) => (
               <div
                 key={index}
