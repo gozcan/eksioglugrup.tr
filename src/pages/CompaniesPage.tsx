@@ -63,7 +63,7 @@ const CompaniesPage = () => {
           description: t('pages.companies.list.eksa.description'),
           website: 'https://www.eksa.tr',
           established: '2000',
-          logo: null,
+          logo: '/images/logos/eksa-logo.png',
           services: [
             t('pages.companies.list.eksa.services.0'),
             t('pages.companies.list.eksa.services.1'),

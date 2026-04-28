@@ -98,6 +98,11 @@ const Header = () => {
                 description: t('megaMenu.business.constructionDesc'),
               },
               {
+                name: t('megaMenu.business.companies.construction.eksa'),
+                href: '/grup-sirketleri?company=eksa',
+                description: t('megaMenu.business.constructionDesc'),
+              },
+              {
                 name: t('megaMenu.business.companies.construction.ekutas'),
                 href: '/grup-sirketleri?company=ekutas',
                 description: t('megaMenu.business.constructionDesc'),
