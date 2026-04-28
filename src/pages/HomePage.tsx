@@ -25,6 +25,7 @@ const HomePage = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center">
             {[
               { name: 'Ekgüntaş', logo: '/images/logos/ekguntas.png' },
+              { name: 'Eksa', logo: '/images/logos/eksa-logo.png' },
               { name: 'Ekutaş', logo: '/images/logos/ekutas.svg' },
               { name: 'Tevor', logo: '/images/logos/tevor.jpg' },
               { name: 'Ponton Medya', logo: '/images/logos/ponton.png' },
